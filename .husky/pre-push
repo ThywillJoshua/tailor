@@ -18,4 +18,48 @@ fi
 
 echo ">> Finish checking branch name \n==="
 
+#!/bin/bash
+
+exec < /dev/tty
+echo "                                    "
+response=""
+while [[ ! "$response" =~ ^[yn]$ ]]; do
+    read -p "Build Storybook? (y/n): " response
+    echo "------------------------------------"
+    if [[ ! "$response" =~ ^[yn]$ ]]; then
+        echo "Please enter 'y' or 'n'."
+        echo "------------------------------------"
+    fi
+done
+
+if [ "$response" == "y" ]; then
+    npm run build-storybook || git reset --hard HEAD
+else
+    echo "Skipped build-storybook."
+    echo "------------------------------------"
+fi
+
+exec < /dev/tty
+echo "                                    "
+echo "************************************"
+echo "                                    "
+response=""
+while [[ ! "$response" =~ ^[yn]$ ]]; do
+    read -p "Build Storybook HUD? (y/n): " response
+    echo "------------------------------------"
+    if [[ ! "$response" =~ ^[yn]$ ]]; then
+        echo "Please enter 'y' or 'n'."
+        echo "------------------------------------"
+    fi
+done
+
+if [ "$response" == "y" ]; then
+    npm run build-storybook-hud || git reset --hard HEAD
+else
+    echo "Skipped build-storybook-hud."
+    echo "------------------------------------"
+fi
+
+# Continue with other pre-commit tasks or commands
+
 exit 0
