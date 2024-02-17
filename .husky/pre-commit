@@ -1,13 +1,15 @@
 #!/bin/bash
 # Protect master and development from accidental commits.
 
-gap="                                    "
-divider="------------------------------------"
-separator="$gap\n$divider\n$gap"
+spaceGap="                                    "
+lineLine="------------------------------------"
+sparkLine="************************************\n"
+
+separator="$spaceGap\n$sparkLine\n$spaceGap"
 
 echo "$separator"
 echo "🏁 Pre-commit Hook: Checking branch name..."
-echo "$divider"
+echo "$lineLine"
 
 branchName=$(git branch | grep '*' | sed 's/* //')
 
