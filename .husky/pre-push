@@ -19,10 +19,10 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git fetch
 HEADHASH=$(git rev-parse HEAD)
 
-if [ -z "$(git rev-parse --abbrev-ref ${BRANCH}@{upstream} 2>/dev/null)" ]; then
+if [ -z "$(git rev-parse --abbrev-ref origin/${BRANCH} 2>/dev/null)" ]; then
   echo "Branch '$BRANCH' does not have an upstream branch. Skipping."
 else
-  UPSTREAMHASH=$(git rev-parse ${BRANCH}@{upstream})
+  UPSTREAMHASH=$(git rev-parse origin/${BRANCH})
   echo "UPSTREAMHASH: $UPSTREAMHASH"
 fi
 
