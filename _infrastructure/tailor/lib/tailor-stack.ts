@@ -11,11 +11,10 @@ export class TailorStack extends cdk.Stack {
     const bucket = new cdk.aws_s3.Bucket(this, `${stackName}-Bucket`, {
       bucketName: `${stackName}-Bucket`.toLowerCase(),
       removalPolicy: cdk.RemovalPolicy.DESTROY,
-      // blockPublicAccess: cdk.aws_s3.BlockPublicAccess.BLOCK_ALL,
-      // encryption: cdk.aws_s3.BucketEncryption.S3_MANAGED,
+      encryption: cdk.aws_s3.BucketEncryption.S3_MANAGED,
       // autoDeleteObjects: true,
       // versioned: true,
-      // accessControl: cdk.aws_s3.BucketAccessControl.PRIVATE,
+      accessControl: cdk.aws_s3.BucketAccessControl.PRIVATE,
       blockPublicAccess: {
         blockPublicAcls: false,
         blockPublicPolicy: false,
