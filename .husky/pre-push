@@ -16,8 +16,8 @@ echo "$lineLine"
 COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1 || grep "git push" ~/.history | tail -n 1)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
-HEADHASH=$(git rev-parse HEAD)
-UPSTREAMHASH=$(git rev-parse $BRANCH@{upstream})
+# HEADHASH=$(git rev-parse HEAD)
+# UPSTREAMHASH=$(git rev-parse $BRANCH@{upstream})
 
 if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
   echo "🚫 Cannot push to remote master branch, create your own branch and use PR." 
