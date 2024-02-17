@@ -81,17 +81,18 @@ fi
 if [[ "$res" == "y" ]]; then
     if [ "$HEADHASH" == "$UPSTREAMHASH" ]
     then
-        git add .
+        git add ./storybook-static
+        git add ./storybook-HUD-static
         git commit -m "Build Storybook Static"
     else
         git add .
         git commit --amend --no-edit  --no-verify
     fi 
     echo "$lineLine"
-    echo "💚 Finished build check!"
+    echo "💚 Finished build check & Commit!"
     echo "$separator" 
 else
-    echo "💚 Finished build check!"
+    echo "💚 Finished pre-push check!"
     echo "$separator" 
 fi
 
