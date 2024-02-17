@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="E17F_home" data-name="E17F home">
+    <path class="cls-1" d="M62.07038,33.38608L35.98021,13.72215,10.072,33.38608v-.11147l4.9164-3.75082,.02951,24.42786,41.96393-.00327-.018-24.4459,5.10815,3.77213-.00162,.11147Z"/>
+  </g>
+</svg>
