@@ -1,8 +1,8 @@
 {
-  "name": "_infrastructure",
+  "name": "tailor",
   "version": "0.1.0",
   "bin": {
-    "_infrastructure": "bin/_infrastructure.js"
+    "tailor": "bin/tailor.js"
   },
   "scripts": {
     "build": "tsc",

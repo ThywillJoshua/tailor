@@ -1,13 +1,13 @@
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
-// import * as Infrastructure from '../lib/_infrastructure-stack';
+// import * as Tailor from '../lib/tailor-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/_infrastructure-stack.ts
+// example resource in lib/tailor-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new Infrastructure.InfrastructureStack(app, 'MyTestStack');
+//   const stack = new Tailor.TailorStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 
