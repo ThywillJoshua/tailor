@@ -14,7 +14,6 @@ export class TailorStack extends cdk.Stack {
       encryption: cdk.aws_s3.BucketEncryption.S3_MANAGED,
       // autoDeleteObjects: true,
       // versioned: true,
-      accessControl: cdk.aws_s3.BucketAccessControl.PRIVATE,
       blockPublicAccess: {
         blockPublicAcls: false,
         blockPublicPolicy: false,
