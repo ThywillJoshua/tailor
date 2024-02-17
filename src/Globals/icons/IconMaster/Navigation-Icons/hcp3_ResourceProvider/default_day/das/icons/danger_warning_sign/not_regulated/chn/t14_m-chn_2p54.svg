@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Rahmen_rot);
+      }
+
+      .cls-2 {
+        fill: url(#Beschriftung_schwarz);
+      }
+
+      .cls-3 {
+        fill: url(#Beschriftung_schwarz-2);
+      }
+
+      .cls-4 {
+        fill: url(#Hintergrund_weiss-2);
+      }
+
+      .cls-5 {
+        fill: url(#Hintergrund_weiss);
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #e52421;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-7 {
+        fill: url(#Rahmen_rot-2);
+      }
+    </style>
+    <linearGradient id="Hintergrund_weiss" x1="2" y1="-222" x2="42" y2="-222" gradientTransform="translate(0 -200) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Rahmen_rot" x1="3.1" y1="-221.99" x2="40.9" y2="-221.99" gradientTransform="translate(0 -200) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e52421"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Beschriftung_schwarz" x1="17.07582" y1="22" x2="29.19189" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+    <linearGradient id="Hintergrund_weiss-2" data-name="Hintergrund_weiss" x1="31.00566" y1="11.00709" x2="53.00566" y2="11.00709" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Hintergrund_weiss"/>
+    <linearGradient id="Beschriftung_schwarz-2" data-name="Beschriftung_schwarz" x1="35.24798" y1="829.99503" x2="48.61247" y2="829.99503" gradientTransform="translate(0 -818.61422)" xlink:href="#Beschriftung_schwarz"/>
+    <linearGradient id="Rahmen_rot-2" data-name="Rahmen_rot" x1="32.00566" y1="-211.00709" x2="52.00566" y2="-211.00709" xlink:href="#Rahmen_rot"/>
+  </defs>
+  <circle class="cls-5" cx="22" cy="22" r="20"/>
+  <path class="cls-1" d="m22,3.09C11.56182,3.09,3.1,11.55182,3.1,21.99s8.46182,18.9,18.9,18.9,18.9-8.46182,18.9-18.9S32.43818,3.09,22,3.09Zm0,32.9c-7.73199,0-14-6.26801-14-14s6.26801-14,14-14,14,6.26801,14,14-6.26801,14-14,14Z"/>
+  <line class="cls-6" x1="9.0789" y1="9.07936" x2="34.9211" y2="34.92067"/>
+  <path class="cls-2" d="m23.28597,15.70707c4.01588,0,4.01591,2.19805,4.01593,3.02553.0995,1.02481-.42617,2.00913-1.33319,2.4964-.88549.43769-1.86247.65827-2.85012.6435h-4.15235l-.00034-6.16543h4.32004m0-1.89h-6.21012l.00091,16.36585h2.1058v-6.4204h3.93608c1.97029,0,6.07336-.68487,6.07327-5.02992s-3.91073-4.9155-5.90593-4.9155"/>
+  <path class="cls-4" d="m42.00547.00709c-6.07513.0001-10.99992,4.92506-10.99981,11.00019.0001,6.07513,4.92506,10.99992,11.00019,10.99981,6.07513-.0001,10.99992-4.92506,10.99981-11.00019-.0001-6.07513-4.92506-10.99992-11.00019-10.99981h0Z"/>
+  <path class="cls-3" d="m45.19265,7.89343l-9.94467,2.20493,5.08483,3.32988,5.8048-2.65491-.94496-2.8799Zm2.60991,3.46488l-2.06993,1.66495-.585-1.215-1.26.63,1.66495,2.42992,3.05989-2.78991-.80991-.71995Z"/>
+  <path class="cls-7" d="m42.00566,1.00709c-5.52285,0-10,4.47715-10,10s4.47715,10,10,10,10-4.47715,10-10S47.5285,1.00709,42.00566,1.00709Zm0,17.5122c-4.14887,0-7.5122-3.36332-7.5122-7.5122s3.36332-7.5122,7.5122-7.5122,7.5122,3.36332,7.5122,7.5122-3.36332,7.5122-7.5122,7.5122Z"/>
+</svg>

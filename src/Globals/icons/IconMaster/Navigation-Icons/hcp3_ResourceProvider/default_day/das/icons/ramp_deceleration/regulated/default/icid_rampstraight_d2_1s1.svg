@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: lime;
+      }
+
+      .cls-2 {
+        fill: none;
+        opacity: .5;
+        stroke: lime;
+        stroke-miterlimit: 10;
+        stroke-width: 1.025px;
+      }
+    </style>
+  </defs>
+  <rect id="Hintergrund" class="cls-2" x="1.5" y="1.5" width="41" height="41" rx="3.075" ry="3.075"/>
+  <g id="highway_exit_for_RAMP_STRAIGHT_V2" data-name="highway exit for RAMP STRAIGHT V2">
+    <path id="Kontur-2" class="cls-1" d="m38.82623,34.85h-10.29162l-2.29486-18.1h1.412l2.38282,16.6h6.79162l-5.448-16.6h0l-.00006-.00006-2.002-6.1h-1.82513l-.9411-1.5h3.96637l8.24996,25.70006Zm-22.478-18.1l-2.38282,16.6h-6.79164l7.45-22.7h1.79529l.92926-1.5h-3.92455l-8.25,25.7h10.29162l2.29486-18.1h-1.41202Zm7.95306-1.5h4.35831l-6.69171-10.60663-6.62919,10.60663h4.29582s-1.8916,19.2-1.8916,19.6h8.44995c0-.4-1.8916-19.6-1.8916-19.6h.00002Z"/>
+  </g>
+</svg>

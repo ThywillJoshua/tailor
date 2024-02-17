@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DIRECTION_ARROW" data-name="DIRECTION ARROW" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#OFA_gradient_arrow);
+      }
+    </style>
+    <linearGradient id="OFA_gradient_arrow">
+      <stop offset="0" stop-color="#14b9cd"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-1" points="105.93479 22.40364 85.00461 1.27327 64.06467 22.40364 77.99924 22.40364 77.99997 169.99983 91.99997 169.99983 91.99924 22.40364 91.99973 22.40364 105.93479 22.40364"/>
+</svg>

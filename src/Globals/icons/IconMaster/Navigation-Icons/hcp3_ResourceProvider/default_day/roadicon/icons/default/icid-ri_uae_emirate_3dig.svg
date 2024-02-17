@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #50a556;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #e3dc5a;
+        font-family: AudiTypeDisplayHigh-Bold, 'Audi Type Display High';
+        font-size: 18px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="ri_uae_emirate_3dig" data-name="ri uae emirate 3dig">
+    <g id="Schild">
+      <path class="cls-2" d="M2.71061,0H39.28939c1.49702,.00002,2.7106,1.1558,2.71061,2.58154V37.41854c0,1.4257-1.21355,2.58146-2.71053,2.58146H2.71061C1.21362,40.00004,.00004,38.84431,0,37.41861v-.00004S0,2.58154,0,2.58154C.00001,1.1558,1.21358,.00002,2.71061,0Z"/>
+      <path class="cls-1" d="M40.8256,2.27035l-3.61896-.0008v3.42971h-3.6012V2.26955h-3.6012v3.42971h-3.6012V2.26955h-3.6012v3.42971h-3.60118V2.26955h-3.6012v3.42971h-3.60119V2.26955h-3.6012v3.42971h-3.6012V2.26955H1.1947v6.85945H3.59549l-1.20044,29.72411,19.32676-.00469,17.88557,.00469-1.20036-29.72411h2.4008l.01776-6.85865Z"/>
+    </g>
+    <text class="cls-3" transform="translate(21.0 29.59717) scale(.95242 1)" text-anchor="middle">{value}</text>
+  </g>
+</svg>

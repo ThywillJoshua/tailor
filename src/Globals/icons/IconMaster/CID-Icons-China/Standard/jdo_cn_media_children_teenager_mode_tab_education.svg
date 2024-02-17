@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_children_teenager_mode_tab_education</title>
+    <defs>
+        <filter x="-35.0%" y="-29.2%" width="170.0%" height="158.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="jdo_cn_media_children_teenager_mode_tab_education" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="教育" filter="url(#filter-1)" transform="translate(5.000000, 2.000000)" fill="#EBCA71" fill-rule="nonzero">
+                <path d="M28.9143079,4.32805804 C28.1261359,4.32805804 27.8634118,4.58103806 27.8634118,5.33997811 L27.8634118,30.6379799 C27.8634118,31.90288 26.8125157,32.9148001 25.4988957,32.9148001 L5.00642201,32.9148001 C3.6928019,32.9148001 2.37918178,31.90288 2.1164578,30.6379799 L2.1164578,28.1081798 C2.37918182,26.8432797 3.69280193,26.0843396 4.74369798,26.0843396 L23.9225515,26.0843396 C24.7107236,26.0843396 24.9734476,25.8313596 24.9734476,25.0724195 L24.9734476,3.822098 C24.9734476,1.54527782 23.3971035,0.0273977414 21.0325873,0.0273977414 L5.00642201,0.0273977414 C2.64190581,-0.225582278 0.540113665,1.29229784 0.0146656202,3.822098 L0.0146656202,31.39692 C0.540113665,33.4207602 2.37918182,35.1916203 4.48097396,35.4446003 L25.2361716,35.4446003 C27.6006878,35.4446003 29.439756,33.4207601 29.965204,31.39692 L29.965204,5.08699809 C29.965204,4.83401807 29.1770319,4.32805804 28.9143079,4.32805804 L28.9143079,4.32805804 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

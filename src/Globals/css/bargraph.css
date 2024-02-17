@@ -1,0 +1,191 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  --barHeight: 17px;
+  --barBorderTopHeight: 4px;
+  --barSegmentSpacing: 4px;
+}
+
+.bar {
+  height: var(--barHeight);
+}
+
+.bar.masked {
+  -webkit-mask-image: url('../assets/bargraph/bargraph_left-clip-mask.png'),
+    linear-gradient(
+      to right,
+      transparent 15px,
+      rgb(var(--audiWhite)) 15px,
+      rgb(var(--audiWhite)) calc(100% - 15px),
+      transparent calc(100% - 15px)
+    ),
+    url('../assets/bargraph/bargraph_right-clip-mask.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left, left, right;
+}
+
+.bar.masked.left {
+  -webkit-mask-image: url('../assets/bargraph/bargraph_left-clip-mask.png'),
+    linear-gradient(
+      to right,
+      transparent 15px,
+      rgb(var(--audiWhite)) 15px,
+      rgb(var(--audiWhite)) 100%
+    );
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left, left;
+}
+
+.bar.masked.right {
+  -webkit-mask-image: linear-gradient(
+      to right,
+      rgb(var(--audiWhite)) 0px,
+      rgb(var(--audiWhite)) calc(100% - 15px),
+      transparent calc(100% - 15px)
+    ),
+    url('../assets/bargraph/bargraph_right-clip-mask.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left, right;
+}
+
+.bar .background {
+  height: var(--barHeight);
+}
+
+.bar.masked .leftBorder {
+  position: absolute;
+  left: 0px;
+  top: var(--barBorderTopHeight);
+  height: calc(var(--barHeight) - 5px);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url('../assets/bargraph/UE_6000_Fuellstand_klein-BorderBottomLeft.png');
+  opacity: 0.6;
+}
+
+.bar.masked .rightBorder {
+  position: absolute;
+  right: 1px;
+  top: var(--barBorderTopHeight);
+  height: calc(var(--barHeight) - 5px);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url('../assets/bargraph/UE_6000_Fuellstand_klein-BorderBottomRight.png');
+  opacity: 0.6;
+}
+
+.UE_6010_Powermeter_PPE_klein .powermeterKlein .bar .divider,
+.UE_6015_Powermeter_PHEV_klein .powermeterKlein .bar .divider {
+  width: 4px;
+  height: var(--barHeight);
+  background-color: rgb(var(--audiWhite));
+}
+
+.bar .segment {
+  position: absolute;
+  height: calc(var(--barHeight) - 5px);
+  top: 0px;
+  border-top: var(--barBorderTopHeight) solid rgb(var(--audiWhite));
+  border-bottom: 1px solid rgba(var(--audiWhite), 0.6);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--audiWhite), 0.1) 2px,
+    rgba(var(--audiWhite), 0.1) 3px
+  );
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.inactive .bar .segment,
+.inactive .fpkGreen .bar .segment,
+.inactive .fpkYellow .bar .segment,
+.inactive .fpkOrange .bar .segment,
+.inactive .fpkRed .bar .segment {
+  border-top: var(--barBorderTopHeight) solid rgb(var(--FIDtelltaleGrey)) !important;
+  border-bottom: 1px solid rgba(var(--audiWhite), var(--disabledState)) !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--audiWhite), 0.1) 2px,
+    rgba(var(--audiWhite), 0.1) 3px
+  ) !important;
+}
+.bar.masked .leftBorder.disabled,
+.bar.masked .rightBorder.disabled,
+.inactive .bar.masked .leftBorder,
+.inactive .bar.masked .rightBorder {
+  opacity: var(--disabledState);
+}
+
+.bar .segment.disabled {
+  background-color: rgba(var(--audiWhite), var(--disabledState));
+  border-color: rgba(var(--audiWhite), var(--disabledState));
+}
+
+.bar .segment.left {
+  border-left: 1px solid rgba(var(--audiWhite), 0.6);
+}
+.inactive .bar .segment.left {
+  border-left: 1px solid rgba(var(--audiWhite), var(--disabledState));
+}
+
+.bar .segment.right {
+  border-right: 1px solid rgba(var(--audiWhite), 0.6);
+}
+.inactive .bar .segment.right {
+  border-right: 1px solid rgba(var(--audiWhite), var(--disabledState));
+}
+
+.fpkGreen .bar .segment {
+  border-top: var(--barBorderTopHeight) solid rgb(var(--fpkGreen));
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--fpkGreen), 0.1) 2px,
+    rgba(var(--fpkGreen), 0.1) 3px
+  );
+}
+
+.fpkYellow .bar .segment {
+  border-top: var(--barBorderTopHeight) solid rgb(var(--fpkYellow));
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--fpkYellow), 0.1) 2px,
+    rgba(var(--fpkYellow), 0.1) 3px
+  );
+}
+
+.fpkOrange .bar .segment {
+  border-top: var(--barBorderTopHeight) solid rgb(var(--fpkOrange));
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--fpkOrange), 0.1) 2px,
+    rgba(var(--fpkOrange), 0.1) 3px
+  );
+}
+
+.fpkRed .bar .segment {
+  border-top: var(--barBorderTopHeight) solid rgb(var(--fpkRed));
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(var(--fpkRed), 0.1) 2px,
+    rgba(var(--fpkRed), 0.1) 3px
+  );
+}
+
+.bar .filling {
+  position: absolute;
+  height: calc(var(--barHeight) - var(--barBorderTopHeight) - 2px);
+  top: calc(var(--barBorderTopHeight) + 1px);
+  left: 0px;
+}

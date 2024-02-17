@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E0B0_navigation_zielflagge" data-name="E0B0 navigation zielflagge">
+    <path class="cls-2" d="M34.28006,25.38205c-13.18952,1.25324-13.88822-6.993-24-2.852V4.72905c10.11178-4.141,10.81048,4.87724,24,3.623V25.38205Z"/>
+    <rect class="cls-1" x="6.68006" y="4.9745" width="1.2" height="34.051"/>
+  </g>
+</svg>

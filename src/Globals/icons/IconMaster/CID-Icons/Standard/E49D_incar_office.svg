@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="Icon-2" data-name="Icon">
+    <g id="V1-2" data-name="V1">
+      <path class="cls-2" d="M30.5,37.5H1.5V19.5H30.5v18Z"/>
+      <path class="cls-2" d="M1.5,19.5l14.5,10.5,14.5-10.5"/>
+    </g>
+  </g>
+  <polyline class="cls-4" points="36 6.39508 38.51183 6.39508 38.51183 27.46877 34 27.46877"/>
+  <line class="cls-4" x1="19" y1="6.39508" x2="31" y2="6.39508"/>
+  <polyline class="cls-4" points="11.45078 16.5 11.45078 6.39508 14 6.39508"/>
+  <rect class="cls-1" x="29" y="15.02148" width="2" height="1.5"/>
+  <rect class="cls-1" x="24" y="15.02148" width="2" height="1.5"/>
+  <rect class="cls-1" x="19" y="15.02148" width="2" height="1.5"/>
+  <rect class="cls-1" x="24" y="11.05748" width="2" height="1.5"/>
+  <rect class="cls-1" x="19" y="11.05748" width="2" height="1.5"/>
+  <rect class="cls-1" x="14" y="15.02148" width="2" height="1.5"/>
+  <rect class="cls-1" x="34" y="15.02148" width="2" height="1.5"/>
+  <rect class="cls-1" x="34" y="19.00678" width="2" height="1.5"/>
+  <rect class="cls-1" x="29" y="11.05748" width="2" height="1.5"/>
+  <rect class="cls-1" x="34" y="11.05748" width="2" height="1.5"/>
+  <line class="cls-3" x1="16.5" y1="4.00344" x2="16.5" y2="8.99208"/>
+  <line class="cls-3" x1="33.5" y1="4.00794" x2="33.5" y2="8.99208"/>
+</svg>

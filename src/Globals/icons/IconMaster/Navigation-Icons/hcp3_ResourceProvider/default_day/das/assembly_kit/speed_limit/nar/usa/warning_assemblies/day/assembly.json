@@ -1,0 +1,63 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.nar.usa.warning.day",
+  "dependencies": [
+    "default_day.das.merging.speedlimit.nar.usa.basic.limit_label",
+    "default_day.das.merging.speedlimit.nar.usa.basic.school_sign",
+    "default_day.das.merging.speedlimit.nar.usa.basic.work_sign",
+    "default_day.das.merging.speedlimit.nar.usa.overlay.school",
+    "default_day.das.merging.speedlimit.nar.usa.overlay.unit",
+    "default_day.das.merging.speedlimit.nar.usa.overlay.work"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/nar/usa",
+      "outputPath": "speed_limit/not_regulated/nar/usa"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param1": 1
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "warning.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param1": 2
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "warning_disabled.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

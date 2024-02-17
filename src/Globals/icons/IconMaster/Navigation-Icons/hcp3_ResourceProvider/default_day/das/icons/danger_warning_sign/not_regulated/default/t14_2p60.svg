@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Hintergrund_weiss-3);
+      }
+
+      .cls-2 {
+        fill: url(#Rahmen_rot);
+      }
+
+      .cls-3 {
+        fill: url(#Beschriftung_schwarz);
+      }
+
+      .cls-4 {
+        fill: url(#Beschriftung_schwarz-2);
+      }
+
+      .cls-5 {
+        fill: url(#Hintergrund_weiss-2);
+      }
+
+      .cls-6 {
+        fill: url(#Hintergrund_weiss);
+      }
+    </style>
+    <linearGradient id="Hintergrund_weiss" x1="2" y1="22" x2="42" y2="22" gradientTransform="translate(0 44) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Rahmen_rot" x1="3.1" y1="22.01" x2="40.9" y2="22.01" gradientTransform="translate(0 44) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e52421"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Beschriftung_schwarz" x1="116.84478" y1="624.87952" x2="139.57864" y2="624.87952" gradientTransform="translate(-90.9256 -542.81199) scale(.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+    <linearGradient id="Hintergrund_weiss-2" data-name="Hintergrund_weiss" x1="118.25668" y1="630.1101" x2="130.73665" y2="630.1101" gradientTransform="translate(-90.9256 -542.81199) scale(.9)" xlink:href="#Hintergrund_weiss"/>
+    <linearGradient id="Hintergrund_weiss-3" data-name="Hintergrund_weiss" x1="14.8165" y1="24.36363" x2="27.36988" y2="24.36363" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Hintergrund_weiss"/>
+    <linearGradient id="Beschriftung_schwarz-2" data-name="Beschriftung_schwarz" x1="111.45268" y1="631.25827" x2="134.18654" y2="631.25827" xlink:href="#Beschriftung_schwarz"/>
+  </defs>
+  <circle class="cls-6" cx="22" cy="22" r="20"/>
+  <path class="cls-2" d="m22,3.09C11.56182,3.09,3.1,11.55182,3.1,21.99s8.46182,18.9,18.9,18.9,18.9-8.46182,18.9-18.9S32.43818,3.09,22,3.09Zm0,32.9c-7.73199,0-14-6.26801-14-14s6.26801-14,14-14,14,6.26801,14,14-6.26801,14-14,14Z"/>
+  <path class="cls-3" d="m29.43659,14.22141l-15.23245,3.36798,7.80759,5.05197,8.87922-4.05688-1.45435-4.36307Zm4.05688,5.28161l-3.13834,2.52598-.91854-1.83708-1.91362.99508,2.52598,3.7507,4.66924-4.28652-1.22472-1.14817Z"/>
+  <g>
+    <polygon class="cls-5" points="15.5054 21.41664 24.99698 19.27338 26.75752 24.70808 16.73012 29.30078 15.5054 21.41664"/>
+    <path class="cls-1" d="m24.61426,19.96229l1.45435,4.43961-8.87922,4.05688-.99509-6.58287,8.41995-1.91362m.76545-1.30127l-1.07163.15309-8.41995,1.83708-1.07163.22963.15309,1.07163.99509,6.58287.22964,1.5309,1.37781-.61236,8.87922-4.05688.91854-.45927-.30618-.99508-1.45435-4.43961-.22964-.842h0Z"/>
+  </g>
+  <path class="cls-4" d="m24.61426,19.96229l-15.23245,3.36798,7.80759,5.12851,8.87922-4.05688-1.45435-4.43961Zm3.98034,5.2816l-3.13835,2.52598-.91854-1.83708-1.91362.99508,2.52598,3.75071,4.66924-4.28652-1.22472-1.14817Z"/>
+</svg>

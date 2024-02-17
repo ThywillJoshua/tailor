@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: AudiTypeDisplayHigh-Bold, 'Audi Type Display High';
+        font-size: 18px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M46.07251,0L0,5.02085l4.4226,30.68315,3.36678,2.296H83.21072l3.36678-2.296,4.4225-30.68315L46.07251,0Z"/>
+  <path d="M46.06641,3.50644l40.99316,4.51234-3.70068,25.67191-1.21924,.83134H8.86035l-1.21924-.83136L3.94116,8.032,46.06641,3.50644m.00268-1.51207L2.23853,6.73353l4.0122,27.82447,2.14673,1.464H82.60254l2.14673-1.464,4.0122-27.83222L46.06909,1.99437Z"/>
+  <path class="cls-3" d="M40.5044,9.4926h9.9912"/>
+  <text id="Text" class="cls-2" transform="translate(45.5 27.49463)" text-anchor="middle">{value}</text>
+</svg>

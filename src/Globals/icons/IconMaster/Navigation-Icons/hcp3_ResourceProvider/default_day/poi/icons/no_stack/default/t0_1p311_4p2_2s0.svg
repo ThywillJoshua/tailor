@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+<defs>
+<linearGradient id="Background">
+<stop offset="0" stop-color="#000000" />
+</linearGradient>
+<linearGradient id="Frame">
+<stop offset="0" stop-color="#8595ff" />
+</linearGradient> <linearGradient id="Pictogram">
+<stop offset="0" stop-color="#FFFFFF" />
+</linearGradient>
+</defs>
+<defs>
+<style>.cls-1{fill:url(#verlauf_einfaerbbar_hintergrund);}.cls-2{fill:url(#Verlauf_einfaerbbar_text);}.cls-3{font-size:20px;font-family:AudiTypeDisplayHigh-Normal, Audi Type Display High;}.cls-4{fill:url(#Verlauf_einfaerbbar_text-2);}.cls-5{fill:url(#Verlauf_einfaerbbar_text-3);}</style>
+<linearGradient gradientTransform="matrix(1, 0, 0, -1, 0, 49.88976)" gradientUnits="userSpaceOnUse" id="verlauf_einfaerbbar_hintergrund" x1="2.75" x2="47.25" y1="24.88976" y2="24.88976">
+<stop offset="0" stop-color="#fff" />
+</linearGradient>
+<linearGradient gradientTransform="matrix(1, 0, 0, -1, 0, 49.88976)" gradientUnits="userSpaceOnUse" id="Verlauf_einfaerbbar_text" x1="2" x2="48" y1="24.88964" y2="24.88964">
+<stop offset="0" stop-color="#010101" />
+<stop offset="0" />
+</linearGradient>
+<linearGradient gradientTransform="matrix(1, 0, 0, 1, 0, 0)" id="Verlauf_einfaerbbar_text-2" x1="58.1875" x2="58.6875" y1="35.27746" y2="35.27746" ns1:href="#Verlauf_einfaerbbar_text" />
+<linearGradient gradientTransform="matrix(1, 0, 0, 1, 0, 0)" id="Verlauf_einfaerbbar_text-3" x1="58.1875" x2="58.6875" y1="35.48644" y2="35.48644" ns1:href="#Verlauf_einfaerbbar_text" />
+</defs>
+<g id="Rahmen">
+<rect fill="url(#Background)" height="44.5" rx="3" width="44.5" x="2.75" y="2.75" /><rect fill="none" height="44.5" rx="3" stroke="url(#Frame)" stroke-miterlimit="10" stroke-width="1.5" width="44.5" x="2.75" y="2.75" />
+</g>
+<g data-name="Ebene 1" id="Ebene_1">
+<g data-name="d0 t311 2s0" id="d0_t311_2s0">
+<rect class="cls-1" height="44.5" rx="3" width="44.5" x="2.75" y="2.74999" />
+<path class="cls-2" d="M44.25,48.00012H5.75a3.75442,3.75442,0,0,1-3.75-3.75v-38.5a3.7541,3.7541,0,0,1,3.75-3.75h38.5a3.75441,3.75441,0,0,1,3.75,3.75v38.5A3.75473,3.75473,0,0,1,44.25,48.00012Zm-38.5-44.5a2.25246,2.25246,0,0,0-2.25,2.25v38.5a2.25278,2.25278,0,0,0,2.25,2.25h38.5a2.25309,2.25309,0,0,0,2.25-2.25v-38.5a2.25277,2.25277,0,0,0-2.25-2.25Z" />
+</g>
+</g>
+<g id="Icon">
+<text class="cls-3" text-anchor="middle" transform="translate(25 24.91746)">{charging_power}</text>
+<path class="cls-4" d="M19.31855,40.91711,15.65644,37.42v3.49707H14.30878V29.63781h1.34766v6.9834l3.58887-3.39844h1.64746l-3.332,3.16406c-.07617.07129-.14844.13477-.21582.19239-.06934.05761-.13379.10937-.19629.15625-.0625.0459-.123.08886-.18164.12793s-.11719.07519-.17578.10937c.05371.02735.10742.05664.16113.08985s.11035.07128.16894.11523.1211.09277.18848.14648.13965.11622.21777.18653l3.57422,3.40625Z" />
+<path class="cls-5" d="M32.19062,40.91711l-2.38379-7.29883c-.03711-.10742-.07519-.22852-.11523-.36426-.041-.13574-.08008-.28125-.11719-.4375q-.05714-.23437-.11035-.4834-.05274-.249-.09668-.498-.04835.249-.10254.498-.05566.249-.11231.4834c-.03711.15625-.07519.30176-.11328.4375s-.07519.25684-.11133.36426l-2.377,7.29883H25.07148L21.47187,30.05578h1.50879l2.46777,7.8916c.03418.10742.06934.21484.10449.32227s.06934.21484.10059.32422c.03223.10839.06348.21777.09375.32714.03027.11036.05859.22266.08594.33692q.03222-.17139.07324-.33692c.02637-.10937.05469-.21875.084-.32714.0293-.10938.06055-.2168.09375-.32422s.06739-.21485.1045-.32227l2.48242-7.8916H30.0666l2.48632,7.90234c.03711.10938.07129.21875.1045.32618s.06445.21484.0957.32421c.03027.1084.05859.21778.084.32911s.05079.22265.0752.335c.02441-.11231.05078-.22364.08008-.335s.06054-.22071.09375-.32911c.0332-.10937.06738-.21679.10449-.32421.03613-.10743.07324-.2168.10937-.32618l2.47266-7.90234h1.49024L33.66621,40.91711Z" />
+</g>
+</svg>

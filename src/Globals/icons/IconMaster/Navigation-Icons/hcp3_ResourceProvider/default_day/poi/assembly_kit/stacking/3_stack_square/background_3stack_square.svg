@@ -1,0 +1,19 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 54 62">
+<defs>
+<style>.cls-1{fill:#fff;}.cls-2{fill:url(#SecondStackedFrame);stroke:url(#SecondStackedFrame);stroke-miterlimit:10;}.cls-3{fill:url(#FirstStackedFrame);stroke:url(#FirstStackedFrame);stroke-miterlimit:10;stroke-width:1.5px;}</style>
+<linearGradient id="SecondStackedFrame" x1="8.75" y1="23" x2="53.25" y2="23" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#b2b2b2"/>
+</linearGradient>
+<linearGradient id="FirstStackedFrame" x1="8.25" y1="23" x2="53.75" y2="23" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#e0e0e0"/>
+</linearGradient>
+</defs>
+<g id="Stack-3">
+<rect class="cls-1" x="8.75" y="0.75" width="44.5" height="44.5" rx="3"/>
+<path class="cls-2" d="M50.25.75H11.75a3,3,0,0,0-3,3v38.5a3,3,0,0,0,3,3h38.5a3,3,0,0,0,3-3V3.75A3,3,0,0,0,50.25.75Z"/>
+</g>
+<g id="Stack-2">
+<rect class="cls-3" x="5.75" y="3.75" width="44.5" height="44.5" rx="3"/>
+<path class="cls-3" d="M47.25,3.75H8.75a3,3,0,0,0-3,3v38.5a3,3,0,0,0,3,3h38.5a3,3,0,0,0,3-3V6.75A3,3,0,0,0,47.25,3.75Z"/>
+</g>
+</svg>

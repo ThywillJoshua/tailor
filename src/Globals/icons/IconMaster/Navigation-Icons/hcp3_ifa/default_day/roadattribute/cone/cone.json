@@ -1,0 +1,24 @@
+{
+  "root_cone": {},
+  "root_body_cone": {},
+
+	
+  "body_cone": {
+    "material": ["m_cone"]
+  },
+ 
+
+  "materials": {
+    "cone": {
+      "assignments": ["m_cone"]
+    },
+    "threetone": {
+        "color": [0.2, 0.2, 0.2],
+        "assignments": []
+    },
+    "simple_color": {
+        "color": [0.0, 0.0, 0.0],
+        "assignments": []
+    }
+  }
+}

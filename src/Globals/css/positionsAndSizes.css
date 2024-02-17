@@ -1,0 +1,124 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  /*------------------------------ POSITIONS -----------------------------------------*/
+
+  /*------------------------------ SIZES Global -----------------------------------------*/
+  --popupContentPadding: 60px;
+  --popupInsetWidth: 0px;
+  --popupOutlineWidth: 2px;
+
+  --coverSize: 360px;
+  --coverSizeList: 100px;
+
+  --listIconSize: 40px;
+  --touchIconSize: 50px;
+  --daIconSize: 72px;
+  --adaptiveIconMaskScale: 150%;
+  --appFolderIconSize: 100px;
+  --fpkCommonIconSize: 60px;
+
+  --standardBorderRadius: 2px;
+  --opticalTouchReduction: 8px;
+  --operationPanelReduction: 47px;
+  --operationPanelShift: 26px;
+
+  /*------------------------------ GAS SIZES-----------------------------------------*/
+  --toolbarHeightGAS: 80px;
+  --buttonHeightGAS: 56px;
+  --backButtonSizeGAS: 44px;
+
+  /*------------------------------ SIZES MMI -----------------------------------------*/
+  --statusBarHeight: 119px;
+  --climateBarHeight: 140px;
+  --directAccessWidth: 120px;
+
+  --minTouchSize: 119px;
+  --minTouchSizeDashboardList: 115px;
+  --siriusSatButtonWidth: 390px;
+
+  --dashboardMarginBottom: 23px;
+  --dashboardTileSpacing: 15px;
+  --dashboardMarginSide: var(--minTouchSize);
+  --dashboardWidth: calc(100vw - var(--directAccessWidth));
+  --dashboardHeight: calc(
+    100vh - var(--statusBarHeight) - var(--climateBarHeight)
+  );
+
+  --tileWidth: calc(
+    (var(--dashboardWidth) - (var(--dashboardTileSpacing) * 2)) / 3
+  );
+
+  --decoratorHeight: 220px;
+  --decoratorWidth: 220px;
+
+  --carDecoratorHeight: 415px;
+
+  --appGridTileBorderWidth: 8px;
+  --appGridWidth: calc(100% - (var(--directAccessWidth)));
+
+  --assistantGap: 152px;
+  --assistantWidthStatusbar: 260px;
+
+  --keyboardLineHeight: 93px;
+  --keyboardSeparatorHeight: 55px;
+  --keyboardSeparatorWidth: 1px;
+  --numKeyboardSeparatorMargin: 19px;
+
+  --nativeScreenOffset: 0px;
+
+  /*------------------------------ SIZES FPK -----------------------------------------*/
+
+  --screenWidthFPK: 1920px;
+  --screenHeightFPK: 568px;
+
+  --upperStatusBarHeightFPK: 65px;
+  --lowerStatusBarHeightFPK: 178px;
+  --fidMainContentHeight: 325px;
+
+  /* FPK Card width große Buehne */
+  --cardContentWidthGB: 598px;
+  /* FPK Card width kleine Buehne */
+  --cardContentWidthKB: 553px;
+
+  --cardContentHeight: 262px;
+}
+
+/*-------------------------------------------------------------------- SMALL DISPLAY ----------------------------------------------------------------------*/
+@media only screen and (max-width: 1768px) {
+  :root {
+    /*------------------------------ POSITIONS -----------------------------------------*/
+
+    /*------------------------------ SIZES Global -----------------------------------------*/
+
+    --coverSize: 230px;
+
+    /*------------------------------ SIZES MMI -----------------------------------------*/
+
+    --dashboardTileSpacing: 14px;
+    --carDecoratorHeight: 382px;
+
+    /*------------------------------ SIZES FPK -----------------------------------------*/
+  }
+}
+
+/*-------------------------------------------------------------------- PID DISPLAY ----------------------------------------------------------------------*/
+@media only screen and (max-height: 720px) {
+  :root {
+    /*------------------------------ SIZES PID -----------------------------------------*/
+
+    --tileWidth: calc(
+      (var(--dashboardWidth) - (var(--dashboardTileSpacing) * 2)) / 3
+    );
+  }
+}
+
+/*-------------------------------------------------------------------- B10 DISPLAY ----------------------------------------------------------------------*/
+@media only screen and (min-width: 2219px) {
+  :root {
+    --statusBarHeight: 0px;
+    --directAccessWidth: 420px;
+    --nativeScreenOffset: 300px;
+    --dashboardHeight: calc(100vh - var(--climateBarHeight));
+  }
+}

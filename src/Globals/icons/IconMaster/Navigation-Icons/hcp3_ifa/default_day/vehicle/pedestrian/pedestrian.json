@@ -1,0 +1,58 @@
+{
+  "root_pedestrian": {},
+  "root_body_pedestrian": {},
+  "root_pedestrian_animated": {},
+  "root_body_pedestrian": {},
+  "root_shadows_pedestrian": {},
+  "body_pedestrian": {
+    "material": ["m_carpaint"]
+  },
+  "shadows_pedestrian": {
+    "material": ["m_shadow"]
+  },
+  "body_pedestrian_animated1": {
+    "material": ["m_carpaint"]
+  },
+  "body_pedestrian_animated2": {
+    "material": ["m_carpaint"]
+  },
+  "body_pedestrian_animated3": {
+    "material": ["m_carpaint"]
+  },
+  "body_pedestrian_animated4": {
+    "material": ["m_carpaint"]
+  },
+
+  "materials": {
+    "carpaint": {
+      "assignments": []
+    },
+    "carpaint_simple": {
+      "assignments": []
+    },
+    "carpaint_simple_pedestrian": {
+      "assignments": ["m_carpaint"]
+    },
+    "simple_color_fresnel_material": {
+      "assignments": []
+    },
+    "simple_color": {
+      "color": [1.0, 1.0, 1.0],
+      "assignments": []
+    },
+    "glass": {
+      "color": [1.0, 1.0, 1.0],
+      "transparency": 1.0,
+      "assignments": []
+    },
+    "chrome": {
+      "assignments": []
+    },
+    "lights": {
+      "assignments": ["m_lights"]
+    },
+    "shadow": {
+      "assignments": ["m_shadow"]
+    }
+  }
+}

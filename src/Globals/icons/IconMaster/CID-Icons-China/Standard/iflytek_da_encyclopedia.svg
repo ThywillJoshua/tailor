@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iflytek_DA_encyclopedia</title>
+    <g id="iflytek_DA_encyclopedia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iflytek_da_encyclopedia">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="编组-2" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.2">
+                <rect id="矩形" x="6.70992185" y="12.547619" width="12.7840859" height="21.047619"></rect>
+                <rect id="矩形备份" x="22.6900293" y="16.5952381" width="11.1860752" height="17"></rect>
+                <path d="M0,33.5952381 L35,33.5952381 M10.7060661,0 L10.7060661,12.1428571 M1.11751337,33.1904762 L1.11751337,12.1428571 L10.483587,4.32418542 M27.8835642,8.9047619 L27.8835642,16.1904762 M27.8835642,8.9047619 L24.6875427,8.9047619 M24.6875427,8.9047619 L24.6875427,5.66666667 M22.2905266,5.66666667 L24.6875427,5.66666667 M22.2905266,5.66666667 L22.2905266,8.9047619 M23.4890346,2.51232052 L23.4890346,5.66666667 M22.2905266,8.9047619 L19.8935105,8.9047619 M19.4940078,8.9047619 L19.4940078,12.1428571" id="形状结合" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

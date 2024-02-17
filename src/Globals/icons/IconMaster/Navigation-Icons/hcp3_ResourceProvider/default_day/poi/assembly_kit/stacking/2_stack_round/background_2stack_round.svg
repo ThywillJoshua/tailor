@@ -1,0 +1,10 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
+<style>.cls-1{stroke-miterlimit:10;stroke-width:1.5px;fill:url(#FirstStackedFrame);stroke:url(#FirstStackedFrame);}</style>
+<defs>
+<linearGradient id="FirstStackedFrame" x1="6.375" y1="25" x2="49.625" y2="25" >
+<stop offset="0" stop-color="#b2b2b2" />
+</linearGradient>
+</defs>
+<title>d0_stack-kreis_2s1</title>
+<circle class="cls-1" cx="28" cy="25" r="21.625"/>
+</svg>

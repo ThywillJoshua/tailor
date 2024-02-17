@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 30">
+<g id="ri_kuwait_state_blue_3dig">
+<g id="Schild">
+<path d="M2.00122,29.25017a1.25179,1.25179,0,0,1-1.251-1.249V1.99919a1.251,1.251,0,0,1,1.25-1.249h49a1.25094,1.25094,0,0,1,1.25,1.249V27.97575a1.25158,1.25158,0,0,1-1.25,1.249Z" fill="#fff" fill-rule="evenodd" />
+<path d="M51,1.5a.50017.50017,0,0,1,.5.49911V27.97538a.50014.50014,0,0,1-.49976.49911L2,28.5a.50017.50017,0,0,1-.5-.49911V1.99911A.50017.50017,0,0,1,2,1.5H51M51,0H2A1.99944,1.99944,0,0,0,0,1.99911V28.00089A1.99956,1.99956,0,0,0,2,30h.001l49-.02551A1.99956,1.99956,0,0,0,53,27.97538V1.99911A1.9996,1.9996,0,0,0,51,0Z" fill="#4b70eb" />
+</g>
+<text fill="#4b70eb" font-family="AudiTypeDisplayHigh-Bold, Audi Type Display High" font-size="21.99577" font-weight="700" id="Text" text-anchor="middle" transform="translate(26 23.03848)">{value}</text>
+</g>
+</svg>

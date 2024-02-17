@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="EXIT_NUMBER_IN_ROUNDABOUT" data-name="EXIT NUMBER IN ROUNDABOUT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m86.75543,76.2214v-3.09814h-6.9126v-.97559l6.76758-8.96045h1.27881v8.96045h2.26758v.97559h-2.26758v3.09814h-1.13379Zm0-10.31494c0-.38037.01172-.86084.03516-1.44043-.28418.4248-.57861.83887-.8833,1.24316l-4.86035,6.43848h5.7085v-6.24121Z"/>
+</svg>

@@ -1,0 +1,133 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  /* Global Background */
+
+  --backgroundSpot: radial-gradient(
+      120% 160% at 60% 83%,
+      rgba(var(--audiBlack), 0) 0%,
+      rgba(var(--audiBlack), 1) 55%
+    ),
+    linear-gradient(
+      110deg,
+      rgba(var(--audiBlack), 1) calc(var(--directAccessWidth) + 220px),
+      rgba(var(--audiBlack), 0) calc(var(--directAccessWidth) + 380px)
+    ),
+    linear-gradient(
+      70deg,
+      rgba(var(--audiBlack), 0) calc(100% - 400px),
+      rgba(var(--audiBlack), 1) calc(100% - 240px)
+    ),
+    radial-gradient(
+      46% 130% at 45% 100%,
+      rgba(var(--ambientcolor1_background), 0.22),
+      rgba(var(--ambientcolor1_background), 0) 100%
+    ),
+    radial-gradient(
+      50% 80% at 65% 100%,
+      rgba(var(--spotBackround), 0.45) 20%,
+      rgba(var(--spotBackround), 0) 100%
+    );
+
+  /* --backgroundSpotB10: radial-gradient(
+      120% 160% at 60% 83%,
+      rgba(var(--audiBlack), 0) 0%,
+      rgba(var(--audiBlack), 1) 55%
+    ),
+    linear-gradient(
+      110deg,
+      rgba(var(--audiBlack), 1) calc(var(--directAccessWidth) + 220px),
+      rgba(var(--audiBlack), 0) calc(var(--directAccessWidth) + 380px)
+    ),
+    linear-gradient(
+      70deg,
+      rgba(var(--audiBlack), 0) calc(100% - 400px),
+      rgba(var(--audiBlack), 1) calc(100% - 240px)
+    ),
+    radial-gradient(
+      46% 130% at 45% 100%,
+      rgba(var(--ambientcolor1_background), 0.22),
+      rgba(var(--ambientcolor1_background), 0) 100%
+    ),
+    radial-gradient(
+      50% 80% at 65% 100%,
+      rgba(var(--spotBackround), 0.45) 20%,
+      rgba(var(--spotBackround), 0) 100%
+    ); */
+
+  --backgroundFIDCardsSpot: radial-gradient(
+      120% 110% at center 95%,
+      rgba(var(--audiBlack), 0) 20%,
+      rgba(var(--audiBlack), 1) 72%
+    ),
+    radial-gradient(
+      67% 200% at 50% 75%,
+      rgba(var(--audiBlack), 0) 55%,
+      rgba(var(--audiBlack), 1) 75%
+    ),
+    radial-gradient(
+      60% 150% at 50% 100%,
+      rgba(var(--ambientcolor1_background), 0.32),
+      rgba(var(--ambientcolor1_background), 0) 100%
+    ),
+    radial-gradient(
+      50% 80% at 40% 100%,
+      rgba(var(--spotBackround), 0.5) 20%,
+      rgba(var(--spotBackround), 0) 100%
+    );
+
+  --backgroundFIDSpot: radial-gradient(
+      100% 625% at center 100%,
+      rgba(var(--audiBlack), 0.15),
+      rgba(var(--audiBlack), 0.27) 25%,
+      rgba(var(--audiBlack), 0.49) 50%,
+      rgba(var(--audiBlack), 0.73) 75%,
+      rgba(var(--audiBlack), 0.9) 100%
+    ),
+    radial-gradient(
+      92% 100% at center 100%,
+      rgba(var(--audiBlack), 0.11),
+      rgba(var(--audiBlack), 0.14) 25%,
+      rgba(var(--audiBlack), 0.32) 50%,
+      rgba(var(--audiBlack), 0.6) 75%,
+      rgba(var(--audiBlack), 0.76) 100%
+    ),
+    radial-gradient(
+      100% 100% at center 90%,
+      rgba(var(--ambientcolor1_background), 0.28),
+      rgba(var(--ambientcolor1_background), 0) 100%
+    );
+
+  /* UE_0101_ActionButton Background */
+  --buttonBackgroundColor: rgba(var(--interactionBackground), 0.15);
+
+  /* List Mask Fade Outs */
+  --listStartFadeout: linear-gradient(
+      to right,
+      transparent calc(100% - 4px),
+      rgb(var(--audiBlack)) calc(100% - 4px),
+      rgb(var(--audiBlack)) 100%
+    ),
+    linear-gradient(to bottom, transparent 1px, rgb(var(--audiBlack)) 10px);
+  --listEndFadeout: linear-gradient(
+      to right,
+      transparent calc(100% - 4px),
+      rgb(var(--audiBlack)) calc(100% - 4px),
+      rgb(var(--audiBlack)) 100%
+    ),
+    linear-gradient(to top, transparent 1px, rgb(var(--audiBlack)) 10px);
+  --listStartEndFadeout: linear-gradient(
+      to right,
+      transparent calc(100% - 4px),
+      rgb(var(--audiBlack)) calc(100% - 4px),
+      rgb(var(--audiBlack)) 100%
+    ),
+    linear-gradient(
+      to top,
+      transparent 1px,
+      rgb(var(--audiBlack)) 10px,
+      rgb(var(--audiBlack)) calc(100% - 10px),
+      transparent calc(100% - 1px),
+      transparent 100%
+    );
+}

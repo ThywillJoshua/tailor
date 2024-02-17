@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke: #969696;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Icons_in_schwarz" data-name="Icons in schwarz">
+    <path class="cls-2" d="M36.00174,11.00002c13.80677,.00035,24.99909,11.19323,24.99874,25s-11.19323,24.99909-25,24.99874-24.99909-11.19323-24.99874-25c.00035-13.80628,11.19246-24.99839,24.99874-24.99874h.00126Z"/>
+    <path class="cls-1" d="M35.98757,48.97938V23.14291"/>
+    <path class="cls-1" d="M23.1446,35.94825h25.71428"/>
+  </g>
+</svg>

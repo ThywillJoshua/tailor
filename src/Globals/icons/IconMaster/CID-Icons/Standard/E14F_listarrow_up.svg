@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E02D_listarrow_down" data-name="E02D listarrow down">
+    <polyline class="cls-1" points="2.5 33.70799 20 6.29199 37.5 33.70799"/>
+  </g>
+</svg>

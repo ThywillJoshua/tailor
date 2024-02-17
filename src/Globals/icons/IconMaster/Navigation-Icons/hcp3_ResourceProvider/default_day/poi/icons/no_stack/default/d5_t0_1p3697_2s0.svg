@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 58">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Pictogram-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-5 {
+        fill: url(#Background);
+      }
+
+      .cls-2 {
+        stroke: url(#Frame);
+      }
+
+      .cls-3 {
+        stroke: url(#Pictogram-3);
+      }
+
+      .cls-4 {
+        stroke: url(#Pictogram);
+      }
+    </style>
+    <linearGradient id="Background" x1="2.7" y1="29.715" x2="47.26" y2="29.715" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Frame" x1="1.95" y1="29.82496" x2="48.01" y2="29.82496" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Pictogram" x1="5.86651" y1="17.38652" x2="27.13325" y2="17.38652" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Pictogram-2" data-name="Pictogram" x1="34.75" y1="21.5" x2="42.25" y2="21.5" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-3" data-name="Pictogram" x1="15.75364" y1="34.15404" x2="39.30886" y2="34.15404" xlink:href="#Pictogram"/>
+  </defs>
+  <path class="cls-5" d="M44.2,2.75H5.7c-1.65685,0-3,1.34315-3,3V44.25c0,1.65685,1.34315,3,3,3h7.78l11.5,9.43,11.5-9.43h7.78c1.65685,0,3-1.34315,3-3V5.75c0-1.65685-1.34315-3-3-3h-.06Z"/>
+  <path class="cls-2" d="M44.2,2.75H5.7c-1.65685,0-3,1.34315-3,3V44.25c0,1.65685,1.34315,3,3,3h7.78l11.5,9.43,11.5-9.43h7.78c1.65685,0,3-1.34315,3-3V5.75c0-1.65685-1.34315-3-3-3h-.06Z"/>
+  <path class="cls-4" d="M22.04167,7.44901h1.98282c1.29988,0,2.35393,1.11424,2.35393,2.45753,0,1.01717,.00483,1.8778,.00483,2.97278,0,7.97756-4.15192,14.44471-9.89688,14.44471h-.00351c-5.74496,0-9.86524-6.46715-9.86524-14.44471,0-1.09498-.0011-1.96101-.0011-2.97278,0-1.3433,1.0046-2.45753,2.30449-2.45753h2.03734"/>
+  <circle class="cls-1" cx="38.5" cy="21.5" r="3"/>
+  <path class="cls-3" d="M16.50364,27.35431l.00056,4.7989c0,6.1301,4.95915,11.09953,11.08925,11.09953l.00337,.00006c6.1301,0,10.96204-4.96943,10.96204-11.09953v-7.84798"/>
+</svg>

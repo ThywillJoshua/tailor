@@ -1,0 +1,60 @@
+{
+  "root_passenger_car": {},
+  "root_body_passenger_car": {},
+  "root_glass_passenger_car": {},
+  "root_lights_passenger_car": {},
+  "root_wheels_passenger_car": {},
+  "root_shadows_passenger_car": {},
+
+  "body_passenger_car": {
+    "material": ["m_carpaint"]
+  },
+  "lights_brakes_passenger_car": {
+    "material": ["m_lights"]
+  },
+  "wheel_fl_passenger_car": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_fr_passenger_car": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_rl_passenger_car": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_rr_passenger_car": {
+    "material": ["m_carpaint"]
+  },
+  "shadows_passenger_car": {
+    "material": ["m_shadow"]
+  },
+
+  "materials": {
+    "carpaint": {
+      "assignments": []
+    },
+    "carpaint_simple": {
+      "assignments": ["m_carpaint"]
+    },
+    "simple_color_fresnel_material": {
+      "assignments": []
+    },
+    "simple_color": {
+      "color": [1.0, 1.0, 1.0],
+      "assignments": []
+    },
+    "glass": {
+      "color": [1.0, 1.0, 1.0],
+      "transparency": 1.0,
+      "assignments": []
+    },
+    "chrome": {
+      "assignments": []
+    },
+    "lights": {
+      "assignments": ["m_lights"]
+    },
+    "shadow": {
+      "assignments": ["m_shadow"]
+    }
+  }
+}

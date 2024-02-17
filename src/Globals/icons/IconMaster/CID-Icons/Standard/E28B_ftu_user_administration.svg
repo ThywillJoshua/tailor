@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="E28B_ftu_user_administration" data-name="E28B ftu user administration">
+    <g id="V2-46">
+      <path class="cls-1" d="m30.50992,30.51028v-8.90022c-.00003-1.7182-1.39291-3.11106-3.11111-3.11106h-14.79762c-1.71822,0-3.11111,1.39289-3.11111,3.11111h0v8.90022l21.01984-.00005Z"/>
+      <circle class="cls-1" cx="20" cy="9.99652" r="4.7092"/>
+    </g>
+  </g>
+</svg>

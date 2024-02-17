@@ -1,0 +1,47 @@
+{
+  "type": "coloring",
+  "id": "default_day.das.coloring.speedlimit.chn.regulated",
+  "dependencies": [
+    "default_day.das.copying.speedlimit.chn.duplicate_base_signs",
+    "default_day.das.merging.speedlimit.chn.additional_sign_assembly",
+    "default_day.das.merging.speedlimit.chn.warning_assembly"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/chn",
+      "outputPath": "speed_limit/regulated/chn"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "colorSets": [
+    {
+      "outputNaming": {
+        "style1": 1
+      },
+      "colors": [
+        {
+          "linearGradientId": "Rahmen_rot",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Beschriftung_schwarz",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Hintergrund_weiss",
+          "color": "#000000"
+        },
+        {
+          "linearGradientId": "Zusatzschild_Rahmen_schwarz",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Zusatzschild_Hintergrund_weiss",
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
+}

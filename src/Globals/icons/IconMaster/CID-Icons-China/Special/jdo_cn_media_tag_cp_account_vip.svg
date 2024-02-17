@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="44px" viewBox="0 0 55 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_tag_cp_account_vip</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.08" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_media_tag_cp_account_vip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -0.000000)">
+            <path d="M27.5,1.51143787 L53.6286009,31.1238522 L41.7524531,43 L13.2475469,43 L1.37139911,31.1238522 L27.5,1.51143787 Z" id="多边形备份-7" stroke="url(#linearGradient-1)" stroke-width="2" fill="#3F3F42" transform="translate(27.500000, 22.000000) rotate(-180.000000) translate(-27.500000, -22.000000) "></path>
+            <polygon id="V" fill="#F5BB68" fill-rule="nonzero" points="30.6363636 32 39 9 33.7727273 9 27.5 27 21.2272727 9 16 9 24.3636364 32"></polygon>
+        </g>
+    </g>
+</svg>

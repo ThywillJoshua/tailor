@@ -1,0 +1,39 @@
+{
+  "type": "coloring",
+  "id": "default_day.das.coloring.speedlimit.default.regulated.without_sign",
+  "dependencies": [
+    "default_day.das.merging.speedlimit.default.basic.no_units",
+    "default_day.das.merging.speedlimit.default.basic.units",
+    "default_day.das.merging.speedlimit.default.warning_assembly"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/default",
+      "outputPath": "speed_limit/regulated/default"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "colorSets": [
+    {
+      "outputNaming": {
+        "style1": 1
+      },
+      "colors": [
+        {
+          "linearGradientId": "Rahmen_rot",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Beschriftung_schwarz",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Hintergrund_weiss",
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
+}

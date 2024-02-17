@@ -1,0 +1,38 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.nar.usa.basic.school_sign",
+  "dependencies": [],
+  "workingSets": [
+    {
+      "inputPath": "",
+      "outputPath": "speed_limit/not_regulated/nar/usa"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually",
+    "list": {
+      "mode": "blacklist",
+      "files": ["school_sign.svg"]
+    }
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {},
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_school.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

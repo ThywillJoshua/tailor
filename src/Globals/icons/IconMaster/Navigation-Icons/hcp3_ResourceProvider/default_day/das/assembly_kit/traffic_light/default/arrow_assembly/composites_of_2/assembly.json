@@ -1,0 +1,292 @@
+{
+  "workingSets": [
+    {
+      "inputPath": "unused",
+      "outputPath": "traffic_light/not_regulated/default"
+    }
+  ],
+  "files": [
+    {
+      "file": "left-short.svg",
+      "id": "left-short",
+      "anchor": {
+        "x": 17.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "left.svg",
+      "id": "left",
+      "anchor": {
+        "x": 17.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "right-short.svg",
+      "id": "right-short",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "right.svg",
+      "id": "right",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpleft-short.svg",
+      "id": "sharpleft-short",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpleft-long.svg",
+      "id": "sharpleft-long",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpleft.svg",
+      "id": "sharpleft",
+      "anchor": {
+        "x": 15.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpright-short.svg",
+      "id": "sharpright-short",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpright-long.svg",
+      "id": "sharpright-long",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpright.svg",
+      "id": "sharpright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "slightleft.svg",
+      "id": "slightleft",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "slightright.svg",
+      "id": "slightright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "straight.svg",
+      "id": "straight",
+      "anchor": {
+        "x": 7.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnleft.svg",
+      "id": "uturnleft",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnleft-short.svg",
+      "id": "uturnleft-short",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnright.svg",
+      "id": "uturnright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnright-short.svg",
+      "id": "uturnright-short",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    }
+  ],
+  "compositions": [
+    {
+      "masterlistId": 65,
+      "ids": ["left-short", "uturnright"]
+    },
+    {
+      "masterlistId": 66,
+      "ids": ["left", "sharpright"]
+    },
+    {
+      "masterlistId": 68,
+      "ids": ["left", "right"]
+    },
+    {
+      "masterlistId": 72,
+      "ids": ["left", "slightright"]
+    },
+    {
+      "masterlistId": 80,
+      "ids": ["left-short", "straight"]
+    },
+    {
+      "masterlistId": 96,
+      "ids": ["left-short", "slightleft"]
+    },
+    {
+      "masterlistId": 192,
+      "ids": ["left", "sharpleft-short"]
+    },
+    {
+      "masterlistId": 320,
+      "ids": ["left", "uturnleft"]
+    },
+    {
+      "masterlistId": 5,
+      "ids": ["right", "uturnright"]
+    },
+    {
+      "masterlistId": 6,
+      "ids": ["right", "sharpright-short"]
+    },
+    {
+      "masterlistId": 12,
+      "ids": ["right-short", "slightright"]
+    },
+    {
+      "masterlistId": 20,
+      "ids": ["right-short", "straight"]
+    },
+    {
+      "masterlistId": 36,
+      "ids": ["right", "slightleft"]
+    },
+    {
+      "masterlistId": 132,
+      "ids": ["right", "sharpleft"]
+    },
+    {
+      "masterlistId": 260,
+      "ids": ["right-short", "uturnleft"]
+    },
+    {
+      "masterlistId": 129,
+      "ids": ["sharpleft-short", "uturnright"]
+    },
+    {
+      "masterlistId": 130,
+      "ids": ["sharpleft", "sharpright"]
+    },
+    {
+      "masterlistId": 136,
+      "ids": ["sharpleft", "slightright"]
+    },
+    {
+      "masterlistId": 144,
+      "ids": ["sharpleft-short", "straight"]
+    },
+    {
+      "masterlistId": 160,
+      "ids": ["sharpleft-short", "slightleft"]
+    },
+    {
+      "masterlistId": 384,
+      "ids": ["sharpleft", "uturnleft-short"]
+    },
+    {
+      "masterlistId": 3,
+      "ids": ["sharpright-long", "uturnright-short"]
+    },
+    {
+      "masterlistId": 10,
+      "ids": ["sharpright-short", "slightright"]
+    },
+    {
+      "masterlistId": 18,
+      "ids": ["sharpright-short", "straight"]
+    },
+    {
+      "masterlistId": 34,
+      "ids": ["sharpright", "slightleft"]
+    },
+    {
+      "masterlistId": 258,
+      "ids": ["sharpright-short", "uturnleft"]
+    },
+    {
+      "masterlistId": 33,
+      "ids": ["slightleft", "uturnright"]
+    },
+    {
+      "masterlistId": 40,
+      "ids": ["slightleft", "slightright"]
+    },
+    {
+      "masterlistId": 48,
+      "ids": ["slightleft", "straight"]
+    },
+    {
+      "masterlistId": 288,
+      "ids": ["slightleft", "uturnleft"]
+    },
+    {
+      "masterlistId": 9,
+      "ids": ["slightright", "uturnright"]
+    },
+    {
+      "masterlistId": 24,
+      "ids": ["slightright", "straight"]
+    },
+    {
+      "masterlistId": 264,
+      "ids": ["slightright", "uturnleft"]
+    },
+    {
+      "masterlistId": 17,
+      "ids": ["straight", "uturnright"]
+    },
+    {
+      "masterlistId": 272,
+      "ids": ["straight", "uturnleft"]
+    },
+    {
+      "masterlistId": 257,
+      "ids": ["uturnleft", "uturnright"]
+    }
+  ]
+}

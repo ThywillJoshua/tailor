@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Rahmen_rot);
+      }
+
+      .cls-2 {
+        fill: url(#Beschriftung_schwarz);
+      }
+
+      .cls-3 {
+        fill: url(#Hintergrund_weiss);
+      }
+    </style>
+    <linearGradient id="Hintergrund_weiss" x1="0" y1="11" x2="22" y2="11" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Beschriftung_schwarz" x1="4.24232" y1="829.98794" x2="17.60681" y2="829.98794" gradientTransform="translate(0 -818.61422)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+    <linearGradient id="Rahmen_rot" x1="1" y1="33" x2="21" y2="33" gradientTransform="translate(0 44) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e52421"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-3" d="m10.99981,0C4.92468.0001-.0001,4.92506,0,11.00019c.0001,6.07513,4.92506,10.99992,11.00019,10.99981,6.07513-.0001,10.99992-4.92506,10.99981-11.00019C21.9999,4.92468,17.07494-.0001,10.99981,0h0Z"/>
+  <path class="cls-2" d="m14.18699,7.88635l-9.94467,2.20493,5.08483,3.32988,5.8048-2.65491-.94496-2.8799Zm2.60991,3.46488l-2.06993,1.66495-.585-1.215-1.26.63,1.66495,2.42992,3.05989-2.78991-.80991-.71995Z"/>
+  <path class="cls-1" d="m11,1C5.47715,1,1,5.47715,1,11s4.47715,10,10,10,10-4.47715,10-10S16.52285,1,11,1Zm0,17.5122c-4.14887,0-7.5122-3.36332-7.5122-7.5122s3.36332-7.5122,7.5122-7.5122,7.5122,3.36332,7.5122,7.5122-3.36332,7.5122-7.5122,7.5122Z"/>
+</svg>

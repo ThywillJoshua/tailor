@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="40px" viewBox="0 0 140 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_album_tag_vip_and_exclusive</title>
+    <g id="jdo_cn_media_album_tag_vip_and_exclusive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M0,0 L140,0 L140,30 C140,35.5228475 135.522847,40 130,40 L0,40 L0,40 L0,0 Z" id="矩形" fill-opacity="0.9" fill="#3E3E3E"></path>
+            <text id="独家" font-family="ZYHei_GB18030_c" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                <tspan x="85" y="25">独家</tspan>
+            </text>
+            <text id="VIP" font-family="AudiTypeDisplayHigh-Light, Audi Type Display High" font-size="20" font-weight="300" line-spacing="24" fill="#D8AB67">
+                <tspan x="19" y="28">VIP</tspan>
+            </text>
+            <rect id="矩形" fill-opacity="0.6" fill="#FFFFFF" x="69" y="10" width="1" height="20"></rect>
+        </g>
+    </g>
+</svg>

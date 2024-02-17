@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 60 44" x="0px" y="0px" xml:space="preserve">
+    <g aria-label="text">
+        <text fill="white" style="font-size:28px;font-family:AudiTypeDisplayHigh-Normal, Audi Type Display High" y="23">{value}</text>
+        <text fill="white" style="font-size:20px;font-family:AudiTypeDisplayHigh-Normal, Audi Type Display High" y="39">{unit}</text>
+    </g>
+</svg>

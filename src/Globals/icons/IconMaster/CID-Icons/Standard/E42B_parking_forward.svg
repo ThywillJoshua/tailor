@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="E579_car_umschaltung_vor_rueck" data-name="E579 car umschaltung vor rueck">
+    <polygon class="cls-1" points="28 19.2 30 19.2 31.2 19.2 31.2 18 31.2 15.244 37.419 22.5 31.2 29.756 31.2 27 31.2 25.8 30 25.8 15.2 25.8 15.2 24 14 24 14 27 30 27 30 33 39 22.5 30 12 30 18 28 18 28 19.2"/>
+    <path class="cls-1" d="M10,28v-6H26s0-9,0-9H10V7S1,17.5,1,17.5l9,10.5Z"/>
+  </g>
+</svg>

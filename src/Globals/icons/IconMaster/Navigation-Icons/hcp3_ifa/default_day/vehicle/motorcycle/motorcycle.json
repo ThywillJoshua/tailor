@@ -1,0 +1,56 @@
+{
+  "root_motorcycle": {},
+  "root_body_motorcycle": {},
+  "root_glass_motorcycle": {},
+  "root_lights_motorcycle": {},
+  "root_wheels_motorcycle": {},
+  "root_shadows_motorcycle": {},
+
+  "body_motorcycle": {
+    "material": ["m_carpaint"]
+  },
+  "lights_brakes_motorcycle": {
+    "material": ["m_lights"]
+  },
+  "wheel_fl_motorcycle": {},
+  "wheel_fr_motorcycle": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_rl_motorcycle": {},
+  "wheel_rr_motorcycle": {
+    "material": ["m_carpaint"]
+  },
+  "shadows_motorcycle": {
+    "material": ["m_shadow"]
+  },
+
+  "materials": {
+    "carpaint": {
+      "assignments": []
+    },
+    "carpaint_simple": {
+      "assignments": ["m_carpaint"]
+    },
+    "simple_color_fresnel_material": {
+      "assignments": []
+    },
+    "simple_color": {
+      "color": [1.0, 1.0, 1.0],
+      "assignments": []
+    },
+    "glass": {
+      "color": [1.0, 1.0, 1.0],
+      "transparency": 1.0,
+      "assignments": []
+    },
+    "chrome": {
+      "assignments": []
+    },
+    "lights": {
+      "assignments": ["m_lights"]
+    },
+    "shadow": {
+      "assignments": ["m_shadow"]
+    }
+  }
+}

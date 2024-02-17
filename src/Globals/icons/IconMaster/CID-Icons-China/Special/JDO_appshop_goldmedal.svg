@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="63px" viewBox="0 0 44 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_appshop_goldmedal</title>
+    <defs>
+        <polygon id="path-1" points="0 0 22.1870939 0 22.1870939 17.3802273 0 17.3802273"></polygon>
+        <polygon id="path-3" points="0 0 8.61033652 0 8.61033652 17.3802273 0 17.3802273"></polygon>
+        <polygon id="path-5" points="0 0 8.61033652 0 8.61033652 17.3802273 0 17.3802273"></polygon>
+        <polygon id="path-7" points="0 0 8.61033652 0 8.61033652 17.3802273 0 17.3802273"></polygon>
+        <polygon id="path-9" points="0 0 8.61033652 0 8.61033652 17.3802273 0 17.3802273"></polygon>
+        <polygon id="path-11" points="0 0 43.9999197 0 43.9999197 42.8139503 0 42.8139503"></polygon>
+        <linearGradient x1="14.6447113%" y1="17.783393%" x2="79.6320974%" y2="88.1613646%" id="linearGradient-13">
+            <stop stop-color="#FFCC5F" offset="0%"></stop>
+            <stop stop-color="#F38608" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-14" points="0 0 40.4930725 0 40.4930725 34.1359604 0 34.1359604"></polygon>
+        <linearGradient x1="20.6915459%" y1="24.6966792%" x2="50%" y2="85.5329812%" id="linearGradient-16">
+            <stop stop-color="#FABB13" offset="0%"></stop>
+            <stop stop-color="#F38608" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.973045,1.000000),rotate(90.000000),scale(1.000000,1.024292),translate(-0.500000,-0.500000)" id="radialGradient-17">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="87.4317089%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.05" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="jdo_appshop_goldmedal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1备份" transform="translate(-0.000000, 0.000000)">
+            <g id="勋章">
+                <g id="勋章框架">
+                    <polygon id="Fill-1" fill="#AA312F" fill-rule="nonzero" points="21.5194978 2.60444654e-05 14.7913424 17.3802794 29.929625 17.3802794 37.2185269 2.60444654e-05"></polygon>
+                    <g id="编组">
+                        <path d="M31.1310947,18.088168 L13.3494075,18.088168 L13.3494075,17.3117824 C13.3494075,16.4671604 14.0530842,15.7824514 14.9211037,15.7824514 L29.5593985,15.7824514 C30.4274181,15.7824514 31.1310947,16.4671604 31.1310947,17.3117824 L31.1310947,18.088168 Z M30.6236124,14.3666742 L14.2305424,14.3666742 C13.1540161,14.3666742 12.2814463,15.2157238 12.2814463,16.2632322 L12.2814463,26.4210948 L32.5729761,26.4210948 L32.5729761,16.2632322 C32.5729761,15.2157238 31.7001387,14.3666742 30.6236124,14.3666742 L30.6236124,14.3666742 Z" id="Fill-2" fill="#F38C12" fill-rule="nonzero"></path>
+                        <g transform="translate(7.742504, 0.000000)" id="Fill-4-Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <polygon id="Fill-4" fill="#FA342B" fill-rule="nonzero" mask="url(#mask-2)" points="0 -2.60444659e-05 7.04881135 17.3802273 22.1870939 17.3802273 15.2986106 -2.60444659e-05"></polygon>
+                        </g>
+                        <g transform="translate(9.684347, 0.000000)" id="Fill-6-Clipped">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="path-3"></g>
+                            <polygon id="Fill-6" fill="#FCE0E0" fill-rule="nonzero" mask="url(#mask-4)" points="8.61033652 17.3802273 0.875514028 -2.60444659e-05 0 -2.60444659e-05 7.73509015 17.3802273"></polygon>
+                        </g>
+                        <g transform="translate(12.960820, 0.000000)" id="Fill-8-Clipped">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="path-5"></g>
+                            <polygon id="Fill-8" fill="#FCE0E0" fill-rule="nonzero" mask="url(#mask-6)" points="8.61033652 17.3802273 0.875514028 -2.60444659e-05 0 -2.60444659e-05 7.73509015 17.3802273"></polygon>
+                        </g>
+                        <g transform="translate(16.581797, 0.000000)" id="Fill-10-Clipped">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <g id="path-7"></g>
+                            <polygon id="Fill-10" fill="#FCE0E0" fill-rule="nonzero" mask="url(#mask-8)" points="8.61033652 17.3802273 0.875514028 -2.60444659e-05 0 -2.60444659e-05 7.73509015 17.3802273"></polygon>
+                        </g>
+                        <g transform="translate(19.782201, 0.000000)" id="Fill-12-Clipped">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <g id="path-9"></g>
+                            <polygon id="Fill-12" fill="#FCE0E0" fill-rule="nonzero" mask="url(#mask-10)" points="8.61033652 17.3802273 0.875514028 -2.60444659e-05 0 -2.60444659e-05 7.73509015 17.3802273"></polygon>
+                        </g>
+                        <g transform="translate(0.000000, 20.186050)" id="Fill-14-Clipped">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <g id="path-11"></g>
+                            <path d="M22.0001874,42.8139764 C9.84951943,42.8139764 -8.0297832e-05,33.2298734 -8.0297832e-05,21.4069882 C-8.0297832e-05,9.58410295 9.84951943,0 22.0001874,0 C34.15032,0 43.9999197,9.58410295 43.9999197,21.4069882 C43.9999197,33.2298734 34.15032,42.8139764 22.0001874,42.8139764 Z" id="Fill-14" fill="url(#linearGradient-13)" fill-rule="nonzero" mask="url(#mask-12)"></path>
+                        </g>
+                        <g transform="translate(3.506928, 28.863935)" id="Fill-16-Clipped">
+                            <mask id="mask-15" fill="white">
+                                <use xlink:href="#path-14"></use>
+                            </mask>
+                            <g id="path-14"></g>
+                            <path d="M39.6901477,11.6004655 C39.6901477,23.4233507 29.8402803,33.0074537 17.6901477,33.0074537 C10.4392535,33.0074537 4.00820011,29.5943264 0,24.3294377 C3.91773122,30.2300718 10.7366231,34.1359604 18.493126,34.1359604 C30.6432586,34.1359604 40.493126,24.5518574 40.493126,12.7289722 C40.493126,7.96153274 38.8911843,3.55793447 36.1827384,0 C38.4019028,3.34254674 39.6901477,7.32526644 39.6901477,11.6004655 Z" id="Fill-16" fill="url(#linearGradient-16)" fill-rule="nonzero" mask="url(#mask-15)"></path>
+                        </g>
+                    </g>
+                </g>
+                <path d="M22.0001606,59.0511641 C12.0908728,59.0511641 4.05814536,51.2349595 4.05814536,41.5930379 C4.05814536,31.9511162 12.0908728,24.1349116 22.0001606,24.1349116 C31.9089131,24.1349116 39.9416405,31.9511162 39.9416405,41.5930379 C39.9416405,51.2349595 31.9089131,59.0511641 22.0001606,59.0511641 Z" id="Fill-18" fill="#FFCC5F" fill-rule="nonzero"></path>
+                <path d="M22.0001606,59.0511641 C12.0908728,59.0511641 4.05814536,51.2349595 4.05814536,41.5930379 C4.05814536,31.9511162 12.0908728,24.1349116 22.0001606,24.1349116 C31.9089131,24.1349116 39.9416405,31.9511162 39.9416405,41.5930379 C39.9416405,51.2349595 31.9089131,59.0511641 22.0001606,59.0511641 Z" id="Fill-18" stroke-opacity="0.0651078658" stroke="#805700" stroke-width="0.508672249"></path>
+                <path d="M22.0001606,59.0511641 C12.0908728,59.0511641 4.05814536,51.2349595 4.05814536,41.5930379 C4.05814536,31.9511162 12.0908728,24.1349116 22.0001606,24.1349116 C31.9089131,24.1349116 39.9416405,31.9511162 39.9416405,41.5930379 C39.9416405,51.2349595 31.9089131,59.0511641 22.0001606,59.0511641 Z" id="path-17" fill="url(#radialGradient-17)" fill-rule="nonzero"></path>
+                <polygon id="路径" fill="#311A00" fill-rule="nonzero" points="21.1467455 50.6478873 21.1467455 37.7357779 16.5490893 38.5468131 16.5490893 35.8612662 22.1994799 34.7172233 24.6862963 34.7172233 24.6862963 50.6478873"></polygon>
+            </g>
+            <path d="M26.4470732,20.5602714 C36.3930187,22.7694533 44,31.1264614 44,41.5 C44,53.3741221 34.1502645,63 22,63 C19.5925436,63 17.275405,62.6220923 15.1073086,61.9236668 L26.4470732,20.5602714 Z" id="形状结合" fill="#000000" fill-rule="nonzero" opacity="0.0489123247"></path>
+        </g>
+    </g>
+</svg>

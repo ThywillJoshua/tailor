@@ -1,0 +1,161 @@
+.Text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+
+  cursor: default;
+  user-select: none;
+  margin: 0px;
+}
+
+.arHUD {
+  @extend .Text;
+  font-size: var(--fontSizeARHUD);
+  color: rgb(var(--audiWhite));
+}
+
+.textPrioBIG {
+  @extend .Text;
+
+  font-size: var(--fontSizePrioBIG);
+  color: rgb(var(--audiWhite));
+  font-family: var(--fontLight);
+  line-height: var(--lineHeightPrioBIG);
+
+  &--boldFont {
+    line-height: 73px;
+    font-family: var(--fontNormal);
+  }
+}
+
+.textPrioA {
+  @extend .Text;
+
+  font-size: var(--fontSizePrioA);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrioA);
+}
+
+.textPrio1 {
+  @extend .Text;
+
+  font-size: var(--fontSizePrio1);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio1);
+
+  &--headline {
+    margin-bottom: var(--hA1);
+    margin-top: var(--hA2);
+  }
+
+  &--fpk {
+    font-size: var(--fidFontSizePrio1);
+    line-height: var(--fidLineHeightPrio1);
+  }
+
+  &--flow {
+    margin-top: var(--iA4);
+  }
+}
+
+.textPrio2 {
+  font-size: var(--fontSizePrio2);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio2);
+
+  &--fpk {
+    font-size: var(--fidFontSizePrio2);
+    line-height: var(--fidLineHeightPrio2);
+  }
+
+  &--grey {
+    color: rgb(var(--fpkGrey));
+  }
+}
+
+.textPrio3 {
+  @extend .Text;
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio3);
+
+  &--fpk {
+    font-size: var(--fidFontSizePrio3);
+    line-height: var(--fidLineHeightPrio3);
+  }
+}
+
+.textPrio4 {
+  @extend .Text;
+  font-size: var(--fontSizePrio4);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio4);
+}
+
+.textPrio5 {
+  @extend .Text;
+  font-size: var(--fidFontSizePrio5);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--fidLineHeightPrio5);
+}
+.textClimateLarge {
+  @extend .Text;
+  font-size: 51px;
+  font-family: var(--fontExtendedNormal);
+  color: rgb(var(--audiWhite));
+  line-height: 48px;
+}
+.textClimateSmall {
+  @extend .Text;
+  font-size: 35px;
+  font-family: var(--fontExtendedNormal);
+  color: rgb(var(--audiWhite));
+  line-height: 27px;
+}
+
+.textBadge {
+  @extend .Text;
+  font-size: var(--fontSizePrio4);
+  font-family: var(--fontNormal);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio4);
+  border: 1px solid rgb(var(--audiWhite));
+  height: 24px;
+  text-transform: uppercase;
+  padding: 0 6px;
+}
+
+.inputFieldHeader {
+  @extend .Text;
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio2);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.hyperlink {
+  @extend .Text;
+  text-decoration: underline;
+  color: rgb(var(--hyperlinkColor));
+}
+
+.textUnits {
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgba(var(--audiWhite), 0.7);
+  line-height: var(--lineHeightPrio3);
+
+  &--fpk {
+    font-size: var(--fidFontSizePrio3);
+    line-height: var(--fidLineHeightPrio3);
+  }
+}

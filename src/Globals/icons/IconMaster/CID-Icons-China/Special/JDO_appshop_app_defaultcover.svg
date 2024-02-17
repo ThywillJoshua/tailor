@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>appshop_list_cover_default</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100" rx="20"></rect>
+    </defs>
+    <g id="appshop_list_cover_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="矩形" fill="#000000" opacity="0.50265067" xlink:href="#path-1"></use>
+        <path d="M100.083298,0 L100.083298,100 L80.2170358,100 L22.4830358,0 L100.083298,0 Z" id="形状结合" fill="#23292B" opacity="0.499232701" mask="url(#mask-2)"></path>
+        <path d="M22.273,0 L79.846,100 L0,100 L0,0 L22.273,0 Z" id="形状结合" fill="#000000" opacity="0.254394531" mask="url(#mask-2)"></path>
+    </g>
+</svg>

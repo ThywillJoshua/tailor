@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SIDE_STREET" data-name="SIDE STREET" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#OFA_gradient_crossroad);
+      }
+    </style>
+    <linearGradient id="OFA_gradient_crossroad" x1="-3472.82036" y1="143.7396" x2="-3448.78727" y2="143.7396" gradientTransform="translate(-3344.19423) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#303639" stop-opacity="0"/>
+      <stop offset="1" stop-color="#303639"/>
+    </linearGradient>
+  </defs>
+  <rect id="icons_default_icid-node-roundabout-right_1s0_2s1.svg" data-name="icons default icid-node-roundabout-right 1s0 2s1.svg" class="cls-1" x="85" y="138.98957" width="43.62613" height="9.50005"/>
+</svg>

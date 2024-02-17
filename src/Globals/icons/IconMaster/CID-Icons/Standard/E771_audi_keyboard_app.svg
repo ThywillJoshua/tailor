@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:1.2;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title>E771_audi_keyboard_app</title>
+<path class="st0" d="M16.4,4.2C18,3,23.1,2.5,23.3,4.4c0.1,0.7-2.7,1.5-4.7,3.4c-1.8,1.8-2.3,3.9-0.8,3.6c3.4-0.6,7-6.8,8.8-6.8"/>
+<path class="st0" d="M30.6,24.7c0,0,0.1-2.1-0.6-2.1c-1.1-0.1-2.6-3.9-2.6-3.9c-0.6-1.2-1.7-2.3-2.9-2.9c-2.2-1-0.3-2.1-0.3-2.1
+	c1.7-1,3.4,0.1,4.9,1.5c0.3-0.1,0.2-1,0.2-1V4.7c0-0.7,0.3-1.4,1-1.4h0.4c0.7,0,1.1,0.7,1.1,1.4v7.9"/>
+<path class="st0" d="M37,11.6c0-1,0.4-1.2,1.3-1.2c0.7,0,1.1,0.3,1.2,0.8c0,0.1,0,0.2,0,0.3v8.6c0,0.8-1.2,1.6-1,2.4v2.2"/>
+<path class="st0" d="M34.4,10.3c0-0.8,0.8-1.1,1.4-1.1c0.6,0,1.1,0.5,1.2,1.1v3.3"/>
+<path class="st0" d="M31.8,9.4c0-0.7,0.7-1,1.3-1c0.7,0,1.2,0.4,1.3,1l0,0v3.7"/>
+<g id="E6CD_textinput_btn_keyboard">
+	<path class="st1" d="M25,19.2H1.2v16.6h30.6V27H33v10H0V18h24L25,19.2z"/>
+	<rect x="3" y="21.6" class="st1" width="2.4" height="2.4"/>
+	<rect x="7" y="21.6" class="st1" width="2.4" height="2.4"/>
+	<rect x="5.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="7" y="31.2" class="st1" width="19" height="2.4"/>
+	<rect x="9.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="13.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="17.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="21.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="25.3" y="26.3" class="st1" width="2.4" height="2.4"/>
+	<rect x="11" y="21.6" class="st1" width="2.4" height="2.4"/>
+	<rect x="15" y="21.6" class="st1" width="2.4" height="2.4"/>
+	<rect x="19" y="21.6" class="st1" width="2.4" height="2.4"/>
+	<rect x="23" y="21.6" class="st1" width="2.4" height="2.4"/>
+</g>
+</svg>

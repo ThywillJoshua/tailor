@@ -1,0 +1,5 @@
+
+Speedlimits_Warnung_off_RDW und Speedlimits_Warnung_on_RDW werden benutzt bei roten und dunklen Schilder
+
+
+Speedlimits_Warnung_off_rot_RDW und Speedlimits_Warnung_on_rot_RDW werden benutzt bei Hellen Schilder wie Geschwindigkeitsbegrenzung Ende.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="11.55315" cy="13.45934" r="2"/>
+  <circle class="cls-1" cx="28.50653" cy="13.49902" r="2"/>
+  <g id="E80D_setup_uhrzeit_und_datum" data-name="E80D setup uhrzeit und datum">
+    <g id="V2-21">
+      <path class="cls-2" d="M32.37654,7.63978c6.8242,6.83537,6.81515,17.90864-.02023,24.73285-6.83537,6.8242-17.90864,6.81515-24.73285-.02023-6.8242-6.83537-6.81515-17.90864,.02023-24.73285,6.82704-6.81588,17.88387-6.81637,24.71151-.0011l.02133,.02133Z"/>
+    </g>
+  </g>
+  <path class="cls-2" d="M29.43872,25.37311c-1.85529,3.34253-5.38318,5.61823-9.47906,5.61823s-7.62378-2.2757-9.47906-5.61823"/>
+</svg>

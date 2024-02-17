@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>iflytek_DA_common_freezing_rain</title>
+    <desc>Created with Sketch.</desc>
+    <g id="iflytek_DA_common_freezing_rain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(0.000000, 1.000000)">
+            <g id="E1AD_weather_freezing_rain" stroke="#FFFFFF" stroke-width="1.2">
+                <path d="M10,22.5 L7,22.5 C3.49459551,22.437521 0.682414349,19.5838862 0.671199962,16.0779428 C0.660052458,12.5719994 3.45397531,9.70048599 6.95891,9.61565 C7.14833,9.61565 7.33391,9.62807 7.51848,9.64527 C7.99511386,6.44549122 10.7248887,4.06550257 13.95977,4.02935 C14.6809354,4.03107831 15.3965841,4.15511057 16.07627,4.39617 C18.1475637,1.9736654 21.1723184,0.574893611 24.35959,0.56562 C30.1762885,0.639477969 34.9741117,5.14218536 35.41659,10.9425 C37.7809915,11.8035308 39.3476491,14.0593706 39.3289182,16.5756 C39.3550996,19.8211176 36.7455169,22.4735373 33.5,22.5 L29,22.5" id="路径"></path>
+            </g>
+            <g id="编组备份-2" transform="translate(13.000000, 20.000000)">
+                <polygon id="Path-34-Copy-7" fill="#FFFFFF" points="3.89716592 0 2.48275862 2.11740938 3.89716592 4.13793103 5.24137931 2.11740938"></polygon>
+                <polygon id="Path-34-Copy-7备份" fill="#FFFFFF" points="12.173028 0 10.7586207 2.11740938 12.173028 4.13793103 13.5172414 2.11740938"></polygon>
+                <polygon id="Path-34-Copy-7备份-2" fill="#FFFFFF" points="8.03509696 5.51724138 6.62068966 7.63465076 8.03509696 9.65517241 9.37931034 7.63465076"></polygon>
+                <polygon id="Fill-3-Copy" stroke="#0EAAE2" stroke-width="1.37931034" fill="#0EAAE2" points="0.648873563 13.5526539 0.648873563 13.5526539 2.8416143 9.16717241 2.8416143 9.16717241"></polygon>
+                <polygon id="Fill-3-Copy" stroke="#0EAAE2" stroke-width="1.37931034" fill="#0EAAE2" points="4.92093742 17.2954355 4.92093742 17.2954355 7.11367816 12.909954 7.11367816 12.909954"></polygon>
+                <polygon id="Fill-3-Copy" stroke="#0EAAE2" stroke-width="1.37931034" fill="#0EAAE2" points="11.5369655 13.5526539 11.5369655 13.5526539 13.7297063 9.16717241 13.7297063 9.16717241"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

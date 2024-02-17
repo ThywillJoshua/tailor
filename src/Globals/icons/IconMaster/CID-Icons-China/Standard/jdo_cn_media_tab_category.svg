@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_tab_category</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40"></rect>
+    </defs>
+    <g id="jdo_cn_media_tab_category" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-17">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="矩形"></g>
+            <polygon id="矩形" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(20.000000, 12.142595) rotate(45.000000) translate(-20.000000, -12.142595) " points="13.3683978 5.44507621 32.7279221 -0.585327197 26.4636332 18.784097 7.27207794 24.8705169"></polygon>
+            <polyline id="路径" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(20.000000, 20.000000) rotate(45.000000) translate(-20.000000, -20.000000) " points="27.2120968 8.9902323 32.7279221 7.27207794 26.4636332 26.6415021 7.27207794 32.7279221 8.67176568 28.2679278"></polyline>
+            <polyline id="路径备份-3" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(20.000000, 27.857405) rotate(45.000000) translate(-20.000000, -27.857405) " points="27.2120968 16.8476374 32.7279221 15.1294831 26.4636332 34.4989072 7.27207794 40.5853272 8.67176568 36.125333"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E1A0_phone_phone_1" data-name="E1A0 phone phone 1">
+    <g id="V2-64">
+      <path class="cls-1" d="M33.13281,38.8623v-10.16406l-3.07031,.53125v-1.23828l3.64844-.71484h.92578v11.58593h-1.50391Z"/>
+    </g>
+  </g>
+  <line class="cls-2" x1="12.00461" y1="33.5" x2="20.99965" y2="33.5"/>
+  <line class="cls-2" x1="14.0532" y1="6.5" x2="18.98184" y2="6.5"/>
+  <path class="cls-2" d="M24.275,37.5H8.725c-.66,0-1.225-.665-1.225-1.325V3.825c0-.66,.565-1.325,1.225-1.325h15.55c.66,0,1.225,.665,1.225,1.325V36.175c0,.66-.565,1.325-1.225,1.325Z"/>
+</svg>

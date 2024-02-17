@@ -1,0 +1,38 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit_recommendation.nar.can.unit",
+  "dependencies": [
+    "default_day.das.merging.speedlimit_recommendation.nar.can.exit"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit_recommendation/not_regulated/nar/can",
+      "outputPath": "speed_limit_recommendation/not_regulated/nar/can"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param3": 1
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "unit.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

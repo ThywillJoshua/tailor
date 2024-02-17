@@ -1,0 +1,200 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.default.additional_sign_assembly",
+  "dependencies": [
+    "default_day.das.merging.speedlimit.default.basic.no_units",
+    "default_day.das.merging.speedlimit.default.basic.units",
+    "default_day.das.merging.speedlimit.default.warning_assembly"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/default",
+      "outputPath": "speed_limit/not_regulated/default"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param4": 1
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_dotdotdot.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 4
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_wet.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 5
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_fog.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 6
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_frost.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 8
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_left.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 9
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_right.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 10
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_trailer.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 12
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_time.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 19
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_weather.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "center",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

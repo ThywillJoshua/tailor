@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SIDE_STREET" data-name="SIDE STREET" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#OFA_street_base);
+      }
+    </style>
+    <linearGradient id="OFA_street_base">
+      <stop offset="0" stop-color="#303639"/>
+ 
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m85.00008,62.6902c-3.86621,0-7,3.13379-7,7v100.30957h14v-100.30957c0-3.86621-3.13403-7-7-7Z"/>
+</svg>

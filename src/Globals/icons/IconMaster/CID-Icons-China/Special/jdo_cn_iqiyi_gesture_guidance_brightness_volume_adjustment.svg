@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="400px" viewBox="0 0 25 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_iqiyi_gesture_guidance_brightness_volume_adjustment</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="25" height="400"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="50.3038561%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_iqiyi_gesture_guidance_brightness_volume_adjustment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="编组-10">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="矩形" fill-opacity="0" fill="#000000" xlink:href="#path-1"></use>
+            <rect id="矩形" fill="url(#linearGradient-3)" mask="url(#mask-2)" x="11" y="14" width="2" height="374"></rect>
+            <polygon id="矩形" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(12.313708, 14.313708) rotate(45.000000) translate(-12.313708, -14.313708) " points="4.3137085 6.3137085 20.3137085 6.3137085 4.3137085 22.3137085"></polygon>
+            <polygon id="矩形备份-8" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(12.313708, 386.313708) scale(1, -1) rotate(45.000000) translate(-12.313708, -386.313708) " points="4.3137085 378.313708 20.3137085 378.313708 4.3137085 394.313708"></polygon>
+        </g>
+    </g>
+</svg>

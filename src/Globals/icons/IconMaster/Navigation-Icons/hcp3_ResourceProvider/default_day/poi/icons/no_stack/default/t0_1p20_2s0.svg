@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<defs>
+<linearGradient id="Background">
+<stop offset="0" stop-color="#2155d6" />
+</linearGradient>
+<linearGradient id="Frame">
+<stop offset="0" stop-color="#2155d6" />
+</linearGradient>
+<linearGradient id="Pictogram">
+<stop offset="0" stop-color="#ffffff" />
+</linearGradient>
+</defs>
+<rect fill="url(#Background)" height="44.5" rx="3" width="44.5" x="2.75" y="2.75" />
+<rect fill="none" height="44.5" rx="3" stroke="url(#Frame)" stroke-miterlimit="10" stroke-width="1.5" width="44.5" x="2.75" y="2.75" />
+<polyline fill="none" points="6 17 25 7.55 44 17" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<polyline fill="none" points="36.5 27 36.5 21 7 21 7 36.5 25.5 36.5" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<ellipse cx="38" cy="37.2" fill="none" rx="6" ry="2" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<path d="m32 37.2v2.5c0 1.1 2.69 2 6 2s6-0.895 6-2v-2.5" fill="none" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<path d="m29 31.8v2.5c0 1.1 2.69 2 6 2s6-0.895 6-2v-2.5" fill="url(#Pictogram)" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<path d="m29 31.8v2.5c0 1.1 2.69 2 6 2s6-0.895 6-2v-2.5" fill="url(#Background)" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<ellipse cx="35" cy="31.8" fill="none" rx="6" ry="2" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<ellipse cx="22" cy="28.8" fill="url(#Pictogram)" rx="3.75" ry="4.25" stroke="url(#Pictogram)" stroke-miterlimit="10" stroke-width="1.5" />
+<circle cx="22" cy="28" fill="url(#Background)" r="1.5" />
+<circle cx="33" cy="24.5" fill="url(#Pictogram)" r="1.5" />
+<circle cx="10.5" cy="33" fill="url(#Pictogram)" r="1.5" />
+<path d="m24.5 32.8a2.78 2.78 0 0 0-2.5-3 2.78 2.78 0 0 0-2.5 3" fill="url(#Background)" />
+</svg>

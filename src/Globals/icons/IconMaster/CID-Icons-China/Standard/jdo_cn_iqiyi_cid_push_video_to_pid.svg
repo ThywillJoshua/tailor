@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_iqiyi_cid_push_video_to_pid</title>
+    <g id="jdo_cn_iqiyi_cid_push_video_to_pid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-4">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="编组-2" transform="translate(3.000000, 2.000000)">
+                <g id="编组-3" transform="translate(11.000000, 0.000000)" stroke="#FFFFFF" stroke-width="1.2">
+                    <path d="M0,7.00408936 L0,0 L24,0 L24,24 L16.6676941,24" id="路径" stroke-dasharray="2,2"></path>
+                    <g id="编组">
+                        <polyline id="路径" points="0 2 0 0 2 0"></polyline>
+                        <polyline id="路径备份" transform="translate(23.000000, 1.000000) scale(-1, 1) translate(-23.000000, -1.000000) " points="22 2 22 0 24 0"></polyline>
+                        <polyline id="路径备份-2" transform="translate(23.000000, 23.000000) scale(-1, -1) translate(-23.000000, -23.000000) " points="22 24 22 22 24 22"></polyline>
+                    </g>
+                </g>
+                <rect id="矩形备份-4" stroke="#FFFFFF" stroke-width="1.2" x="0" y="9" width="26" height="26"></rect>
+                <g id="编组-23备份-2" transform="translate(13.372018, 21.623716) scale(1, -1) translate(-13.372018, -21.623716) translate(5.000000, 17.000000)">
+                    <line x1="1.24642388e-16" y1="4.63333992" x2="14.0651163" y2="4.63333992" id="直线-8" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="square"></line>
+                    <polygon id="路径" fill="#FFFFFF" transform="translate(13.144111, 4.457850) scale(-1, 1) translate(-13.144111, -4.457850) " points="16.7440353 0.83424184 9.54418605 4.78875974 16.7440353 8.08145868"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

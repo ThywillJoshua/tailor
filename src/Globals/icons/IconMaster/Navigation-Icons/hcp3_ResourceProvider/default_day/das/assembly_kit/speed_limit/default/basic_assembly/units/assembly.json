@@ -1,0 +1,60 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.default.basic.units",
+  "dependencies": [],
+  "workingSets": [
+    {
+      "inputPath": "",
+      "outputPath": "speed_limit/not_regulated/default"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually",
+    "list": {
+      "mode": "blacklist",
+      "files": ["unit_kmph.svg", "unit_mph.svg"]
+    }
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param3": 1
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "unit_kmph.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param3": 2
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "unit_mph.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

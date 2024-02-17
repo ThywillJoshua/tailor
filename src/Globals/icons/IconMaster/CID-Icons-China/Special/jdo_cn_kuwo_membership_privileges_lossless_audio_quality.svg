@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="90px" viewBox="0 0 100 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_kuwo_membership_privileges_lossless_audio_quality</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FDFDFD" offset="0%"></stop>
+            <stop stop-color="#6D6D6D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FDFDFD" offset="0%"></stop>
+            <stop stop-color="#6D6D6D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="144.064958%" y1="-74.7622371%" x2="23.2832565%" y2="90.4710493%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.302256337" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_kuwo_membership_privileges_lossless_audio_quality" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" fill-opacity="0" fill="#000000" x="0" y="0" width="100" height="90"></rect>
+            <g id="专属客服" transform="translate(2.000000, 15.000000)">
+                <path d="M48,1.77350269 C48.6905989,1.77350269 49.3811978,1.95213549 50,2.30940108 L50,2.30940108 L70.9807621,14.4226497 C71.5995643,14.7799153 72.0995643,15.2886751 72.4448637,15.8867513 C72.7901632,16.4848276 72.9807621,17.1722202 72.9807621,17.8867513 L72.9807621,17.8867513 L72.9807621,42.1132487 C72.9807621,43.542311 72.2183664,44.8628191 70.9807621,45.5773503 L70.9807621,45.5773503 L50,57.6905989 C48.7623957,58.4051301 47.2376043,58.4051301 46,57.6905989 L46,57.6905989 L25.0192379,45.5773503 C24.4004357,45.2200847 23.9004357,44.7113249 23.5551363,44.1132487 C23.2098368,43.5151724 23.0192379,42.8277798 23.0192379,42.1132487 L23.0192379,42.1132487 L23.0192379,17.8867513 C23.0192379,17.1722202 23.2098368,16.4848276 23.5551363,15.8867513 C23.9004357,15.2886751 24.4004357,14.7799153 25.0192379,14.4226497 L25.0192379,14.4226497 L46,2.30940108 C46.6188022,1.95213549 47.3094011,1.77350269 48,1.77350269 Z" id="多边形" stroke-opacity="0.5" stroke="#B6B6B6" stroke-width="2" fill-opacity="0.053676792" fill="#FFFFFF"></path>
+                <g transform="translate(36.000000, 18.750000)" fill="url(#linearGradient-1)" fill-rule="nonzero" id="形状结合" opacity="0.5">
+                    <path d="M10.5,0 L13.5,0 L13.5,22.5 L10.5,22.5 L10.5,0 Z M15.75,4.5 L18.75,4.5 L18.75,18 L15.75,18 L15.75,4.5 Z M21,7.5 L24,7.5 L24,15 L21,15 L21,7.5 Z M5.25,4.5 L8.25,4.5 L8.25,18 L5.25,18 L5.25,4.5 Z M0,7.5 L3,7.5 L3,15 L0,15 L0,7.5 Z"></path>
+                </g>
+                <path d="M0,16.5 L17.9423077,16.5 L19.5,18 L19.5,24 L4.67307692,24 L0,18 L0,16.5 Z M4.5,26.25 L19.5,26.25 L19.5,33.75 L9.225,33.75 L4.5,27.75 L4.5,26.25 Z M9.75,36 L19.5,36 L19.5,42 L18,43.5 L14.25,43.5 L9.75,37.5 L9.75,36 Z" id="形状结合" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.5"></path>
+                <path d="M76.5,16.5 L94.4423077,16.5 L96,18 L96,24 L81.1730769,24 L76.5,18 L76.5,16.5 Z M81,26.25 L96,26.25 L96,33.75 L85.725,33.75 L81,27.75 L81,26.25 Z M86.25,36 L96,36 L96,42 L94.5,43.5 L90.75,43.5 L86.25,37.5 L86.25,36 Z" id="形状结合备份" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.5" transform="translate(86.250000, 30.000000) scale(-1, 1) translate(-86.250000, -30.000000) "></path>
+                <path d="M50.5,1.44337567 L61.4085142,7.74140927 L61.4085142,7.74140927 L34.1535261,52.0057346 L24.5192379,46.4433757 C22.9722325,45.5502117 22.0192379,43.8995766 22.0192379,42.1132487 L22.0192379,17.8867513 C22.0192379,16.1004234 22.9722325,14.4497883 24.5192379,13.5566243 L45.5,1.44337567 C47.0470054,0.550211698 48.9529946,0.550211698 50.5,1.44337567 Z" id="多边形备份" fill="url(#linearGradient-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

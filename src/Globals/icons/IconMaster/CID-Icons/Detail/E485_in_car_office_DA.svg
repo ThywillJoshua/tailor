@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .Icon_weisse_Kontur_35 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #969696;
+      }
+
+      .cls-2 {
+        stroke: #969696;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M68.03607,74.94854H29.03669v-23.9941h38.99938v23.9941Z"/>
+  <path class="cls-1" d="M29.03669,50.95444l19.01466,13.61824,19.98472-13.61824"/>
+  <polyline class="cls-2" points="76 33.37241 79.63071 33.37241 79.63071 61.64149 73 61.64149"/>
+  <line class="cls-2" x1="53" y1="33.37241" x2="70" y2="33.37241"/>
+  <polyline class="cls-2" points="43.37345 47 43.37445 33.37141 47 33.37141"/>
+  <rect class="cls-3" x="66.25" y="45" width="2.5" height="2"/>
+  <rect class="cls-3" x="60.25" y="45" width="2.5" height="2"/>
+  <rect class="cls-3" x="54.25" y="45" width="2.5" height="2"/>
+  <rect class="cls-3" x="60.25" y="40" width="2.5" height="2"/>
+  <rect class="cls-3" x="54.25" y="40" width="2.5" height="2"/>
+  <rect class="cls-3" x="48.25" y="45" width="2.5" height="2"/>
+  <rect class="cls-3" x="72.25" y="45" width="2.5" height="2"/>
+  <rect class="cls-3" x="72.25" y="50" width="2.5" height="2"/>
+  <rect class="cls-3" x="66.25" y="40" width="2.5" height="2"/>
+  <rect class="cls-3" x="72.25" y="40" width="2.5" height="2"/>
+  <line class="cls-2" x1="50.16297" y1="29.98233" x2="50.16297" y2="37"/>
+  <line class="cls-2" x1="72.78997" y1="30.29512" x2="72.78997" y2="36.92901"/>
+</svg>

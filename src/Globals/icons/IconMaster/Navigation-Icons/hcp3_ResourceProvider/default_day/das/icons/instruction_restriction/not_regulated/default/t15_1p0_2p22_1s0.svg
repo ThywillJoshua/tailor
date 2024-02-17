@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Flaeche-3);
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        opacity: .35;
+      }
+
+      .cls-3 {
+        fill: url(#Flaeche-2);
+      }
+
+      .cls-4 {
+        fill: url(#Flaeche);
+      }
+    </style>
+    <linearGradient id="Flaeche" x1="2.80483" y1="22.00001" x2="15.20485" y2="22.00001" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#666"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Flaeche-2" data-name="Flaeche" x1="18.30487" y1="21.99997" x2="30.70483" y2="21.99997" xlink:href="#Flaeche"/>
+    <linearGradient id="Flaeche-3" data-name="Flaeche" x1="20.5826" y1="24.925" x2="42.00484" y2="24.925" xlink:href="#Flaeche"/>
+  </defs>
+  <rect id="Hintergrund" class="cls-2" x="2.25484" y="2" width="40" height="40" rx="5" ry="5"/>
+  <path class="cls-4" d="M13.70485,10.65v22.70001H4.77541L11.04665,10.65h2.6582m1.5-1.5h-5.29999L2.80483,34.85001H15.20485V9.15h0Z"/>
+  <polygon class="cls-3" points="23.60486 9.04999 18.30487 9.04999 18.30487 34.94995 30.70483 34.94995 27.34766 22.70337 26.11163 23.8681 28.73828 33.44995 19.80487 33.44995 19.80487 10.54999 22.46069 10.54999 23.13232 13 24.68768 13 23.60486 9.04999"/>
+  <path class="cls-1" d="M20.5826,15l3.97713,7.58219,2.80207-2.64099c2.67482,1.2388,4.65182,3.50588,5.42335,6.2191,1.53662,4.60043,1.17508,8.43412,.9943,8.6897h8.2254c-.35603-3.58524-1.56065-7.04959-3.52518-10.13798-2.23794-2.98821-5.21681-5.41564-8.67737-7.07103l2.80207-2.64099h-12.02177Z"/>
+</svg>

@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook-static": "aws s3 rm s3://tailor-frontend-bucket/ --recursive --exclude 'ahcp3-cargraphics/*' && aws s3 sync ./storybook-static s3://tailor-frontend-bucket/ --exclude 'ahcp3-cargraphics/*'",
-    "deploy-ahcp3-cargraphics": "aws s3 sync ../ahcp3-cargraphics s3://tailor-frontend-bucket/ahcp3-cargraphics",
+    "deploy-storybook-static": "aws s3 rm s3://tailor-frontend-bucket/ahcp3-design --recursive --exclude 'ahcp3-cargraphics/*' && aws s3 sync ./storybook-static s3://tailor-frontend-bucket/ahcp3-design && aws s3 sync ./src/Globals/assets s3://tailor-frontend-bucket/ahcp3-design/src/Globals/assets",
+    "deploy-ahcp3-cargraphics": "aws s3 rm s3://tailor-frontend-bucket/ahcp3-cargraphics/ --recursive && aws s3 sync ../ahcp3-cargraphics s3://tailor-frontend-bucket/ahcp3-cargraphics",
     "prepare": "husky"
   },
   "dependencies": {

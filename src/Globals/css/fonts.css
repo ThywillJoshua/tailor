@@ -1,0 +1,231 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+@font-face {
+  font-family: 'Audi Type Display High Light';
+  src: url('../fonts/AudiTypeDisplayHigh-Light.ttf');
+}
+@font-face {
+  font-family: 'Audi Type Display High';
+  src: url('../fonts/AudiTypeDisplayHigh-Normal.ttf');
+}
+@font-face {
+  font-family: 'Audi Type Display High Arabic Light';
+  src: url('../fonts/AudiTypeDisplayHighArabic-Light.otf');
+}
+@font-face {
+  font-family: 'Audi Type Arabic Normal';
+  src: url('../fonts/AudiTypeArabic-Normal.otf');
+}
+@font-face {
+  font-family: 'Audi Type Extended Bold';
+  src: url('../fonts/AudiType-ExtendedBold.ttf');
+}
+@font-face {
+  font-family: 'Audi Type Extended Normal';
+  src: url('../fonts/AudiType-ExtendedNormal.ttf');
+}
+
+:root {
+  --fontLight: 'Audi Type Display High Light';
+  --fontNormal: 'Audi Type Display High';
+  --fontBold: 'Audi Type Display High Bold';
+  --fontArabicLight: 'Audi Type Display High Arabic Light';
+  --fontArabicNormal: 'Audi Type Arabic Normal';
+  --fontExtendedBold: 'Audi Type Extended Bold';
+  --fontExtendedNormal: 'Audi Type Extended Normal';
+
+  --fontSizePrioBIG: 90px;
+  --lineHeightPrioBIG: 69px;
+
+  --fontSizePrioA: 57px;
+  --lineHeightPrioA: 71px;
+  --characterHeightPrioA: 41px;
+
+  --fontSizePrio1: 39px;
+  --lineHeightPrio1: 47px;
+  --characterHeightPrio1: 29px;
+
+  --fontSizePrio2: 30px;
+  --lineHeightPrio2: 36px;
+  --characterHeightPrio2: 22px;
+
+  --fontSizePrio3: 20px;
+  --lineHeightPrio3: 24px;
+  --characterHeightPrio3: 15px;
+
+  --fontSizePrio4: 16px;
+  --lineHeightPrio4: 24px;
+  --characterHeightPrio4: 12px;
+
+  --fontSizeARHUD: 27px;
+
+  /* FID new text sizes */
+  --fidFontSizePrio1: 36px;
+  --fidLineHeightPrio1: 44px;
+  --fidCharacterHeightPrio1: 26px;
+
+  --fidFontSizePrio2: 28px;
+  --fidLineHeightPrio2: 34px;
+  --fidCharacterHeightPrio2: 20px;
+
+  --fidFontSizePrio3: 23px;
+  --fidLineHeightPrio3: 27px;
+  --fidCharacterHeightPrio3: 18px;
+
+  --fidFontSizePrio5: 20px;
+  --fidLineHeightPrio5: 24px;
+  --fidCharacterHeightPrio5: 15px;
+}
+
+p {
+  cursor: default;
+  user-select: none;
+  margin: 0px;
+}
+
+.textPrioA {
+  font-size: var(--fontSizePrioA);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrioA);
+}
+
+.textPrio1 {
+  font-size: var(--fontSizePrio1);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio1);
+}
+
+.textPrio1.headline {
+  margin-bottom: var(--hA1);
+  margin-top: var(--hA2);
+}
+
+.textPrio2 {
+  font-size: var(--fontSizePrio2);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio2);
+}
+.textPrio2.grey {
+  color: rgb(var(--fpkGrey));
+}
+
+.textPrio1 + .textPrio1 {
+  margin-top: var(--zA1);
+}
+
+.textPrio1 + .textPrio2 {
+  margin-top: var(--zA1);
+}
+
+.textPrio2 + .textPrio2 {
+  margin-top: var(--zA2);
+}
+
+.textPrio2.left + .textPrio2.right {
+  margin-top: 0px;
+}
+
+.textPrio3 {
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio3);
+}
+
+.textPrio4 {
+  font-size: var(--fontSizePrio4);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio4);
+}
+
+.textPrio5 {
+  font-size: var(--fidFontSizePrio5);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: var(--fidLineHeightPrio5);
+}
+
+.textClimateLarge {
+  font-size: 60px;
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  line-height: 46px;
+}
+
+.textBadge {
+  font-size: var(--fontSizePrio4);
+  font-family: var(--fontNormal);
+  color: rgb(var(--audiWhite));
+  line-height: var(--lineHeightPrio4);
+  border: 1px solid rgb(var(--audiWhite));
+  height: 24px;
+  text-transform: uppercase;
+  padding: 0 6px;
+}
+
+/****** Text for synonyms ***************/
+.synonymText {
+  color: rgb(var(--borderGrey));
+}
+
+/****** Text for FPK***************/
+
+.textUnits {
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgb(var(--fpkGrey));
+  line-height: var(--lineHeightPrio3);
+}
+
+.textStatus {
+  font-size: 25px;
+  font-family: var(--fontLight);
+  color: rgb(var(--fpkGrey));
+}
+
+/****** Text for Settings***************/
+.textSettingLabel {
+  font-size: var(--fontSizePrio3);
+  font-family: var(--fontLight);
+  color: rgb(var(--audiWhite));
+  margin-left: 50px;
+}
+
+.disabled,
+.cssDocu.disabled,
+.disabled .cssDocu {
+  color: rgb(var(--fpkGrey));
+}
+
+.cssDocu {
+  color: greenyellow;
+}
+
+.scrollableText {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: var(--listStartEndFadeout);
+}
+
+.scrollableText p {
+  margin-left: var(--zA4);
+  margin-right: var(--zA4);
+  width: calc(100% - 2 * var(--zA4));
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.scrollableText p:first-child {
+  margin-top: var(--zA4);
+}
+
+.scrollableText p:last-child {
+  margin-bottom: var(--zA4);
+}

@@ -1,0 +1,205 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  --popupBlur: blur(20px);
+  --AIBorderRadius: 12px;
+  --statusInfoBoxMargin: 20px;
+  --statusInfoBoxMarginPrioA: calc(
+    var(--statusInfoBoxMargin) -
+      ((var(--lineHeightPrioA) - var(--characterHeightPrioA)) / 2)
+  );
+  --statusInfoBoxMarginPrio1: calc(
+    var(--statusInfoBoxMargin) -
+      ((var(--lineHeightPrio1) - var(--characterHeightPrio1)) / 2)
+  );
+  --statusInfoBoxMarginPrio2: calc(
+    var(--statusInfoBoxMargin) -
+      ((var(--lineHeightPrio2) - var(--characterHeightPrio2)) / 2)
+  );
+  --statusInfoBoxMarginPrio3: calc(
+    var(--statusInfoBoxMargin) -
+      ((var(--lineHeightPrio3) - var(--characterHeightPrio3) + 1px) / 2)
+  );
+  --secondaryTextOpacity: 0.7;
+}
+
+input[type='checkbox'],
+input[type='radio'],
+input[type='number'] {
+  transform: scale(1.5);
+  margin: 5px 20px;
+}
+
+.stickyHeaderStyling {
+  border-top: 1px solid rgba(var(--audiWhite), 0.4);
+  border-bottom: 1px solid rgba(var(--audiWhite), 0.4);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--interactionBackground), 0.15) 0%,
+    rgba(var(--interactionBackground), 0.15) 100%
+  );
+  box-shadow: 0 3px 0 rgba(var(--audiBlack, 0.4));
+  border-radius: var(--standardBorderRadius);
+}
+
+.stickyHeaderStyling.sticky {
+  border-top: 0;
+}
+.settingsStyling {
+  border-left: 1px solid rgba(var(--audiWhite), 0.3);
+  outline: 5px solid rgba(var(--audiBlack), 0.6);
+  background-color: rgb(var(--audiBlack));
+}
+.popupStyling .settingsTitleLine:before,
+.settingsStyling .settingsTitleLine:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: calc(100% - var(--opticalTouchReduction));
+  left: calc(var(--opticalTouchReduction) / 2);
+  bottom: calc(var(--opticalTouchReduction) / 2 + 2px);
+  background-color: rgba(var(--audiWhite), 0.6);
+}
+
+.popupStyling,
+.popupStylingFID {
+  z-index: 1;
+  display: flex;
+  background-color: rgba(var(--audiBlack), 1);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--interactionBackground), 0.1),
+    rgba(var(--interactionBackground), 0)
+  );
+  border: 1px solid rgba(var(--interactionBackground), 0.35);
+  outline: var(--popupOutlineWidth) solid rgba(var(--audiBlack), 0.9);
+  border-radius: var(--standardBorderRadius);
+  box-shadow: 0px 0px 30px 7px rgba(var(--audiBlack));
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.popupStyling .popupHeadlineStyle {
+  margin-bottom: 5px;
+}
+
+.popupStyling .popupHeadlineStyle:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0px;
+  bottom: calc(var(--opticalTouchReduction) / 2 + 2px);
+  background-color: rgba(var(--audiWhite), 0.6);
+}
+
+.statusInfoBoxStyling {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid rgba(var(--ambientcolor1), 1);
+  background-color: rgb(var(--audiBlack));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: calc(100% - var(--popupInsetWidth) * 2)
+    calc(100% - var(--popupInsetWidth) * 2);
+  text-align: center;
+  z-index: 1;
+}
+
+.popupValueStyling {
+  position: absolute;
+  border: 1px solid rgb(var(--borderGreyDark));
+  background-color: rgb(var(--audiBlack));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: calc(100% - var(--popupInsetWidth) * 2)
+    calc(100% - var(--popupInsetWidth) * 2);
+  text-align: center;
+  z-index: 1;
+}
+
+.statusInfoBoxStyling .textPrioA {
+  margin: var(--statusInfoBoxMarginPrioA) var(--statusInfoBoxMargin);
+}
+
+.statusInfoBoxStyling .textPrio1 {
+  margin: var(--statusInfoBoxMarginPrio1) var(--statusInfoBoxMargin);
+}
+
+.statusInfoBoxStyling .textPrio2 {
+  margin: var(--statusInfoBoxMarginPrio2) var(--statusInfoBoxMargin);
+}
+
+.statusInfoBoxStyling .textPrio3 {
+  margin: var(--statusInfoBoxMarginPrio3) var(--statusInfoBoxMargin);
+}
+
+.screenreaderHighlight {
+  border: 3px solid rgb(var(--audiWhite));
+}
+
+p.hyperlink {
+  text-decoration: underline;
+  color: rgb(var(--hyperlinkColor));
+}
+
+.interactionBackground {
+  position: absolute;
+  background-color: var(--buttonBackgroundColor);
+  top: calc(var(--opticalTouchReduction) / 2);
+  left: calc(var(--opticalTouchReduction) / 2);
+  width: calc(100% - var(--opticalTouchReduction));
+  height: calc(100% - var(--opticalTouchReduction));
+  border-radius: var(--standardBorderRadius);
+}
+
+.IFA_Abdecker.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(var(--audiBlack), 0.7);
+}
+.IFA_Abdecker.background.right {
+  -webkit-mask-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9000_Abdecker_IFA_rechts/01_HTML/img/UE_9000_Abdecker_IFA_rechts_background.png);
+  background-image: radial-gradient(
+    170% 80% at -75% 115%,
+    /* rgba(var(--ambientcolor1_background), 0.2) 0%, */
+      rgba(var(--spotBackround), 0.7) 0%,
+    rgba(var(--audiGrey), 0.05)
+  );
+}
+.IFA_Abdecker.background.left {
+  -webkit-mask-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9001_Abdecker_IFA_links/01_HTML/img/UE_9001_Abdecker_IFA_links_background.png);
+  background-image: radial-gradient(
+    170% 80% at 165% 115%,
+    /* rgba(var(--ambientcolor1_background), 0.2) 0%, */
+      rgba(var(--spotBackround), 0.7) 0%,
+    rgba(var(--audiGrey), 0.05)
+  );
+}
+
+.IFA_Abdecker.kontur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.IFA_Abdecker.kontur.right {
+  background-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9000_Abdecker_IFA_rechts/01_HTML/img/UE_9000_Abdecker_IFA_rechts_kontur.png);
+}
+.IFA_Abdecker.kontur.left {
+  background-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9001_Abdecker_IFA_links/01_HTML/img/UE_9001_Abdecker_IFA_links_kontur.png);
+}
+.IFA_Abdecker.darkenOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65;
+}
+.IFA_Abdecker.darkenOverlay.left {
+  background-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9001_Abdecker_IFA_links/01_HTML/img/UE_9001_Abdecker_IFA_links_background.png);
+}
+.IFA_Abdecker.darkenOverlay.right {
+  background-image: url(../../UE_Elemente/90_FIDAbdecker/UE_9000_Abdecker_IFA_rechts/01_HTML/img/UE_9000_Abdecker_IFA_rechts_background.png);
+}

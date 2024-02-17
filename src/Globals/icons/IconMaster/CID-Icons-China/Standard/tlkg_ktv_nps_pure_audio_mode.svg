@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tlkg_ktv_nps_pure_audio_mode </title>
+    <g id="tlkg_ktv_nps_pure_audio_mode-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M37.75,4 L37.75,27 L20,27 L20,35.5 L3,35.5 L3,21.5 L11.5,21.5 L11.5,4 L37.75,4 Z M11.5,22.5 L4,22.5 L4,34.5 L19,34.5 L19,27 L11.5,27 L11.5,22.5 Z M36.35,5.4 L12.9,5.4 L12.9,25.6 L36.35,25.6 L36.35,5.4 Z M31.1,20.9 L31.1,22.1 L17.9,22.1 L17.9,20.9 L31.1,20.9 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <polygon id="三角形" fill="#FFFFFF" opacity="0.600000024" transform="translate(12.000000, 28.750000) rotate(-270.000000) translate(-12.000000, -28.750000) " points="12 26.75 14.25 30.75 9.75 30.75"></polygon>
+    </g>
+</svg>

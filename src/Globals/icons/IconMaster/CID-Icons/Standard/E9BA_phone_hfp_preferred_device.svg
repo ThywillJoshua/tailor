@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E9BA_phone_hfp_preferred_device" data-name="E9BA phone hfp preferred device">
+    <g id="V2-10">
+      <polygon class="cls-1" points="30.496 23.759 32.877 28.582 38.199 29.355 34.348 33.109 35.257 38.41 30.496 35.907 25.736 38.41 26.645 33.109 22.794 29.355 28.116 28.582 30.496 23.759"/>
+    </g>
+  </g>
+  <line class="cls-2" x1="6.00461" y1="33.5" x2="14.99965" y2="33.5"/>
+  <line class="cls-2" x1="8.0532" y1="6.5" x2="12.98184" y2="6.5"/>
+  <path class="cls-2" d="M18.275,37.5H2.725c-.66,0-1.225-.665-1.225-1.325V3.825c0-.66,.565-1.325,1.225-1.325h15.55c.66,0,1.225,.665,1.225,1.325V36.175c0,.66-.565,1.325-1.225,1.325Z"/>
+</svg>

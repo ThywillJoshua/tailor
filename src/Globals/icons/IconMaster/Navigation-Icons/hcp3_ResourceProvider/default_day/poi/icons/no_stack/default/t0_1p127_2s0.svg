@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Background);
+      }
+
+      .cls-2 {
+        stroke: url(#Frame);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: url(#Pictogram);
+      }
+    </style>
+    <linearGradient id="Background" x1="2.7" y1="25" x2="47.26" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Frame" x1="1.95" y1="25" x2="48.01" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e55353"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Pictogram" x1="10.67095" y1="24.61737" x2="39.28905" y2="24.61737" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M44.2,2.75H5.7c-1.65685,0-3,1.34315-3,3V44.25c0,1.65685,1.34315,3,3,3H44.26c1.65685,0,3-1.34315,3-3V5.75c0-1.65685-1.34315-3-3-3h-.06Z"/>
+  <path class="cls-2" d="M44.2,2.75H5.7c-1.65685,0-3,1.34315-3,3V44.25c0,1.65685,1.34315,3,3,3H44.26c1.65685,0,3-1.34315,3-3V5.75c0-1.65685-1.34315-3-3-3h-.06Z"/>
+  <path class="cls-3" d="M24.98003,10.98062c-4.48824,0-3.73572-3.29999-9.30811-3.29999-3.27936,0-4.25098,2.3764-4.25098,4.62073,0,7.7572,1.82184,9.76965,1.336,16.63483-.48584,6.86511,1.92383,12.61792,4.47498,12.61792,4.29926,0,3.98041-16.1365,6.8504-18.71468,0,0,.2384-.25293,.86493-.25293s.93036,.25293,.93036,.25293c2.87,2.57819,2.55121,18.71468,6.8504,18.71468,2.55115,0,4.96082-5.75281,4.47498-12.61792-.48578-6.86517,1.33606-8.87762,1.33606-16.63483,0-2.24432-.97168-4.62073-4.25098-4.62073-5.57245,0-4.8198,3.29999-9.30804,3.29999Z"/>
+</svg>

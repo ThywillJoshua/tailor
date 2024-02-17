@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+    <defs>
+        <linearGradient id="Hintergrund_weiss" x1="1.99805" y1="22" x2="42.00195" y2="22" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff"/>
+        </linearGradient>
+        <linearGradient id="Rahmen_rot" x1="3.085" y1="22" x2="40.915" y2="22" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e52421"/>
+        </linearGradient>
+        <linearGradient id="Beschriftung_schwarz" x1="12.9585" y1="18.38232" x2="30.67188" y2="18.38232" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#010101"/>
+        </linearGradient>
+    </defs>
+    <g id="Speedlimit_150">
+        <circle id="Hintergrund_weiss-2" data-name="Hintergrund_weiss" cx="22" cy="22" r="19.99989" fill="url(#Hintergrund_weiss)"/>
+        <path id="Rahmen_rot-2" data-name="Rahmen_rot" d="M22,3.085A18.915,18.915,0,1,0,40.915,22,18.87732,18.87732,0,0,0,22,3.085Zm0,32.883A13.968,13.968,0,1,1,35.968,22,13.97155,13.97155,0,0,1,22,35.968Z" fill="url(#Rahmen_rot)"/>
+        <path id="Beschriftung_schwarz-2" data-name="Beschriftung_schwarz" d="M16.63184,11.97266V24.792H14.79541V13.917L12.9585,15.26758V13.32324l1.83691-1.35058Zm7.07421,0v1.72851h-3.6372v3.457a2.24143,2.24143,0,0,1,1.53027-.59472,2.02119,2.02119,0,0,1,2.10693,2.23242v3.40332a2.73705,2.73705,0,1,1-5.47363-.07227v-.52148h1.83643v.48535a.89534.89534,0,0,0,.936.97266.82762.82762,0,0,0,.86426-.918v-3.0791a.89123.89123,0,0,0-.86426-.88282.97488.97488,0,0,0-.936.70215H18.44824V11.97266Zm6.96583,10.22656a2.73706,2.73706,0,0,1-5.47364,0V14.56543a2.73706,2.73706,0,0,1,5.47364,0Zm-3.63672-.01758a.90008.90008,0,0,0,1.7998,0V14.583a.8754.8754,0,0,0-.90039-.88184.8906.8906,0,0,0-.89941.90039Z" fill="url(#Beschriftung_schwarz)"/>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E3FA_uc_offline" data-name="E3FA uc offline">
+    <g id="V2-43">
+      <path class="cls-1" d="M33.5,36.5v-12c0-2.20914-1.79086-4-4-4H10.5c-2.20914,0-4,1.79086-4,4v12h27Z"/>
+      <circle class="cls-1" cx="20" cy="10" r="6.5"/>
+    </g>
+  </g>
+</svg>

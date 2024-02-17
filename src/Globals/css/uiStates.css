@@ -1,0 +1,526 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  --touchDisabledState: 0.4; /* opacity value*/
+  --disabledState: 0.25; /* opacity value*/
+  --threeStatesGapSize: 4px;
+  --uiStateMargin: calc((var(--opticalTouchReduction) / 2));
+  --uiStateGradientOpacity: 0.12;
+  --uiStateColorGradientOpacity: 0.2;
+  --uiStateRedColorGradientOpacity: 0.25;
+  --uiStateTransitionDuration: 0.2s;
+}
+
+.button .uiState {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  height: 0%;
+  left: var(--uiStateMargin);
+  right: var(--uiStateMargin);
+  top: var(--uiStateMargin);
+  bottom: var(--uiStateMargin);
+  opacity: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.button .uiState.fullSize {
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.button .touchIcon {
+  z-index: 1;
+}
+
+.button .uiState,
+.button .uiState.borderTop,
+.button .uiState.borderBottom {
+  transition: opacity var(--uiStateTransitionDuration) var(--animationCurve),
+    width var(--uiStateTransitionDuration) var(--animationCurve);
+  height: calc(100% - 2 * var(--uiStateMargin));
+}
+
+.button .uiState.uiState.borderLeft,
+.button .uiState.uiState.borderRight {
+  height: 0;
+}
+
+.button .uiState.fullSize,
+.button .uiState.fullSize.borderTop,
+.button .uiState.fullSize.borderBottom {
+  transition: opacity var(--uiStateTransitionDuration) var(--animationCurve),
+    width var(--uiStateTransitionDuration) var(--animationCurve);
+  height: 100%;
+}
+
+.button .uiState.borderLeft,
+.button .uiState.borderRight {
+  transition: opacity var(--uiStateTransitionDuration) var(--animationCurve),
+    height var(--uiStateTransitionDuration) var(--animationCurve);
+  width: calc(100% - 2 * var(--uiStateMargin));
+}
+
+.button .uiState.fullSize.borderLeft,
+.button .uiState.fullSize.borderRight {
+  transition: opacity var(--uiStateTransitionDuration) var(--animationCurve),
+    height var(--uiStateTransitionDuration) var(--animationCurve);
+  width: 100%;
+}
+
+.button:active .uiState,
+.button:active .uiState.borderTop,
+.button.threeStates:active .uiState.borderTop,
+.button:active .uiState.borderBottom {
+  width: calc(100% - 2 * var(--uiStateMargin));
+  opacity: 1;
+}
+
+.button:active .uiState.borderLeft,
+.button:active .uiState.borderRight {
+  height: calc(100% - 2 * var(--uiStateMargin));
+  opacity: 1;
+}
+
+.button:active .uiState.fullSize,
+.button.threeStates:active .uiState.fullSize {
+  width: 100%;
+}
+
+.button:active .uiState.borderLeft.fullSize,
+.button:active .uiState.borderRight.fullSize {
+  height: 100%;
+}
+
+.button .uiState .gradient.fading {
+  opacity: 0;
+}
+.button:active .uiState .gradient.fading {
+  opacity: 0.8;
+}
+
+.button.threeStates .uiState {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    black 0px,
+    black calc((100% - var(--threeStatesGapSize) * 2) / 3),
+    transparent calc((100% - var(--threeStatesGapSize) * 2) / 3),
+    transparent
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 + var(--threeStatesGapSize)
+      ),
+    black
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 + var(--threeStatesGapSize)
+      ),
+    black
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 * 2 +
+          var(--threeStatesGapSize)
+      ),
+    transparent
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 * 2 +
+          var(--threeStatesGapSize)
+      ),
+    transparent
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 * 2 +
+          var(--threeStatesGapSize) * 2
+      ),
+    black
+      calc(
+        (100% - var(--threeStatesGapSize) * 2) / 3 * 2 +
+          var(--threeStatesGapSize) * 2
+      )
+  );
+}
+.button.threeStates .uiState.statesHidden {
+  -webkit-mask-image: none;
+}
+
+.button .uiState .gradient {
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: opacity var(--uiStateTransitionDuration) var(--animationCurve);
+}
+
+.button .uiState .state.primary .button .uiState.borderTop .state.primary,
+.button .uiState.borderBottom .state.primary {
+  height: calc(100% - 4px);
+}
+
+.button.ProgressState .uiState {
+  margin-left: var(--uiStateMargin);
+  margin-top: var(--uiStateMargin);
+}
+
+.button.ProgressState.activated .uiState {
+  margin-left: var(--uiStateMargin);
+  margin-top: var(--uiStateMargin);
+}
+
+.button.ProgressState .uiState.fullSize {
+  margin-left: unset;
+  margin-top: unset;
+}
+
+.button.toggle.activated .uiState,
+.button.ProgressState.activated .uiState,
+.button.ProgressState.activated .uiState.borderTop,
+.button.ProgressState.activated .uiState.borderBottom,
+.button.toggle.activated .uiState.borderTop,
+.button.toggle.activated .uiState.borderBottom,
+.button.ProgressState.activated .uiState.borderLeft,
+.button.ProgressState.activated .uiState.borderRight,
+.button.toggle.activated .uiState.borderLeft,
+.button.toggle.activated .uiState.borderRight {
+  width: calc(100% - 2 * var(--uiStateMargin));
+  height: calc(100% - 2 * var(--uiStateMargin));
+  opacity: 1;
+}
+
+.button.toggle.activated .uiState.fullSize,
+.button.ProgressState.activated .uiState.fullSize,
+.button.ProgressState.activated .uiState.fullSize.borderTop,
+.button.ProgressState.activated .uiState.fullSize.borderBottom,
+.button.toggle.activated .uiState.fullSize.borderTop,
+.button.toggle.activated .uiState.fullSize.borderBottom {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.button.toggle.activated .uiState.fullSize,
+.button.ProgressState.activated .uiState.fullSize,
+.button.ProgressState.activated .uiState.fullSize.borderTop,
+.button.ProgressState.activated .uiState.fullSize.borderBottom,
+.button.toggle.activated .uiState.fullSize.borderTop,
+.button.toggle.activated .uiState.fullSize.borderBottom {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+/*--------------------- gradient fading -------------------*/
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.primary.white
+  .gradient.fading,
+.button.threeStates .uiState.borderTop .state.primary.white .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(var(--audiWhite), 0.5) 0%,
+    rgba(var(--audiWhite), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.primary.orange
+  .gradient.fading,
+.button.threeStates .uiState.borderTop .state.primary.orange .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(var(--climateOrange), 0.5) 0%,
+    rgba(var(--climateOrange), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.primary.red
+  .gradient.fading,
+.button.threeStates .uiState.borderTop .state.primary.red .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(var(--audiRed), 0.5) 0%,
+    rgba(var(--audiRed), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.primary.blue
+  .gradient.fading,
+.button.threeStates .uiState.borderTop .state.primary.blue .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(var(--climateBlue), 0.5) 0%,
+    rgba(var(--climateBlue), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.primary.audiAI
+  .gradient.fading,
+.button.threeStates .uiState.borderTop .state.primary.audiAI .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(var(--audiAI), 0.5) 0%,
+    rgba(var(--audiAI), 0) 100%
+  );
+}
+
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.secondary.white
+  .gradient.fading,
+.button.threeStates
+  .uiState.borderBottom
+  .state.secondary.white
+  .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(var(--audiWhite), 0.5) 0%,
+    rgba(var(--audiWhite), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.secondary.orange
+  .gradient.fading,
+.button.threeStates
+  .uiState.borderTop
+  .state.secondary.orange
+  .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(var(--climateOrange), 0.5) 0%,
+    rgba(var(--climateOrange), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.secondary.red
+  .gradient.fading,
+.button.threeStates
+  .uiState.borderBottom
+  .state.secondary.red
+  .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(var(--audiRed), 0.5) 0%,
+    rgba(var(--audiRed), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.secondary.blue
+  .gradient.fading,
+.button.threeStates
+  .uiState.borderBottom
+  .state.secondary.blue
+  .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(var(--climateBlue), 0.5) 0%,
+    rgba(var(--climateBlue), 0) 100%
+  );
+}
+.button.threeStates
+  .uiState.borderTopBottom
+  .state.secondary.audiAI
+  .gradient.fading,
+.button.threeStates
+  .uiState.borderBottom
+  .state.secondary.audiAI
+  .gradient.fading {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(var(--audiAI), 0.5) 0%,
+    rgba(var(--audiAI), 0) 100%
+  );
+}
+
+/*-------------------------------------------------- border ---------------------------------------------*/
+/*----- top -----*/
+.button .uiState.borderTop .state.white,
+.button .uiState.borderTopBottom .state.primary.white {
+  border-bottom: unset;
+  border-top: 4px solid white;
+}
+.button .uiState.borderTop .state.orange,
+.button .uiState.borderTopBottom .state.primary.orange {
+  border-bottom: unset;
+  border-top: 4px solid rgb(var(--climateOrange));
+}
+.button .uiState.borderTop .state.red,
+.button .uiState.borderTopBottom .state.primary.red {
+  border-bottom: unset;
+  border-top: 4px solid rgb(var(--audiRed));
+}
+.button .uiState.borderTop .state.blue,
+.button .uiState.borderTopBottom .state.primary.blue {
+  border-bottom: unset;
+  border-top: 4px solid rgb(var(--climateBlue));
+}
+.button .uiState.borderTop .state.audiAI,
+.button .uiState.borderTopBottom .state.primary.audiAI {
+  border-bottom: unset;
+  border-top: 4px solid rgb(var(--audiAI));
+}
+
+/*----- bottom -----*/
+.button .uiState .state.white,
+.button .uiState.borderBottom .state.white,
+.button .uiState.borderTopBottom .state.secondary.white {
+  border-bottom: 4px solid white;
+}
+.button .uiState .state.orange,
+.button .uiState.borderBottom .state.orange,
+.button .uiState.borderTopBottom .state.secondary.orange {
+  border-bottom: 4px solid rgb(var(--climateOrange));
+}
+.button .uiState .state.red,
+.button .uiState.borderBottom .state.red,
+.button .uiState.borderTopBottom .state.secondary.red {
+  border-bottom: 4px solid rgb(var(--audiRed));
+}
+.button .uiState .state.blue,
+.button .uiState.borderBottom .state.blue,
+.button .uiState.borderTopBottom .state.secondary.blue {
+  border-bottom: 4px solid rgb(var(--climateBlue));
+}
+.button .uiState .state.audiAI,
+.button .uiState.borderBottom .state.audiAI,
+.button .uiState.borderTopBottom .state.secondary.audiAI {
+  border-bottom: 4px solid rgb(var(--audiAI));
+}
+
+/*----- left -----*/
+.button .uiState.borderLeft .state.white {
+  border-bottom: unset;
+  border-left: 4px solid white;
+}
+.button .uiState.borderLeft .state.orange {
+  border-bottom: unset;
+  border-left: 4px solid rgb(var(--climateOrange));
+}
+.button .uiState.borderLeft .state.red {
+  border-bottom: unset;
+  border-left: 4px solid rgb(var(--audiRed));
+}
+.button .uiState.borderLeft .state.blue {
+  border-bottom: unset;
+  border-left: 4px solid rgb(var(--climateBlue));
+}
+.button .uiState.borderLeft .state.audiAI {
+  border-bottom: unset;
+  border-left: 4px solid rgb(var(--audiAI));
+}
+
+/*----- right -----*/
+.button .uiState.borderRight .state.white {
+  border-bottom: unset;
+  border-right: 4px solid white;
+}
+.button .uiState.borderRight .state.orange {
+  border-bottom: unset;
+  border-right: 4px solid rgb(var(--climateOrange));
+}
+.button .uiState.borderRight .state.red {
+  border-bottom: unset;
+  border-right: 4px solid rgb(var(--audiRed));
+}
+.button .uiState.borderRight .state.blue {
+  border-bottom: unset;
+  border-right: 4px solid rgb(var(--climateBlue));
+}
+.button .uiState.borderRight .state.audiAI {
+  border-bottom: unset;
+  border-right: 4px solid rgb(var(--audiAI));
+}
+
+.button .uiState .state {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  transition: width var(--uiStateTransitionDuration) var(--animationCurve);
+}
+
+.button .uiState .state.secondary {
+  display: none;
+}
+
+.button.threeStates .uiState.borderTopBottom .state.secondary {
+  display: block;
+}
+
+.button.threeStates .uiState .state.stepZero {
+  width: 0;
+}
+
+.button.threeStates .uiState .state.stepOne {
+  width: calc((100% - var(--threeStatesGapSize) * 2) / 3);
+}
+.button.threeStates .uiState .state.stepTwo {
+  width: calc(
+    (100% - var(--threeStatesGapSize) * 2) / 3 * 2 + var(--threeStatesGapSize)
+  );
+}
+.button.threeStates .uiState .state.stepThree {
+  width: 100%;
+}
+
+.button.threeStates .uiState {
+  width: calc(100% - 2 * var(--uiStateMargin));
+  height: calc(100% - 2 * var(--uiStateMargin));
+  opacity: 1;
+}
+
+.button.threeStates .uiState.fullSize {
+  width: 100%;
+  height: 100%;
+}
+
+.button .uiState.borderLeft .state.primary,
+.button .uiState.borderRight .state.primary {
+  width: calc(100% - 4px);
+}
+
+.button.doubleBorder .uiState .state.secondary {
+  display: block;
+}
+
+.button .uiState.hidden {
+  display: none;
+}
+
+.button.threeStates .uiState.hidden {
+  display: block;
+  width: 0;
+  opacity: 0;
+  height: 0;
+}
+
+.button.threeStates .uiState.statesHidden {
+  width: 0;
+  opacity: 0;
+}
+
+.button.ProgressState .uiState {
+  margin-left: var(--uiStateMargin);
+  margin-top: var(--uiStateMargin);
+}
+
+.button.ProgressState:active .uiState,
+.button.ProgressState:active .uiState.borderTop,
+.button.ProgressState:active .uiState.borderBottom {
+  width: 0;
+}
+
+.button.ProgressState:active .uiState.borderLeft,
+.button.ProgressState:active .uiState.borderRight {
+  height: 0;
+}

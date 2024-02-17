@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_my_folder_subscribed</title>
+    <defs>
+        <linearGradient x1="10.4938272%" y1="0%" x2="65.3284486%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#BECBD4" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#8B9DAA" stop-opacity="0.00145406609" offset="100%"></stop>
+            <stop stop-color="#899CA9" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_media_my_folder_subscribed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_IconFolder/ICN/Special/myfolder/45Format" transform="translate(-0.000000, 0.000000)">
+            <rect id="矩形" fill-opacity="0.1" fill="#899CA9" x="2.7000624e-13" y="0" width="200" height="200"></rect>
+            <polygon id="路径-2" fill="url(#linearGradient-1)" opacity="0.5" points="2.56539829 0 49.2770745 0 177.777778 200 -5.04870979e-29 200 -5.04870979e-29 0"></polygon>
+            <g id="编组" transform="translate(65.000000, 65.000000)">
+                <rect id="矩形" x="0" y="0" width="70" height="70"></rect>
+                <g id="ico/订阅_nor备份-2" transform="translate(12.250000, 3.500000)" stroke="#FFFFFF" stroke-width="1.2">
+                    <polyline id="路径-9" points="12.7604167 24.0882353 20.3125 31.5 34.6354167 12.9705882"></polyline>
+                    <polygon id="矩形" points="0 2.23820962e-13 43.75 2.23820962e-13 43.75 63 21.875 48.3 0 63"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

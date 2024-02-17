@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Icons_in_schwarz" data-name="Icons in schwarz">
+    <g id="E07A_media_bluetooth" data-name="E07A media bluetooth">
+      <path class="cls-1" d="M21.954,47.16889l27.95629-22.46-14.81668-12.195V59.31389l15.11584-12.4482L21.954,24.81588"/>
+    </g>
+  </g>
+</svg>

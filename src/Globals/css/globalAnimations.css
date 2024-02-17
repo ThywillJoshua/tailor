@@ -1,0 +1,368 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  --animationDuration: 0.4s;
+  --animationFadeDuration: 0.2s;
+  --animationPulsateDuration: 3s;
+  --animationScrollDuration: 0.2s;
+  --animationScrollBounceDuration: 0.3s;
+  --animationFlashDuration: 2s;
+  --AG_0503_Loader_Waiting_Circle_Scale: 2.2;
+  --AG_0502_Loader_Waiting_Indicator_Duration: 2.3s;
+  --AG_0503_Loader_Waiting_Circle_Rotate_Duration: 1.6s;
+  --AG_0503_Loader_Waiting_Circle_Lines_Duration: 13.5s;
+
+  --animationCurve: cubic-bezier(0.25, 0, 0.53, 1); /* ease-in-out */
+  --animationCurveFade: cubic-bezier(0.25, 0, 0.75, 1); /* ease-in-out light */
+  --animationCurvePulsate: cubic-bezier(0.33, 0, 0.67, 1);
+
+  /* 01 Move */
+  --AG_0101_Move: margin var(--animationDuration) var(--animationCurve),
+    top var(--animationDuration) var(--animationCurve),
+    left var(--animationDuration) var(--animationCurve),
+    right var(--animationDuration) var(--animationCurve),
+    bottom var(--animationDuration) var(--animationCurve);
+
+  /* 02 Fade */
+  --AG_0201_FadeIn: opacity var(--animationFadeDuration)
+    var(--animationCurveFade);
+  --AG_0202_FadeOut: opacity var(--animationFadeDuration)
+    var(--animationCurveFade);
+  --AG_0203_CrossFade: opacity var(--animationDuration) var(--animationCurve);
+  --AG_0204_Pulsate: pulsate var(--animationPulsateDuration)
+    var(--animationCurvePulsate) infinite;
+  --AG_0205_Flash: flash var(--animationFlashDuration) infinite;
+
+  /* 03 Scale */
+  --AG_0301_ScaleUp: transform var(--animationDuration) var(--animationCurve);
+  --AG_0302_ScaleDown: transform var(--animationDuration) var(--animationCurve);
+  --AG_0303_ScaleResize: height var(--animationDuration) var(--animationCurve),
+    width var(--animationDuration) var(--animationCurve),
+    margin var(--animationDuration) var(--animationCurve);
+
+  /* 04_Scroll */
+  --AG_0401_Scroll_List_Vertical: top var(--animationScrollDuration)
+    var(--animationCurve);
+  --AG_0401_Scroll_List_Vertical_BounceUp: ScrollBounceUp
+    var(--animationScrollBounceDuration) var(--animationCurve);
+  --AG_0401_Scroll_List_Vertical_BounceDown: ScrollBounceDown
+    var(--animationScrollBounceDuration) var(--animationCurve);
+
+  /* 05 Loader */
+  /* AG_0502_Loader_Waiting_Indicator */
+  --AG_0502_Loader_Waiting_Indicator_Primary: AG_0502_Loader_Waiting_Indicator_ProgressIndicatorPrimary
+    var(--AG_0502_Loader_Waiting_Indicator_Duration) linear infinite;
+  --AG_0502_Loader_Waiting_Indicator_Secondary: AG_0502_Loader_Waiting_Indicator_ProgressIndicatorSecondary
+    var(--AG_0502_Loader_Waiting_Indicator_Duration) linear infinite;
+  /* AG_0503_Loader_Waiting_Circle */
+  --AG_0503_Loader_Waiting_Circle_Rotate: AG_0503_Loader_Waiting_Circle_Rotate
+    var(--AG_0503_Loader_Waiting_Circle_Rotate_Duration) linear infinite;
+  --AG_0503_Loader_Waiting_Circle_Rotate_Scale: AG_0503_Loader_Waiting_Circle_Rotate_Scale
+    var(--AG_0503_Loader_Waiting_Circle_Rotate_Duration) linear infinite;
+  --AG_0503_Loader_Waiting_Circle_Lines: AG_0503_Loader_Waiting_Circle_Lines
+    var(--AG_0503_Loader_Waiting_Circle_Lines_Duration) var(--animationCurve)
+    infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ScrollBounceUp {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: calc(10px - (var(--FPKListItemHeight) + 1px) / 2);
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+@keyframes ScrollBounceDown {
+  0% {
+    top: calc(100% - var(--FPKListItemHeight));
+  }
+  50% {
+    top: calc(100% - var(--FPKListItemHeight) / 2);
+  }
+  100% {
+    top: calc(100% - var(--FPKListItemHeight));
+  }
+}
+
+@keyframes flash {
+  25% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+/*---------- UE_0701_00_Line ----------*/
+@keyframes AG_0502_Loader_Waiting_Indicator_ProgressIndicatorPrimary {
+  0% {
+    left: 0%;
+    width: 0%;
+  }
+  14% {
+    left: 0%;
+    width: 60%;
+  }
+  32% {
+    width: 75%;
+  }
+  39% {
+    left: 42%;
+    width: 75%;
+  }
+  56% {
+    left: 100%;
+    width: 0%;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+@keyframes AG_0502_Loader_Waiting_Indicator_ProgressIndicatorSecondary {
+  0% {
+    left: calc(var(--progressIndicatorGapWidth) * -1);
+    width: 0%;
+  }
+  50% {
+    left: calc(var(--progressIndicatorGapWidth) * -1);
+    width: 0%;
+  }
+  65% {
+    left: calc(var(--progressIndicatorGapWidth) * -1);
+    width: 75%;
+  }
+  80% {
+    left: 100%;
+    width: 10%;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    left: 100%;
+    width: 10%;
+  }
+}
+
+/*---------- UE_0701_01_Circle ----------*/
+@keyframes AG_0503_Loader_Waiting_Circle_Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes AG_0503_Loader_Waiting_Circle_Rotate_Scale {
+  0% {
+    transform: rotate(0deg) scale(var(--AG_0503_Loader_Waiting_Circle_Scale));
+  }
+  100% {
+    transform: rotate(360deg) scale(var(--AG_0503_Loader_Waiting_Circle_Scale));
+  }
+}
+@keyframes AG_0503_Loader_Waiting_Circle_Lines {
+  0% {
+    stroke-dashoffset: 119.6;
+    transform: rotate(0deg);
+  }
+  4% {
+    stroke-dashoffset: 32;
+    transform: rotate(0deg);
+    animation-timing-function: steps(1, end);
+  }
+  5% {
+    stroke-dashoffset: -32;
+    transform: rotate(-90deg);
+  }
+  9% {
+    stroke-dashoffset: -119.6;
+    transform: rotate(-90deg);
+    animation-timing-function: steps(1, end);
+  }
+  10% {
+    stroke-dashoffset: -132.4;
+    transform: rotate(-108deg);
+  }
+  14% {
+    stroke-dashoffset: -222;
+    transform: rotate(-108deg);
+    animation-timing-function: steps(1, end);
+  }
+  15% {
+    stroke-dashoffset: -284;
+    transform: rotate(-198deg);
+  }
+  19% {
+    stroke-dashoffset: -371.6;
+    transform: rotate(-198deg);
+    animation-timing-function: steps(1, end);
+  }
+  20% {
+    stroke-dashoffset: -384.4;
+    transform: rotate(-216deg);
+  }
+  24% {
+    stroke-dashoffset: -472;
+    transform: rotate(-216deg);
+    animation-timing-function: steps(1, end);
+  }
+  25% {
+    stroke-dashoffset: -536;
+    transform: rotate(-306deg);
+  }
+  29% {
+    stroke-dashoffset: -623.6;
+    transform: rotate(-306deg);
+    animation-timing-function: steps(1, end);
+  }
+  30% {
+    stroke-dashoffset: -636.4;
+    transform: rotate(-324deg);
+  }
+  34% {
+    stroke-dashoffset: -726;
+    transform: rotate(-324deg);
+    animation-timing-function: steps(1, end);
+  }
+  35% {
+    stroke-dashoffset: -788;
+    transform: rotate(-414deg);
+  }
+  39% {
+    stroke-dashoffset: -875.6;
+    transform: rotate(-414deg);
+    animation-timing-function: steps(1, end);
+  }
+  40% {
+    stroke-dashoffset: -888.4;
+    transform: rotate(-432deg);
+  }
+  44% {
+    stroke-dashoffset: -978;
+    transform: rotate(-432deg);
+    animation-timing-function: steps(1, end);
+  }
+  45% {
+    stroke-dashoffset: -1040;
+    transform: rotate(-522deg);
+  }
+  49% {
+    stroke-dashoffset: -1127.6;
+    transform: rotate(-522deg);
+    animation-timing-function: steps(1, end);
+  }
+  50% {
+    stroke-dashoffset: -1140.4;
+    transform: rotate(-540deg);
+  }
+  54% {
+    stroke-dashoffset: -1230;
+    transform: rotate(-540deg);
+    animation-timing-function: steps(1, end);
+  }
+  55% {
+    stroke-dashoffset: -1292;
+    transform: rotate(-630deg);
+  }
+  59% {
+    stroke-dashoffset: -1379.6;
+    transform: rotate(-630deg);
+    animation-timing-function: steps(1, end);
+  }
+  60% {
+    stroke-dashoffset: -1392.4;
+    transform: rotate(-648deg);
+  }
+  64% {
+    stroke-dashoffset: -1482;
+    transform: rotate(-648deg);
+    animation-timing-function: steps(1, end);
+  }
+  65% {
+    stroke-dashoffset: -1544;
+    transform: rotate(-738deg);
+  }
+  69% {
+    stroke-dashoffset: -1631.6;
+    transform: rotate(-738deg);
+    animation-timing-function: steps(1, end);
+  }
+  70% {
+    stroke-dashoffset: -1644.4;
+    transform: rotate(-756deg);
+  }
+  74% {
+    stroke-dashoffset: -1734;
+    transform: rotate(-756deg);
+    animation-timing-function: steps(1, end);
+  }
+  75% {
+    stroke-dashoffset: -1796;
+    transform: rotate(-846deg);
+  }
+  79% {
+    stroke-dashoffset: -1883.6;
+    transform: rotate(-846deg);
+    animation-timing-function: steps(1, end);
+  }
+  80% {
+    stroke-dashoffset: -1896.4;
+    transform: rotate(-864deg);
+  }
+  84% {
+    stroke-dashoffset: -1986;
+    transform: rotate(-864deg);
+    animation-timing-function: steps(1, end);
+  }
+  85% {
+    stroke-dashoffset: -2048;
+    transform: rotate(-954deg);
+  }
+  89% {
+    stroke-dashoffset: -2135.6;
+    transform: rotate(-954deg);
+    animation-timing-function: steps(1, end);
+  }
+  90% {
+    stroke-dashoffset: -2148.4;
+    transform: rotate(-972deg);
+  }
+  94% {
+    stroke-dashoffset: -2238;
+    transform: rotate(-972deg);
+    animation-timing-function: steps(1, end);
+  }
+  95% {
+    stroke-dashoffset: -2300;
+    transform: rotate(-1062deg);
+  }
+  99% {
+    stroke-dashoffset: -2387.6;
+    transform: rotate(-1062deg);
+    animation-timing-function: steps(1, end);
+  }
+  100% {
+    stroke-dashoffset: -2387.6;
+    transform: rotate(-1062deg);
+  }
+}

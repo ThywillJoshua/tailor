@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Zusatzschild_Rahmen_schwarz);
+      }
+
+      .cls-2 {
+        fill: url(#Zusatzschild_Hintergrund_weiss);
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_5);
+      }
+
+      .cls-4 {
+        fill: url(#Zusatzschild_Rahmen_schwarz-2);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_5" data-name="Unbenannter Verlauf 5" x1="7" y1="10.8435" x2="37" y2="10.8435" gradientTransform="translate(0 53.96875) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Zusatzschild_Hintergrund_weiss" x1="7.3999" y1="10.84399" x2="36.59961" y2="10.84399" gradientTransform="translate(0 53.96875) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Zusatzschild_Rahmen_schwarz" x1="6.99969" y1="43.12524" x2="36.99969" y2="43.12524" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+    <linearGradient id="Zusatzschild_Rahmen_schwarz-2" data-name="Zusatzschild_Rahmen_schwarz" x1="15.99884" y1="10.97696" x2="26.99316" y2="10.97696" gradientTransform="translate(0 53.96875) scale(1 -1)" xlink:href="#Zusatzschild_Rahmen_schwarz"/>
+  </defs>
+  <path id="Zusatzschild_Hintergrund_weiss-2" data-name="Zusatzschild Hintergrund weiss-2" class="cls-3" d="M34.49243,35.12524l-24.98508,.002c-1.38309,.0042-2.50325,1.12443-2.50735,2.50752v10.9833c.00403,1.38307,1.12428,2.50325,2.50735,2.50718l24.98548-.002c1.383-.00417,2.50308-1.12432,2.50717-2.50732v-10.98331c-.00403-1.38319-1.12438-2.50345-2.50757-2.50737Z"/>
+  <path class="cls-2" d="M9.5083,50.72436c-1.15918-.00293-2.10498-.94824-2.1084-2.10742v-10.98242c.00342-1.1582,.94922-2.10352,2.1084-2.10645l24.98389-.00293c1.1582,.00391,2.10449,.9502,2.10742,2.1084v10.98242c-.00293,1.1582-.94824,2.10352-2.10742,2.10645l-24.98389,.00195Z"/>
+  <path id="Zusatzschild_Rahmen_schwarz-2" data-name="Zusatzschild Rahmen schwarz-2" class="cls-1" d="M34.70253,36.62524c.43911,.00067,.79672,.37391,.79715,.83064v11.33522c-.00043,.45818-.35807,.83145-.7952,.83208l-25.40724,.00206c-.43915-.00043-.79693-.37353-.79756-.82964v-11.3361c.00047-.45841,.35831-.83173,.79621-.8322l25.40664-.00206m.00208-1.5l-25.40883,.00206c-1.26755,.00135-2.29477,1.04403-2.29609,2.33066v11.33764c.00177,1.28627,1.02889,2.3284,2.29609,2.32964l25.40883-.00206c1.26719-.00181,2.29386-1.04439,2.29508-2.33066v-11.33664c-.00122-1.28627-1.02789-2.32884-2.29508-2.33064h0Z"/>
+  <path class="cls-4" d="M24.99316,40.00036h-5.53l1.781-1.99859h-2.57247l-2.67285,3.00047,2.67285,2.99952h2.57245l-1.78351-2.00141h5.53253v5.98145h2v-5.98144c-.00143-1.10398-.89602-1.99857-2-2Z"/>
+</svg>

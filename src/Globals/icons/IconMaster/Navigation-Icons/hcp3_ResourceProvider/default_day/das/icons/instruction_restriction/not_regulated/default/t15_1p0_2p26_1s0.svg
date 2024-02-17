@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Kontur-2);
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        fill: url(#Flaeche-3);
+      }
+
+      .cls-2 {
+        stroke: url(#Kontur);
+      }
+
+      .cls-4 {
+        isolation: isolate;
+        opacity: .35;
+      }
+
+      .cls-5 {
+        fill: url(#Flaeche-2);
+      }
+
+      .cls-6 {
+        fill: url(#Flaeche);
+      }
+    </style>
+    <linearGradient id="Kontur" x1="11.20833" y1="20.01476" x2="40.79167" y2="20.01476" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#666"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Flaeche" x1="15.96794" y1="19.70226" x2="22.00961" y2="19.70226" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#666"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Flaeche-2" data-name="Flaeche" x1="25.69751" x2="31.73918" xlink:href="#Flaeche"/>
+    <linearGradient id="Flaeche-3" data-name="Flaeche" x1="35.42708" x2="40.40625" xlink:href="#Flaeche"/>
+    <linearGradient id="Kontur-2" data-name="Kontur" x1="4.05749" y1="26.51476" x2="11.97829" y2="26.51476" xlink:href="#Kontur"/>
+  </defs>
+  <rect id="Hintergrund" class="cls-4" x="2.00961" y="2.00097" width="40" height="40" rx="5" ry="5"/>
+  <rect class="cls-2" x="11.95833" y="18.01476" width="28.08333" height="4"/>
+  <polygon class="cls-6" points="20.13461 21.38976 15.96794 21.38976 17.84294 18.01476 22.00961 18.01476 20.13461 21.38976"/>
+  <polygon class="cls-5" points="29.86418 21.38976 25.69751 21.38976 27.57251 18.01476 31.73918 18.01476 29.86418 21.38976"/>
+  <polygon class="cls-3" points="39.59375 21.38976 35.42708 21.38976 37.30208 18.01476 40.40625 18.01476 39.59375 21.38976"/>
+  <rect class="cls-1" x="4.80749" y="14.75475" width="6.4208" height="23.52002"/>
+</svg>

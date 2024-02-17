@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Hilfe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="6.5" y="16.5" width="6" height="6"/>
+  <line class="cls-3" x1="40" y1="19.5" x2="20.69736" y2="19.5"/>
+  <polygon class="cls-1" points="21 22.308 18.55342 20.896 16.12642 19.484 18.56342 18.088 21 16.692 21 22.308"/>
+  <polyline class="cls-4" points="28 8.29774 30.50138 8.29774 30.50138 16"/>
+  <line class="cls-4" x1="9" y1="8.29774" x2="23" y2="8.29774"/>
+  <polyline class="cls-4" points="30.50138 24 30.50138 32.52752 1.47303 32.52752 1.47303 8.29774 4 8.29774"/>
+  <line class="cls-2" x1="6.5" y1="6.02259" x2="6.5" y2="10.89785"/>
+  <line class="cls-2" x1="25.5" y1="6.02709" x2="25.5" y2="10.89785"/>
+</svg>

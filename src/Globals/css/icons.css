@@ -1,0 +1,138 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+.listIcon {
+  width: var(--listIconSize);
+  height: var(--listIconSize);
+  min-width: var(--listIconSize);
+  min-height: var(--listIconSize);
+  display: inline-block;
+  background-image: url(../assets/defaultListIcon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.listIcon.colourized {
+  background-image: unset;
+  -webkit-mask-image: url(../assets/defaultListIcon.png);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.listIcon + .listIcon,
+.textPrio1 + .listIcon,
+.textPrio2 + .listIcon,
+.listIcon + .textPrio1,
+.listIcon + .textPrio2,
+.textClimateLarge + .listIcon {
+  margin-left: var(--iA1);
+}
+
+.touchIcon {
+  position: absolute;
+  width: var(--touchIconSize);
+  height: var(--touchIconSize);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/defaultTouchIcon.png);
+}
+
+.daIcon {
+  position: absolute;
+  width: var(--daIconSize);
+  height: var(--daIconSize);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/defaultDaIcon.png);
+}
+
+.appFolderIcon {
+  position: absolute;
+  width: var(--appFolderIconSize);
+  height: var(--appFolderIconSize);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/defaultDaIcon.png);
+}
+
+.cover {
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+}
+
+.flip {
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.piktogrammRollIcon {
+  width: 84px;
+  height: 44px;
+  display: inline-block;
+  background-image: url(../assets/defaultPiktogrammRollIcon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*******  FPK Icons  *******/
+.fpkStatusIcon,
+.fpkStatusFitSizeIcon {
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background-color: rgb(var(--FIDtelltaleWhite));
+}
+.fpkStatusIcon {
+  height: 56px;
+  width: 65px;
+}
+.fpkStatusFitSizeIcon {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  position: absolute;
+}
+
+.fpkCommonIcon {
+  height: var(--fpkCommonIconSize);
+  width: var(--fpkCommonIconSize);
+  background-color: rgba(var(--boundingBoxGreenFull));
+}
+
+.fpkStatusIcon img,
+.fpkStatusFitSizeIcon img {
+  opacity: 0;
+}
+
+.fpkStatusIcon.fusiIcon {
+  height: 60px;
+  width: auto;
+  display: flex;
+}
+.fpkStatusIcon.FIDtelltaleGreen,
+.fpkStatusFitSizeIcon.FIDtelltaleGreen {
+  background-color: rgb(var(--FIDtelltaleGreen));
+}
+.fpkStatusIcon.FIDtelltaleYellow,
+.fpkStatusFitSizeIcon.FIDtelltaleYellow {
+  background-color: rgb(var(--FIDtelltaleYellow));
+}
+.fpkStatusIcon.FIDtelltaleRed,
+.fpkStatusFitSizeIcon.FIDtelltaleRed {
+  background-color: rgb(var(--FIDtelltaleRed));
+}
+.fpkStatusIcon.FIDtelltaleBlue,
+.fpkStatusFitSizeIcon.FIDtelltaleBlue {
+  background-color: rgb(var(--FIDtelltaleBlue));
+}
+.fpkStatusIcon.FIDtelltaleTurqoise,
+.fpkStatusFitSizeIcon.FIDtelltaleTurqoise {
+  background-color: rgb(var(--FIDtelltaleTurqoise));
+}

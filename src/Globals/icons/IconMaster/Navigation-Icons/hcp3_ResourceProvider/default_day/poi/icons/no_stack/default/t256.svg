@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 74 22">
+<defs>
+<style>.cls-1{fill:#93c01f;opacity:0.5;}.cls-2{opacity:0.7;fill:url(#Unbenannter_Verlauf);}.cls-2,.cls-3{isolation:isolate;}.cls-3{font-size:16px;fill:#fff;font-family:AudiTypeDisplayHigh-Normal, Audi Type Display High;}.cls-4{letter-spacing:-0.03369em;}.cls-5{letter-spacing:-0.00244em;}</style>
+<linearGradient id="Unbenannter_Verlauf" x1="1" y1="10.88983" x2="73" y2="10.88983" gradientTransform="matrix(1, 0, 0, -1, 0, 21.88983)" gradientUnits="userSpaceOnUse">
+<stop offset="1"/>
+</linearGradient>
+</defs>
+<g id="Icon">
+<rect class="cls-2" x="1" y="1" width="72" height="20" rx="3.07158"/>
+<text class="cls-3" transform="translate(47.15894 16.74805)" text-anchor="middle">
+<tspan class="cls-4">{arrival}</tspan>
+</text>
+</g>
+</svg>

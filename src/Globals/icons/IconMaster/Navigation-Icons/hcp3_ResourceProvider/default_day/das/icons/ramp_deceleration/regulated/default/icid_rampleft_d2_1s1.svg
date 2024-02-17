@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: lime;
+      }
+
+      .cls-2 {
+        fill: none;
+        opacity: .5;
+        stroke: lime;
+        stroke-miterlimit: 10;
+        stroke-width: 1.025px;
+      }
+    </style>
+  </defs>
+  <rect id="Hintergrund" class="cls-2" x="1.5" y="1.5" width="41" height="41" rx="3.075" ry="3.075"/>
+  <g id="Highway_exit_for_Ramp_Left" data-name="Highway exit for Ramp Left">
+    <path id="Kontur-2" class="cls-1" d="m28.5075,9.7925h5.035l6.745,24.415h-11.78V9.7925Zm3.895,1.425h-2.47v21.565h8.455l-5.985-21.565Zm-6.27,15.77V9.8875h-5.035l-1.995,7.22c.43117.3246.84351.6735,1.235,1.045l1.9-6.84h2.47v12.35c.57154,1.06442,1.04838,2.17704,1.425,3.325ZM3.7125,12.0725l4.18,8.455,2.945-2.945c2.81127,1.38141,4.88911,3.90945,5.7,6.935,1.615,5.13-1.995,9.405-2.185,9.69h11.875c-.37419-3.99795-1.64026-7.86109-3.705-11.305-2.3521-3.33219-5.48292-6.03905-9.12-7.885l2.945-2.945H3.7125Z"/>
+  </g>
+</svg>

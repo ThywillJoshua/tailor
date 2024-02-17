@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="32px" viewBox="0 0 80 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tlkg_ktv_sound_effect_tag_cn_custom</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="32" rx="2"></rect>
+    </defs>
+    <g id="tlkg_ktv_sound_effect_tag_cn_custom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形">
+            <use fill="#21CC94" xlink:href="#path-1"></use>
+            <use fill="#3E3E3E" xlink:href="#path-1"></use>
+        </g>
+        <text id="自定义" font-family="ZYHei_GB18030_c" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+            <tspan x="10" y="21">自定义</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SIDE_STREET" data-name="SIDE STREET" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 170">
+  <defs>
+    <linearGradient id="OFA_gradient_street" x1="-1635.44056" y1="-718.52686" x2="-1617.33607" y2="-718.52686" gradientTransform="translate(833.27687 -1501.83892) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#303639" stop-opacity="0"/>
+      <stop offset="1" stop-color="#303639"/>
+    </linearGradient>
+  </defs>
+  <rect x="107.75" y="57.3854" width="14" height="84.02115" transform="translate(-36.67407 110.25299) rotate(-45.00003)" style="fill: url(#OFA_gradient_street);"/>
+</svg>

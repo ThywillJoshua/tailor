@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #969696;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-2" points="25 18 25 13 30 13 29.979 17.976 25 18"/>
+  <polygon class="cls-2" points="19.5 2.232 24.174 10 14.826 10 19.5 2.232"/>
+  <path class="cls-4" d="M19.48484,25.45273c2.01945-.59424,4.00311-1.30399,5.94116-2.12573,2.21182-.99268,2.074-4.11909,2.074-4.11909v-3.29044"/>
+  <path class="cls-4" d="M19.5,9.1719v27.86223"/>
+  <circle class="cls-1" cx="11.5" cy="18.5" r="2.54969"/>
+  <circle class="cls-1" cx="19.48024" cy="35.47329" r="2.54969"/>
+  <path class="cls-4" d="M19.48149,28.85231c-2.00963-.59431-3.9833-1.30408-5.91117-2.12577-2.21182-.99268-2.07032-4.22654-2.07032-4.22654v-3.18294"/>
+  <g id="E09C_media_ami_usb_1" data-name="E09C media ami usb 1">
+    <g id="V2">
+      <path class="cls-3" d="M33.11722,37.8623v-10.16406l-3.07031,.53125v-1.23828l3.64844-.71484h.92578v11.58593h-1.50391Z"/>
+    </g>
+  </g>
+</svg>

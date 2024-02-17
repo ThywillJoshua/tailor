@@ -1,0 +1,168 @@
+{
+  "workingSets": [
+    {
+      "inputPath": "unused",
+      "outputPath": "traffic_light/not_regulated/default"
+    }
+  ],
+  "files": [
+    {
+      "file": "left.svg",
+      "id": "left",
+      "anchor": {
+        "x": 17.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "right.svg",
+      "id": "right",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpleft.svg",
+      "id": "sharpleft",
+      "anchor": {
+        "x": 15.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "sharpright.svg",
+      "id": "sharpright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "slightleft.svg",
+      "id": "slightleft",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "slightright.svg",
+      "id": "slightright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "straight.svg",
+      "id": "straight",
+      "anchor": {
+        "x": 7.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnleft.svg",
+      "id": "uturnleft",
+      "anchor": {
+        "x": 16.0,
+        "y": 36.0
+      }
+    },
+    {
+      "file": "uturnright.svg",
+      "id": "uturnright",
+      "anchor": {
+        "x": 3.0,
+        "y": 36.0
+      }
+    }
+  ],
+  "compositions": [
+    {
+      "masterlistId": 64,
+      "ids": ["left"]
+    },
+    {
+      "masterlistId": 64,
+      "ids": ["left"]
+    },
+    {
+      "masterlistId": 4,
+      "ids": ["right"]
+    },
+    {
+      "masterlistId": 4,
+      "ids": ["right"]
+    },
+    {
+      "masterlistId": 128,
+      "ids": ["sharpleft"]
+    },
+    {
+      "masterlistId": 128,
+      "ids": ["sharpleft"]
+    },
+    {
+      "masterlistId": 128,
+      "ids": ["sharpleft"]
+    },
+    {
+      "masterlistId": 2,
+      "ids": ["sharpright"]
+    },
+    {
+      "masterlistId": 2,
+      "ids": ["sharpright"]
+    },
+    {
+      "masterlistId": 2,
+      "ids": ["sharpright"]
+    },
+    {
+      "masterlistId": 32,
+      "ids": ["slightleft"]
+    },
+    {
+      "masterlistId": 32,
+      "ids": ["slightleft"]
+    },
+    {
+      "masterlistId": 8,
+      "ids": ["slightright"]
+    },
+    {
+      "masterlistId": 8,
+      "ids": ["slightright"]
+    },
+    {
+      "masterlistId": 16,
+      "ids": ["straight"]
+    },
+    {
+      "masterlistId": 16,
+      "ids": ["straight"]
+    },
+    {
+      "masterlistId": 16,
+      "ids": ["straight"]
+    },
+    {
+      "masterlistId": 256,
+      "ids": ["uturnleft"]
+    },
+    {
+      "masterlistId": 256,
+      "ids": ["uturnleft"]
+    },
+    {
+      "masterlistId": 1,
+      "ids": ["uturnright"]
+    },
+    {
+      "masterlistId": 1,
+      "ids": ["uturnright"]
+    }
+  ]
+}

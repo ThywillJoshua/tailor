@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="32px" viewBox="0 0 60 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tlkg_ktv_square_nps_tag_b </title>
+    <g id="tlkg_ktv_square_nps_tag_b-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <path d="M2,0 L58,0 C59.1045695,-2.02906125e-16 60,0.8954305 60,2 L60,30 C60,31.1045695 59.1045695,32 58,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="矩形" fill="#865CD5"></path>
+            <g id="B" transform="translate(26.000000, 9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M4.26,14.48 C7.84,14.48 9.44,12.96 9.44,10.5 C9.44,8.78 8.44,7.5 6.76,6.94 C8.02,6.4 8.76,5.4 8.76,3.86 C8.76,1.38 7.06,0 3.74,0 L0,0 L0,14.48 L4.26,14.48 Z M1.3,13.34 L1.3,7.7 L4.38,7.7 C6.96,7.7 8.1,8.78 8.1,10.56 C8.1,12.32 6.82,13.34 3.98,13.34 L1.3,13.34 Z M1.3,6.62 L1.3,1.14 L3.38,1.14 C6.12,1.14 7.42,2.14 7.42,3.82 C7.42,5.64 6.38,6.62 3.82,6.62 L1.3,6.62 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

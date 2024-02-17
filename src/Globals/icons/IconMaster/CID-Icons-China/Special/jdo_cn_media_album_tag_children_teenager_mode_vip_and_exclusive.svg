@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="40px" viewBox="0 0 140 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_album_tag_children_teenager_mode_vip_and_exclusive</title>
+    <defs>
+        <linearGradient x1="49.9353695%" y1="35.3032263%" x2="49.8238302%" y2="35.3032263%" id="linearGradient-1">
+            <stop stop-color="#D0A057" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#3E3E3E" stop-opacity="0.9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_media_album_tag_children_teenager_mode_vip_and_exclusive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -0.000000)">
+            <path d="M20,0 L140,0 L140,0 L140,20 C140,31.045695 131.045695,40 120,40 L0,40 L0,40 L0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 Z" id="矩形" fill="url(#linearGradient-1)" transform="translate(70.000000, 20.000000) rotate(180.000000) translate(-70.000000, -20.000000) "></path>
+            <text id="独家" font-family="ZYHei_GB18030_c" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                <tspan x="85" y="25">独家</tspan>
+            </text>
+            <text id="VIP" font-family="AudiTypeDisplayHigh-Light, Audi Type Display High" font-size="20" font-weight="300" line-spacing="24" fill="#FFFFFF">
+                <tspan x="20" y="28">VIP</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

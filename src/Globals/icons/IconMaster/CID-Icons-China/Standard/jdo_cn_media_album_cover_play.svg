@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_album_cover_play</title>
+    <g id="jdo_cn_media_album_cover_play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="play" transform="translate(1.000000, 1.000000)">
+                <g transform="translate(0.760000, 0.760000)">
+                    <circle id="椭圆形" stroke="#FFFFFF" stroke-width="1.2" fill-opacity="0.8" fill="#262C30" cx="18.24" cy="18.24" r="17.64"></circle>
+                    <polygon id="矩形" fill="#FFFFFF" points="13.5497143 10.944 26.0571429 18.24 13.5497143 25.536"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

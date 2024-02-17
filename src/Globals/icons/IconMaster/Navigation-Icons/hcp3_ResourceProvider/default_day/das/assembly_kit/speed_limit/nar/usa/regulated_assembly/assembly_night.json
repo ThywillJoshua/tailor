@@ -1,0 +1,40 @@
+{
+  "type": "coloring",
+  "id": "default_day.das.coloring.speedlimit.nar.usa.regulated.night",
+  "dependencies": [
+    "default_day.das.merging.speedlimit.nar.usa.basic.night_label",
+    "default_day.das.merging.speedlimit.nar.usa.overlay.night",
+    "default_day.das.merging.speedlimit.nar.usa.warning.night"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/nar/usa",
+      "outputPath": "speed_limit/regulated/nar/usa"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually",
+    "acceptWith": {
+      "param4": {
+        "equals": 13
+      }
+    }
+  },
+  "colorSets": [
+    {
+      "outputNaming": {
+        "style1": 1
+      },
+      "colors": [
+        {
+          "linearGradientId": "Beschriftung_weiss",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Hintergrund_schwarz",
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
+}

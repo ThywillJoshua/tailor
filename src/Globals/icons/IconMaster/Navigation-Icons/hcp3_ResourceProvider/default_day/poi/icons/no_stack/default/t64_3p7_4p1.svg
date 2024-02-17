@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 22">
+<defs><style>.HG_POI_badge-2{opacity:0.7;fill:url(#hg_POI_badge);}.cls-1{font-size:16px;fill:#ff0000;font-family:AudiTypeDisplayHigh-Normal, Audi Type Display High;}</style>
+<linearGradient gradientUnits="userSpaceOnUse" id="hg_POI_badge" x1="1" x2="53" y1="11" y2="11"><stop offset="0"/></linearGradient></defs>
+<rect class="HG_POI_badge-2" height="20" rx="2.51" width="74" x="1" y="1"/>
+<text class="cls-1" text-anchor="middle" transform="translate(38 17)">{value}/{total}</text></svg>

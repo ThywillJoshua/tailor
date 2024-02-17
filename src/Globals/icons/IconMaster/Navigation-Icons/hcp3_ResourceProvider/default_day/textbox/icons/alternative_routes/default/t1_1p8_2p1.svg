@@ -1,0 +1,20 @@
+<svg id="traffic_alternative_label" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 55">
+<defs>
+<linearGradient id="Background_schwarz" x1="0.005" y1="27.5005" x2="156" y2="27.5005" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#0c83b2"/>
+</linearGradient>
+<linearGradient id="Seitenflaeche_grau" x1="27.00117" y1="20" x2="154.99883" y2="20" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#0fafff"/>
+</linearGradient>
+</defs>
+<g opacity="0.75">
+<polygon fill="url(#Background_schwarz)" points="30.076 40 156 40 156 0 26 0 26 32.198 0.013 50.904 0.005 55.001 30.076 40"/>
+</g>
+<rect x="27.50117" y="1.5" width="126.99766" height="37" fill="none" stroke="url(#Seitenflaeche_grau)" stroke-miterlimit="10" stroke-width="1.0178" />
+<rect fill="url(#Seitenflaeche_grau)" x="150.48717" y="1" width="4.5" height="38"/>
+<polygon fill="url(#Seitenflaeche_grau)" points="29.842 39 31.519 39 31.519 1 27.019 1 27.019 32.696 1.012 51.417 1.008 53.383 29.842 39"/>
+<text transform="translate(40.4776 31.03925)" font-size="29" fill="#fff" font-family="AudiTypeDisplayHigh-Normal, Audi Type Display High">{prefix} 
+	<tspan letter-spacing="-0.04001em">{value}</tspan>
+	<tspan font-size="20">{unit}</tspan>
+</text>
+</svg>

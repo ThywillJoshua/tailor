@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="E2FF-001_reku_segeln" data-name="E2FF-001 reku segeln">
+    <path class="cls-1" d="M4,2H51c1.65682-.00003,2.99997,1.34306,3,2.99988v15.00012c.00003,1.65682-1.34306,2.99997-2.99988,3H4c-1.65685,0-3-1.34315-3-3V5c0-1.65685,1.34315-3,3-3Z"/>
+  </g>
+</svg>

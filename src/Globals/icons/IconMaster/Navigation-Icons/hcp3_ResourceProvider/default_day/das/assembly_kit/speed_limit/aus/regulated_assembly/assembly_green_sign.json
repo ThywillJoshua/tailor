@@ -1,0 +1,51 @@
+{
+  "type": "coloring",
+  "id": "default_day.das.coloring.speedlimit.aus.regulated.green_signs",
+  "dependencies": [
+    "default_day.das.merging.speedlimit.aus.additional_sign_assembly",
+    "default_day.das.merging.speedlimit.aus.warning_assembly"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/aus",
+      "outputPath": "speed_limit/regulated/aus"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually",
+    "acceptWith": {
+      "param4": {
+        "elementOf": [16, 17]
+      }
+    }
+  },
+  "colorSets": [
+    {
+      "outputNaming": {
+        "style1": 1
+      },
+      "colors": [
+        {
+          "linearGradientId": "Rahmen_rot",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Beschriftung_schwarz",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Hintergrund_weiss",
+          "color": "#000000"
+        },
+        {
+          "linearGradientId": "Zusatzschild_Rahmen_schwarz",
+          "color": "#00F300"
+        },
+        {
+          "linearGradientId": "Zusatzschild_Hintergrund_gruen",
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
+}

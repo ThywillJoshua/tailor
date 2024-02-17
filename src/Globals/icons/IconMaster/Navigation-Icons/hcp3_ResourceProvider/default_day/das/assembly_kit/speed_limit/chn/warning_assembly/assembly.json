@@ -1,0 +1,59 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.chn.warning_assembly",
+  "dependencies": [
+    "default_day.das.copying.speedlimit.chn.duplicate_base_signs",
+    "default_day.das.merging.speedlimit.chn.additional_sign_assembly"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/chn",
+      "outputPath": "speed_limit/not_regulated/chn"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param1": 1
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "warning.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param1": 2
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "warning_disabled.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

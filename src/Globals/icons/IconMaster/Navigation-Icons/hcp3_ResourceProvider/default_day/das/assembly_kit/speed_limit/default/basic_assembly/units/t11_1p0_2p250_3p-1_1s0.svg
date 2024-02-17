@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+    <defs>
+        <linearGradient id="Hintergrund_weiss" x1="1.99805" y1="22" x2="42.00195" y2="22" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff"/>
+        </linearGradient>
+        <linearGradient id="Rahmen_rot" x1="3.085" y1="22" x2="40.915" y2="22" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e52421"/>
+        </linearGradient>
+        <linearGradient id="Beschriftung_schwarz" x1="12.13574" y1="18.38233" x2="31.7207" y2="18.38233" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#010101"/>
+        </linearGradient>
+    </defs>
+    <g id="Speedlimit_250">
+        <circle id="Hintergrund_weiss-2" data-name="Hintergrund_weiss" cx="22" cy="22" r="19.99989" fill="url(#Hintergrund_weiss)"/>
+        <path id="Rahmen_rot-2" data-name="Rahmen_rot" d="M22,3.085A18.915,18.915,0,1,0,40.915,22,18.87732,18.87732,0,0,0,22,3.085Zm0,32.883A13.968,13.968,0,1,1,35.968,22,13.97155,13.97155,0,0,1,22,35.968Z" fill="url(#Rahmen_rot)"/>
+        <path id="Beschriftung_schwarz-2" data-name="Beschriftung_schwarz" d="M16.51074,18.6875,14.2959,22.95508h3.31348V24.792H12.13574V23.06348L15.4668,16.7793a2.94627,2.94627,0,0,0,.30566-1.60254c0-.75586-.03613-1.47656-.90039-1.47656a.8299.8299,0,0,0-.90039.91894v1.044H12.13574v-.75586a3.24933,3.24933,0,0,1,.14356-1.15235,2.7879,2.7879,0,0,1,2.61133-1.89062c1.72851,0,2.71875,1.24219,2.71875,3.25879C17.60938,16.81543,17.46484,16.833,16.51074,18.6875Zm7.97364-6.71582V13.7002H20.84766v3.457a2.24286,2.24286,0,0,1,1.53027-.59375,2.0206,2.0206,0,0,1,2.10645,2.23242v3.40332a2.73657,2.73657,0,1,1-5.47266-.07227v-.52148h1.83594v.48535a.89546.89546,0,0,0,.93652.97266.82762.82762,0,0,0,.86426-.918v-3.0791a.89157.89157,0,0,0-.86426-.88282.973.973,0,0,0-.93652.70215H19.22754V11.97168Zm4.499-.10742a2.66027,2.66027,0,0,0-2.73633,2.7002v7.63477a2.73705,2.73705,0,0,0,5.47363,0V14.56446A2.66109,2.66109,0,0,0,28.9834,11.86426Zm.90039,10.31739a.90009.90009,0,0,1-1.79981,0V14.60059a.89122.89122,0,0,1,.89942-.90039.87618.87618,0,0,1,.90039.88281Z" fill="url(#Beschriftung_schwarz)"/>
+    </g>
+</svg>

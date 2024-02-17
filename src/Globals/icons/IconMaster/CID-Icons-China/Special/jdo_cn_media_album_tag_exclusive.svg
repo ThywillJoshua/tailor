@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="40px" viewBox="0 0 70 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_album_tag_exclusive</title>
+    <g id="jdo_cn_media_album_tag_exclusive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M0,0 L70,0 L70,30 C70,35.5228475 65.5228475,40 60,40 L0,40 L0,40 L0,0 Z" id="矩形" fill-opacity="0.9" fill="#3E3E3E"></path>
+            <text id="独家" font-family="ZYHei_GB18030_c" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                <tspan x="15" y="25">独家</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

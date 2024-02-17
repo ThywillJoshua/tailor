@@ -1,0 +1,123 @@
+{
+  "type": "merging",
+  "id": "default_day.das.merging.speedlimit.aus.additional_sign_assembly",
+  "dependencies": [
+    "default_day.das.copying.speedlimit.aus.duplicate_base_signs"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/aus",
+      "outputPath": "speed_limit/not_regulated/aus"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually"
+  },
+  "mergeSets": [
+    {
+      "outputNaming": {
+        "param4": 4,
+        "subMarket": "aus"
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_when_wet.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 6,
+        "subMarket": "aus"
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_under_snow.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 7,
+        "subMarket": "aus"
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_when_frosty.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 16,
+        "subMarket": "aus"
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_school.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    },
+    {
+      "outputNaming": {
+        "param4": 17,
+        "subMarket": "aus"
+      },
+      "merge": {
+        "mode": "overlay",
+        "file": "sign_preschool.svg",
+        "anchors": {
+          "comment": "Specify the two points with [left, center, right, top, bottom] or a number. SVGs are merged such that those points are in the same spot",
+          "overlay": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "background": {
+            "horizontal": "left",
+            "vertical": "top"
+          }
+        }
+      }
+    }
+  ]
+}

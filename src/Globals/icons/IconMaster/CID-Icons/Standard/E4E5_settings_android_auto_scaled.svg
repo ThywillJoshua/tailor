@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="Icons_in_weiss_und_grau" data-name="Icons in weiss und grau">
+    <path class="cls-2" d="M11.76149,37.41319h-1.05949c-1.24674-.00027-2.25721-1.01118-2.25693-2.25793,.00009-.39507,.10385-.7832,.30093-1.1256L23.04,9.20327c.62257-1.08027,2.003-1.45131,3.08327-.82873,.34438,.19847,.63026,.48435,.82873,.82873l14.294,24.82639c.62193,1.08054,.25014,2.46067-.8304,3.0826-.3424,.19707-.73053,.30084-1.1256,.30093h-1.02314"/>
+    <polygon class="cls-1" points="24.996 18.605 37.785 41.175 37.033 41.927 24.996 37.413 12.959 41.927 12.207 41.175 24.996 18.605"/>
+  </g>
+</svg>

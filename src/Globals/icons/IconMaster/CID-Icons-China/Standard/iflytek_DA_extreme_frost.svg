@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>iflytek_DA_extreme_frost</title>
+    <desc>Created with Sketch.</desc>
+    <g id="iflytek_DA_extreme_frost" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" transform="translate(2.000000, 5.000000)" stroke="#FFFFFF" stroke-width="1.2">
+            <g id="编组" transform="translate(5.976992, 0.000000)" stroke-linecap="round">
+                <line x1="12.0230078" y1="1.75278195e-13" x2="12.0230078" y2="26.9182129" id="路径-14"></line>
+                <polyline id="路径-15" points="8.06475586 3.25231999 12.0311261 5.13745117 15.9641699 3.25231999"></polyline>
+                <polyline id="路径-15" transform="translate(12.014463, 22.771484) scale(1, -1) translate(-12.014463, -22.771484) " points="8.06475586 21.8034668 12.0230078 23.739502 15.9641699 21.8034668"></polyline>
+                <path d="M23.6746634,6.73695334 C23.6746634,6.73695334 15.9040447,11.2233222 0.362807255,20.1960598" id="路径-14"></path>
+                <polyline id="路径-15" transform="translate(20.037514, 8.826996) rotate(-300.000000) translate(-20.037514, -8.826996) " points="16.0878065 7.88443042 20.0541767 9.7695616 23.9872205 7.88443042"></polyline>
+                <polyline id="路径-15" transform="translate(3.949707, 18.115295) scale(1, -1) rotate(-60.000000) translate(-3.949707, -18.115295) " points="-1.82076576e-14 17.1472778 3.95825195 19.083313 7.89941406 17.1472778"></polyline>
+                <path d="M23.6841916,20.2015609 C23.6841916,20.2015609 15.9135728,15.715192 0.372335391,6.74245441" id="路径-14"></path>
+                <polyline id="路径-15" transform="translate(20.055587, 18.096718) rotate(-240.000000) translate(-20.055587, -18.096718) " points="16.1058795 17.1541524 20.0722497 19.0392835 24.0052936 17.1541524"></polyline>
+                <polyline id="路径-15" transform="translate(3.967780, 8.808419) scale(1, -1) rotate(-120.000000) translate(-3.967780, -8.808419) " points="0.0180730581 7.84040097 3.97632501 9.77643613 7.91748712 7.84040097"></polyline>
+            </g>
+            <polyline id="路径" points="36 11.4621582 36 30.4621582 0 30.4621582 0 11.4621582"></polyline>
+        </g>
+    </g>
+</svg>

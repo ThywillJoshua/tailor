@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#Camera);
+      }
+
+      .cls-3 {
+        fill: url(#Red_Ring);
+      }
+    </style>
+    <linearGradient id="Camera" x1="4.04864" y1="583.34634" x2="17.81153" y2="583.34634" gradientTransform="translate(0 -571.99996)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+    <linearGradient id="Red_Ring" x1="1.5" y1="12.27557" x2="20.5" y2="12.27557" gradientTransform="translate(0 23.27557) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e52421"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M10.99981,0C4.92468,.0001-.0001,4.92506,0,11.00019c.0001,6.07513,4.92506,10.99992,11.00019,10.99981,6.07513-.0001,10.99992-4.92506,10.99981-11.00019C21.9999,4.92468,17.07494-.0001,10.99981,0h0Z"/>
+  <path class="cls-2" d="M14.28976,7.75504l-10.24112,2.27066,5.23641,3.42915,5.97784-2.73405-.97313-2.96575Zm2.68771,3.56817l-2.13163,1.71458-.60244-1.25122-1.29756,.64878,1.71458,2.50236,3.15111-2.87308-.83405-.74142Z"/>
+  <path class="cls-3" d="M11,2.5c4.69442,0,8.5,3.80558,8.5,8.5s-3.80558,8.5-8.5,8.5S2.5,15.69442,2.5,11c.0053-4.69222,3.80778-8.4947,8.5-8.5m0-1C5.75329,1.5,1.5,5.75329,1.5,11s4.25329,9.5,9.5,9.5,9.5-4.25329,9.5-9.5S16.24671,1.5,11,1.5Z"/>
+</svg>

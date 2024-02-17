@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_play_mode_single_loop</title>
+    <g id="jdo_cn_media_play_mode_single_loop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" fill-opacity="0" fill="#000000" x="0" y="0" width="40" height="40"></rect>
+            <g id="E092_audio_repeat_medium" transform="translate(1.000000, 3.000000)">
+                <path d="M0,16.2514806 L7.49327,23.8504206 L0.03076,26.9670506 L0,16.2514806 Z M37.52568,16.8718206 L30.03241,9.27288059 L37.49492,6.15626059 L37.52568,16.8718206 Z" id="形状" fill="#FFFFFF"></path>
+                <path d="M35.91881,13.1595206 C34.0159842,5.82877193 27.6308956,0.541534141 20.0739076,0.0389873338 C12.5169195,-0.463559473 5.48794039,3.93163021 2.63116,10.9458606" id="路径" stroke="#FFFFFF" stroke-width="1.2"></path>
+                <path d="M1.68391,20.4822806 C3.23757128,28.2843555 9.83721876,34.0706085 17.7754716,34.5905868 C25.7137245,35.1105651 33.0117744,30.234651 35.56991,22.7019106" id="路径" stroke="#FFFFFF" stroke-width="1.2"></path>
+            </g>
+            <text id="1" font-family="AudiTypeDisplayHigh-Light, Audi Type Display High" font-size="20" font-weight="300" line-spacing="24" fill="#FFFFFF">
+                <tspan x="13" y="29">1</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

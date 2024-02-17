@@ -1,0 +1,14 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+<style>.cls-2{fill:url(#FirstStackedFrame);stroke:url(#FirstStackedFrame);stroke-miterlimit:10;}.cls-1{fill:url(#SecondStackedFrame);stroke:url(#SecondStackedFrame);stroke-miterlimit:10;stroke-width:1.5px;}</style>
+<defs>
+<linearGradient id="FirstStackedFrame" x1="8.875" y1="25" x2="53.125" y2="25" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#e0e0e0"/>
+</linearGradient>
+<linearGradient id="SecondStackedFrame" x1="9.375" y1="25" x2="52.625" y2="25" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#b2b2b2"/>
+</linearGradient>
+</defs>
+<title>d0_stack-kreis_2s2</title>
+<circle class="cls-1" cx="31" cy="25" r="21.625"/>
+<circle class="cls-2" cx="28" cy="28" r="21.625"/>
+</svg>

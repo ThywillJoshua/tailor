@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Kontur-2);
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        fill: url(#Flaeche-3);
+      }
+
+      .cls-2 {
+        stroke: url(#Kontur);
+      }
+
+      .cls-4 {
+        isolation: isolate;
+        opacity: .35;
+      }
+
+      .cls-5 {
+        fill: url(#Flaeche-2);
+      }
+
+      .cls-6 {
+        fill: url(#Flaeche);
+      }
+    </style>
+    <linearGradient id="Kontur" x1="10.46868" y1="13.22543" x2="38.14478" y2="13.22543" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#666"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Flaeche" x1="15.45975" y1="15.99154" x2="19.56433" y2="15.99154" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#666"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Flaeche-2" data-name="Flaeche" x1="23.88762" y1="11.1299" x2="27.9922" y2="11.1299" xlink:href="#Flaeche"/>
+    <linearGradient id="Flaeche-3" data-name="Flaeche" x1="32.31549" y1="6.53372" x2="36.42008" y2="6.53372" xlink:href="#Flaeche"/>
+    <linearGradient id="Kontur-2" data-name="Kontur" x1="4.04788" y1="26.49999" x2="11.96868" y2="26.49999" xlink:href="#Kontur"/>
+  </defs>
+  <rect id="Hintergrund" class="cls-4" x="2" y="1.98621" width="40" height="40" rx="5" ry="5"/>
+  <polygon class="cls-2" points="37.12037 7.35011 11.21868 22.29154 11.21868 17.67374 35.12166 3.88526 37.12037 7.35011"/>
+  <polygon class="cls-6" points="19.56433 16.75581 15.522 19.08763 15.45975 15.22727 19.50207 12.89545 19.56433 16.75581"/>
+  <polygon class="cls-5" points="27.9922 11.89417 23.94988 14.22599 23.88762 10.36564 27.92994 8.03381 27.9922 11.89417"/>
+  <polygon class="cls-3" points="36.42008 7.03254 32.37775 9.36436 32.31549 5.504 35.43747 3.70309 36.42008 7.03254"/>
+  <rect class="cls-1" x="4.79788" y="14.73998" width="6.4208" height="23.52002"/>
+</svg>

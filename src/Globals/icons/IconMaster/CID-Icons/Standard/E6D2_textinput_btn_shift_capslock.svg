@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E6D2_textinput_btn_shift_capslock_prio2" data-name="E6D2 textinput btn shift capslock prio2">
+    <g id="V2-9">
+      <path id="Aussen" class="cls-2" d="M27.5,30.54094v7.95906H12.5v-7.95906h15Z"/>
+      <g id="Innen">
+        <path class="cls-1" d="M27.5,30.54094H12.5v7.95906h15v-7.95906Z"/>
+      </g>
+      <path id="Aussen-2" class="cls-2" d="M27.5,24.45118H12.5v-5.95118H4.5L20,2l15.5,16.5h-8v5.95118Z"/>
+      <g id="Innen-2">
+        <path class="cls-1" d="M20,2L4.5,18.5H12.5v5.95118h15v-5.95118h8L20,2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

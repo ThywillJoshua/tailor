@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author/>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments/>
+    </contributor>
+    <created>2022-06-24T10:18:53Z</created>
+    <keywords/>
+    <modified>2022-06-24T10:18:53Z</modified>
+    <revision/>
+    <subject/>
+    <title/>
+    <unit meter="0.010000" name="centimeter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="White" name="White">
+      <instance_effect url="#White-fx"/>
+    </material>
+    <material id="Gray2" name="Gray2">
+      <instance_effect url="#Gray2-fx"/>
+    </material>
+    <material id="Gray1" name="Gray1">
+      <instance_effect url="#Gray1-fx"/>
+    </material>
+    <material id="Black" name="Black">
+      <instance_effect url="#Black-fx"/>
+    </material>
+    <material id="BlackTransparent" name="BlackTransparent">
+      <instance_effect url="#BlackTransparent-fx"/>
+    </material>
+    <material id="Blue" name="Blue">
+      <instance_effect url="#Blue-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="White-fx" name="White">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">300.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Gray2-fx" name="Gray2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.629333  0.677341 0.756410 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">300.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Gray1-fx" name="Gray1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.488000  0.525226 0.586538 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">300.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Black-fx" name="Black">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">300.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="BlackTransparent-fx" name="BlackTransparent">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">6.311791</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.310897  0.310897 0.310897 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Blue-fx" name="Blue">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.293367 0.776000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">300.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Arrow-lib" name="ArrowMesh">
+      <mesh>
+        <source id="Arrow-POSITION">
+          <float_array id="Arrow-POSITION-array" count="27">
+-5.152728 -3.895190 0.062991
+-0.152727 -0.045920 1.158000
+-0.152727 6.104811 0.062992
+4.847274 -3.895190 0.062991
+-0.152727 -1.634220 0.069940
+-0.152727 6.506577 0.062992
+-5.554493 -4.296956 0.062991
+5.249039 -4.296956 0.062991
+-0.152727 -1.854310 0.069940
+</float_array>
+          <technique_common>
+            <accessor source="#Arrow-POSITION-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Arrow-Normal0">
+          <float_array id="Arrow-Normal0-array" count="126">
+-0.219526 0.109763 0.969412
+0.000000 0.112507 0.993651
+0.000000 0.112507 0.993651
+0.000000 0.112507 0.993651
+0.219526 0.109763 0.969412
+0.000000 0.112507 0.993651
+0.167192 -0.083596 0.982374
+0.000000 -0.084790 0.996399
+0.000000 -0.084790 0.996399
+0.000000 -0.084790 0.996399
+-0.167192 -0.083596 0.982374
+0.000000 -0.084790 0.996399
+0.445395 -0.506005 0.738635
+0.445395 -0.506005 0.738635
+0.445395 -0.506005 0.738635
+-0.445395 -0.506005 0.738635
+-0.445395 -0.506005 0.738635
+-0.445395 -0.506005 0.738635
+-0.445395 -0.506005 0.738635
+-0.445395 -0.506005 0.738635
+-0.894427 0.447214 0.000000
+-0.445395 -0.506005 0.738635
+-0.894427 0.447214 0.000000
+-0.894427 0.447214 0.000000
+0.894427 0.447214 0.000000
+-0.445395 -0.506005 0.738635
+0.894427 0.447214 0.000000
+-0.445395 -0.506005 0.738635
+0.894427 0.447214 0.000000
+-0.445395 -0.506005 0.738635
+-0.001888 0.001220 0.999997
+-0.001888 0.001220 0.999997
+0.894427 0.447214 0.000000
+0.894427 0.447214 0.000000
+0.894427 0.447214 0.000000
+-0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+0.001888 0.001220 0.999997
+</float_array>
+          <technique_common>
+            <accessor source="#Arrow-Normal0-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Arrow-UV0">
+          <float_array id="Arrow-UV0-array" count="60">
+0.000000 0.000000
+0.500000 0.000000
+0.500025 0.999928
+1.000000 0.000000
+0.000000 0.000000
+0.500000 0.000000
+0.500025 0.999928
+1.000000 0.000000
+0.000000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+1.000000 0.000000
+0.500000 0.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Arrow-UV0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Arrow-VERTEX">
+          <input semantic="POSITION" source="#Arrow-POSITION"/>
+        </vertices>
+        <triangles count="4" material="White">
+          <input semantic="VERTEX" offset="0" source="#Arrow-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Arrow-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Arrow-UV0"/>
+          <p> 0 0 0 1 1 1 2 2 2 1 3 1 3 4 3 2 5 2 0 6 4 4 7 5 2 8 6 4 9 5 3 10 7 2 11 6</p>
+        </triangles>
+        <triangles count="1" material="Gray2">
+          <input semantic="VERTEX" offset="0" source="#Arrow-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Arrow-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Arrow-UV0"/>
+          <p> 0 12 8 4 13 9 1 14 10</p>
+        </triangles>
+        <triangles count="1" material="Gray1">
+          <input semantic="VERTEX" offset="0" source="#Arrow-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Arrow-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Arrow-UV0"/>
+          <p> 4 15 11 3 16 12 1 17 13</p>
+        </triangles>
+        <triangles count="8" material="Black">
+          <input semantic="VERTEX" offset="0" source="#Arrow-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Arrow-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Arrow-UV0"/>
+          <p> 5 18 16 6 19 17 0 20 14 5 21 16 0 22 14 2 23 15 5 24 21 3 25 19 7 26 20 3 27 19 5 28 21 2 29 18 6 30 24 8 31 25 0 32 23 4 33 22 0 34 23 8 35 25 8 36 28 7 37 29 3 38 26 3 39 26 4 40 27 8 41 28</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="BG-lib" name="BGMesh">
+      <mesh>
+        <source id="BG-POSITION">
+          <float_array id="BG-POSITION-array" count="243">
+8.272236 1.358820 0.026667
+7.960005 2.659355 0.026667
+7.448170 3.895036 0.026667
+6.749334 5.035434 0.026667
+5.880703 6.052470 0.026667
+4.863668 6.921101 0.026667
+3.723270 7.619937 0.026667
+2.487590 8.131773 0.026667
+1.187055 8.444004 0.026667
+-0.146312 8.548943 0.026667
+-1.479680 8.444004 0.026667
+-2.780215 8.131773 0.026667
+-4.015895 7.619938 0.026667
+-5.156293 6.921102 0.026667
+-6.173328 6.052471 0.026667
+-7.041959 5.035436 0.026667
+-7.740796 3.895038 0.026667
+-8.252631 2.659358 0.026667
+-8.564862 1.358823 0.026667
+-8.669800 0.025456 0.026667
+-8.564862 -1.307911 0.026667
+-8.252631 -2.608446 0.026667
+-7.740796 -3.844126 0.026667
+-7.041960 -4.984523 0.026667
+-6.173330 -6.001558 0.026667
+-5.156294 -6.870189 0.026667
+-4.015897 -7.569026 0.026667
+-2.780217 -8.080861 0.026667
+-1.479682 -8.393092 0.026667
+-0.146315 -8.498031 0.026667
+1.187052 -8.393092 0.026667
+2.487586 -8.080861 0.026667
+3.723266 -7.569026 0.026667
+4.863664 -6.870190 0.026667
+5.880699 -6.001559 0.026667
+6.749329 -4.984524 0.026667
+7.448165 -3.844127 0.026667
+7.960000 -2.608447 0.026667
+8.272230 -1.307912 0.026667
+8.377169 0.025454 0.026667
+-0.146314 0.025454 0.026667
+9.211988 1.507661 0.026667
+8.864903 2.953372 0.026667
+8.295933 4.326988 0.026667
+7.519088 5.594689 0.026667
+6.553493 6.725258 0.026667
+5.422928 7.690857 0.026667
+4.155226 8.467700 0.026667
+2.781609 9.036663 0.026667
+1.335897 9.383754 0.026667
+-0.146312 9.500407 0.026667
+-1.628521 9.383754 0.026667
+-3.074233 9.036664 0.026667
+-4.447851 8.467702 0.026667
+-5.715549 7.690858 0.026667
+-6.846112 6.725259 0.026667
+-7.811714 5.594691 0.026667
+-8.588558 4.326990 0.026667
+-9.157530 2.953375 0.026667
+-9.504615 1.507665 0.026667
+-9.621262 0.025456 0.026667
+-9.504615 -1.456753 0.026667
+-9.157530 -2.902463 0.026667
+-8.588559 -4.276078 0.026667
+-7.811715 -5.543778 0.026667
+-6.846114 -6.674347 0.026667
+-5.715550 -7.639946 0.026667
+-4.447853 -8.416789 0.026667
+-3.074236 -8.985752 0.026667
+-1.628524 -9.332842 0.026667
+-0.146315 -9.449495 0.026667
+1.335894 -9.332842 0.026667
+2.781605 -8.985752 0.026667
+4.155222 -8.416789 0.026667
+5.422920 -7.639947 0.026667
+6.553487 -6.674347 0.026667
+7.519083 -5.543779 0.026667
+8.295929 -4.276078 0.026667
+8.864899 -2.902464 0.026667
+9.211983 -1.456754 0.026667
+9.328630 0.025453 0.026667
+</float_array>
+          <technique_common>
+            <accessor source="#BG-POSITION-array" count="81" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BG-Normal0">
+          <float_array id="BG-Normal0-array" count="243">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#BG-Normal0-array" count="81" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BG-UV0">
+          <float_array id="BG-UV0-array" count="402">
+0.654326 0.819307
+0.648603 0.795466
+0.639220 0.772814
+0.626409 0.751909
+0.610486 0.733265
+0.591842 0.717341
+0.570936 0.704530
+0.548284 0.695147
+0.524443 0.689424
+0.500000 0.687500
+0.475557 0.689424
+0.451716 0.695147
+0.429064 0.704530
+0.408159 0.717341
+0.389515 0.733264
+0.373591 0.751908
+0.360780 0.772814
+0.351397 0.795466
+0.345674 0.819307
+0.343750 0.843750
+0.345674 0.868193
+0.351397 0.892034
+0.360780 0.914686
+0.373591 0.935591
+0.389515 0.954235
+0.408159 0.970159
+0.429064 0.982970
+0.451716 0.992353
+0.475557 0.998076
+0.500000 1.000000
+0.524443 0.998076
+0.548284 0.992353
+0.570936 0.982970
+0.591841 0.970159
+0.610485 0.954235
+0.626409 0.935591
+0.639220 0.914686
+0.648603 0.892034
+0.654326 0.868193
+0.656250 0.843750
+0.500000 0.837500
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#BG-UV0-array" count="201" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BG-VERTEX">
+          <input semantic="POSITION" source="#BG-POSITION"/>
+          <input semantic="NORMAL" source="#BG-Normal0"/>
+        </vertices>
+        <triangles count="40" material="BlackTransparent">
+          <input semantic="VERTEX" offset="0" source="#BG-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#BG-UV0"/>
+          <p> 0 38 1 37 40 40 1 37 2 36 40 40 2 36 3 35 40 40 3 35 4 34 40 40 4 34 5 33 40 40 5 33 6 32 40 40 6 32 7 31 40 40 7 31 8 30 40 40 8 30 9 29 40 40 9 29 10 28 40 40 10 28 11 27 40 40 11 27 12 26 40 40 12 26 13 25 40 40 13 25 14 24 40 40 14 24 15 23 40 40 15 23 16 22 40 40 16 22 17 21 40 40 17 21 18 20 40 40 18 20 19 19 40 40 19 19 20 18 40 40 20 18 21 17 40 40 21 17 22 16 40 40 22 16 23 15 40 40 23 15 24 14 40 40 24 14 25 13 40 40 25 13 26 12 40 40 26 12 27 11 40 40 27 11 28 10 40 40 28 10 29 9 40 40 29 9 30 8 40 40 30 8 31 7 40 40 31 7 32 6 40 40 32 6 33 5 40 40 33 5 34 4 40 40 34 4 35 3 40 40 35 3 36 2 40 40 36 2 37 1 40 40 37 1 38 0 40 40 38 0 39 39 40 40 39 39 0 38 40 40</p>
+        </triangles>
+        <triangles count="80" material="Blue">
+          <input semantic="VERTEX" offset="0" source="#BG-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#BG-UV0"/>
+          <p> 0 42 42 44 1 41 42 44 0 42 41 43 1 46 43 48 2 45 43 48 1 46 42 47 2 50 44 52 3 49 44 52 2 50 43 51 3 54 45 56 4 53 45 56 3 54 44 55 45 59 5 57 4 58 5 57 45 59 46 60 5 62 47 64 6 61 47 64 5 62 46 63 48 68 6 66 47 67 6 66 48 68 7 65 48 71 49 72 8 69 48 71 8 69 7 70 49 75 50 76 9 73 49 75 9 73 8 74 51 80 9 78 50 79 9 78 51 80 10 77 52 84 10 82 51 83 10 82 52 84 11 81 52 87 53 88 12 85 12 85 11 86 52 87 54 92 12 90 53 91 12 90 54 92 13 89 13 94 55 96 14 93 55 96 13 94 54 95 15 97 14 98 55 99 15 97 55 99 56 100 15 102 56 103 16 101 16 101 56 103 57 104 57 107 17 105 16 106 17 105 57 107 58 108 58 111 18 109 17 110 18 109 58 111 59 112 18 114 60 116 19 113 60 116 18 114 59 115 60 119 20 117 19 118 20 117 60 119 61 120 62 124 20 122 61 123 20 122 62 124 21 121 63 128 21 126 62 127 21 126 63 128 22 125 64 132 22 130 63 131 22 130 64 132 23 129 65 136 23 134 64 135 23 134 65 136 24 133 65 139 66 140 25 137 25 137 24 138 65 139 67 144 26 141 66 143 26 141 25 142 66 143 26 146 68 148 27 145 68 148 26 146 67 147 28 149 27 150 68 151 28 149 68 151 69 152 29 153 28 154 69 155 29 153 69 155 70 156 29 158 71 160 30 157 71 160 29 158 70 159 30 162 72 164 31 161 72 164 30 162 71 163 72 167 32 165 31 166 32 165 72 167 73 168 32 170 74 172 33 169 74 172 32 170 73 171 75 176 33 174 74 175 33 174 75 176 34 173 75 179 76 180 35 177 75 179 35 177 34 178 76 183 77 184 36 181 76 183 36 181 35 182 77 187 78 188 37 185 77 187 37 185 36 186 78 191 79 192 38 189 38 189 37 190 78 191 80 196 38 194 79 195 38 194 80 196 39 193 41 200 0 197 80 199 0 197 39 198 80 199</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="CCP_Icon" name="CCP_Icon">
+      <node name="CCP_Arrow" id="CCP_Arrow" sid="CCP_Arrow">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="Arrow" id="Arrow" sid="Arrow">
+          <matrix sid="matrix">0.991903 0.000000 0.000000 -0.001237 0.000000 1.223894 0.000000 -0.247361 0.000000 0.000000 1.044108 -0.026928 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#Arrow-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="White" target="#White"/>
+                <instance_material symbol="Gray2" target="#Gray2"/>
+                <instance_material symbol="Gray1" target="#Gray1"/>
+                <instance_material symbol="Black" target="#Black"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+        <node name="BG" id="BG" sid="BG">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#BG-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="BlackTransparent" target="#BlackTransparent"/>
+                <instance_material symbol="Blue" target="#Blue"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>8.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#CCP_Icon"/>
+  </scene>
+</COLLADA>

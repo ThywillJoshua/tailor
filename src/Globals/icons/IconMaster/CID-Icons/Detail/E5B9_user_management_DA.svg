@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Beschriftung" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #969696;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="E3FA_uc_offline" data-name="E3FA uc offline">
+    <g id="V2-43">
+      <path class="cls-1" d="m66.00582,77.0488v-15.10458c0-2.78068-2.25418-5.03486-5.03486-5.03486h-23.91559c-2.78068,0-5.03486,2.25418-5.03486,5.03486v15.10458h33.98531Z"/>
+      <circle class="cls-1" cx="49.01317" cy="43.69285" r="8.18165"/>
+    </g>
+  </g>
+  <path class="cls-2" d="m70.02484,70.64709h7.33698v-15.10461c0-2.78064-2.25415-5.03485-5.03485-5.03485h-13.3493"/>
+  <path class="cls-2" d="m61.07983,45.43689c4.18512-.36084,7.47101-3.86707,7.47101-8.14575,0-4.51862-3.66309-8.18164-8.18164-8.18164-2.70703,0-5.09979,1.32037-6.58905,3.34607"/>
+</svg>

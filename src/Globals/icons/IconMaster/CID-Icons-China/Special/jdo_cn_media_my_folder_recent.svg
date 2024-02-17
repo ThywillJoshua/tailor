@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_my_folder_recent</title>
+    <defs>
+        <linearGradient x1="10.4938272%" y1="0%" x2="65.3284486%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#BECBD4" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#8B9DAA" stop-opacity="0.00145406609" offset="100%"></stop>
+            <stop stop-color="#899CA9" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="jdo_cn_media_my_folder_recent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_IconFolder/ICN/Special/myfolder/45Format" transform="translate(-0.000000, 0.000000)">
+            <rect id="矩形" fill-opacity="0.1" fill="#899CA9" x="2.7000624e-13" y="0" width="200" height="200"></rect>
+            <polygon id="路径-2" fill="url(#linearGradient-1)" opacity="0.5" points="2.56539829 0 49.2770745 0 177.777778 200 -5.04870979e-29 200 -5.04870979e-29 0"></polygon>
+            <g id="时间" transform="translate(65.000000, 65.000000)">
+                <rect id="矩形" x="0" y="0" width="70" height="70"></rect>
+                <g id="E80D_setup_uhrzeit_und_datum" transform="translate(5.250000, 5.250000)" stroke="#FFFFFF" stroke-width="1.2">
+                    <path d="M52.265252,8.98277058 C64.2034305,20.9415582 64.190901,40.3125921 52.2372624,52.2559262 C40.2836237,64.1992603 20.9125862,64.1950838 8.96409875,52.2465963 C-2.98438875,40.2981088 -2.98856522,20.9270713 8.95476888,8.97343267 C20.898103,-2.98020599 40.2691369,-2.99273541 52.2279245,8.94544308 L52.265252,8.98277058 Z" id="路径"></path>
+                    <polyline id="路径" points="44.6053445 42.0011931 29.7303445 35.0011931 29.7303445 4.37619308"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

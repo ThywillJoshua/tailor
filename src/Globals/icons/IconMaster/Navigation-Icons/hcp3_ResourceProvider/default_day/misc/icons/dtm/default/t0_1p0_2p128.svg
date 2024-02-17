@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Maneuver_Color);
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="Maneuver_Color" x1="0" y1="19.07263" x2="40" y2="19.07263" gradientTransform="translate(0 42.31498) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#0FAFFF"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g id="d0_t0_1p128" data-name="d0 t0 1p128">
+    <path class="cls-1" d="M17.664,13.98378c.05362-.50749-.31431-.96235-.8218-1.01597-.03919-.00414-.0786-.00577-.118-.00488-.4,.01-.61565,.3108-.9664,.66156l-4.49211,4.49211,2.843,2.78618H5.18135V11.97543l2.783,2.83988,4.49211-4.49211c2.50135-2.50134,4.23093-2.40892,5.52531-2.15059s4.31827,1.10563,4.31827,5.8112l.00511,4.69129v19.76224h-4.6387V14.6751l-.00245-.69132Z"/>
+  </g>
+</svg>

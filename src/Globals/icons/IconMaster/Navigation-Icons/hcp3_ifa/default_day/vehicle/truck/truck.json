@@ -1,0 +1,60 @@
+{
+  "root_truck": {},
+  "root_body_truck": {},
+  "root_glass_truck": {},
+  "root_lights_truck": {},
+  "root_wheels_truck": {},
+  "root_shadows_truck": {},
+
+  "body_truck": {
+    "material": ["m_carpaint"]
+  },
+  "lights_brakes_truck": {
+    "material": ["m_lights"]
+  },
+  "wheel_fl_truck": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_fr_truck": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_rl_truck": {
+    "material": ["m_carpaint"]
+  },
+  "wheel_rr_truck": {
+    "material": ["m_carpaint"]
+  },
+  "shadows_truck": {
+    "material": ["m_shadow"]
+  },
+
+  "materials": {
+    "carpaint": {
+      "assignments": []
+    },
+    "carpaint_simple": {
+      "assignments": ["m_carpaint"]
+    },
+    "simple_color_fresnel_material": {
+      "assignments": []
+    },
+    "simple_color": {
+        "color": [1.0, 1.0, 1.0],
+        "assignments": []
+    },
+    "glass": {
+        "color": [1.0, 1.0, 1.0],
+        "transparency": 1.0,
+        "assignments": []
+    },
+    "chrome": {
+        "assignments": []
+    },
+    "lights": {
+        "assignments": ["m_lights"]
+    },
+    "shadow": {
+        "assignments": ["m_shadow"]
+    }
+  }
+}

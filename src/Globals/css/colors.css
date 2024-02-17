@@ -1,0 +1,155 @@
+/* CLASSIFICATION: CONFIDENTIAL */
+
+:root {
+  /*---------------------- AUDI COLOURS -------------------*/
+  --audiRed: 187, 10, 48;
+  --audiAssistantRed: 245, 5, 55;
+  --audiDarkRed: 103, 2, 24; /* Wird aktuell nicht mehr verwendet */
+  --audiAluminiumSilver: 179, 179, 179;
+  --audiWarmSilver: 182, 177, 169; /* Wird aktuell nicht mehr verwendet */
+  --audiAI: 19, 224, 192;
+  --audiAI2: 13, 75, 95;
+  --audiYellow: 255, 228, 0;
+  --audiGreen: 132, 255, 0;
+  --audiGrey: 70, 70, 70;
+  --audiLightGrey: 195, 195, 195;
+  --audiDarkGrey: 23, 23, 23;
+  --audiWhite: 255, 255, 255;
+  --audiBlack: 0, 0, 0;
+  --borderGrey: 129, 129, 129;
+  --borderGreyDark: 98, 98, 98;
+  --popupBackground: 65, 94, 112;
+  --popupFIDBackground: 106, 165, 196;
+  --dashboardBackground: 5, 15, 21;
+  --statusbarLightOverlay: rgba(0, 0, 0, 0.35);
+  --spotBackround: 54, 63, 68;
+  --interactionBackground: 137, 156, 169;
+
+  /*---------------------- THEME COLOURS -------------------*/
+  --ambientcolor1: var(
+    --SE_5006_04_rot
+  ); /*-------Used for Highlights, can be changed by one of the AmbientLight colors */
+  --ambientcolor1_background: var(
+    --SE_5006_01_neutral_background
+  ); /*radial gradient bottom right, can be changed by one of the AmbientLight colors */
+  --ambientBackground1: var(--audiBlack); /*background-color*/
+  --ambientBackground2: 7, 7, 7; /*lighter version of the background-color*/
+
+  /*---------------------- SYSTEM SETTINGS HIGHLIGHT COLOR -------------------*/
+  --systemSettingsHighlightColor: 123, 153, 205; /* Wird von Eso verwendet */
+
+  /*---------------------- MAP OVERLAY COLOURS -------------------*/
+  --routeActiveColor: 15, 175, 255;
+  --routeAlternativeOneBorder: 118, 28, 146;
+  --routeAlternativeOneInner: 133, 149, 255;
+  --routeAlternativeOneFont: 213, 192, 230;
+  --routeAlternativeTwoBorder: 15, 13, 135;
+  --routeAlternativeTwoInner: 166, 144, 254;
+  --routeAlternativeTwoFont: 232, 164, 233;
+  --routeTrafficNone: 88, 253, 88;
+  --routeTrafficSome: 255, 218, 5;
+  --routeTrafficMore: 255, 132, 31;
+  --routeTrafficJam: 254, 52, 52;
+
+  /*---------------------- CLIMATE COLOURS -------------------*/
+  --climateBlue: 42, 133, 244;
+  --climateOrange: 255, 170, 0;
+  --climateLightBlue: 136, 215, 255;
+
+  /*---------------------- PARKING COLOURS -------------------*/
+  --sideAssistRed: 255, 0, 60;
+  --parkingSpaceBlue: 11, 175, 238;
+  --ospGreen: 72, 217, 0;
+  --ospOrange: var(--fpkOrange);
+  --ospRed: var(--fpkRed);
+  --parkingTrajectoryColor: 0, 197, 46;
+  --parkingCameraTouchPointsActive: 0, 249, 255;
+
+  /*---------------------- FPK COLOURS -------------------*/
+  --fpkGrey: 134, 136, 137;
+  --fpkRed: var(--FIDtelltaleRed);
+  --fpkYellow: var(--FIDtelltaleYellow);
+  --fpkYellowInactive: 127, 128, 0;
+  --fpkGreen: 0, 255, 90;
+  --fpkGreenInactive: 0, 127, 45;
+  --fpkChargeBackground: 0, 158, 55;
+  --fpkWhite: var(--FIDtelltaleWhite);
+  --fpkOrange: 255, 180, 0;
+  --boostInactive: 77, 82, 91;
+  --bargraphInactive: 74, 78, 87;
+  --fpkUnit: var(--audiWhite); /* was 186, 186, 186 */
+
+  /*---------------------- FPK ICON LIGHT COLOURS -------------------*/
+  --FIDtelltaleRed: 255, 0, 0;
+  --FIDtelltaleYellow: 255, 255, 0;
+  --FIDtelltaleGreen: 0, 255, 0;
+  --FIDtelltaleBlue: 37, 0, 255;
+  --FIDtelltaleWhite: var(--audiWhite);
+  --FIDtelltaleGrey: 80, 80, 80;
+  --FIDtelltaleTurqoise: var(--audiAI);
+
+  --warningOrange: 255, 150, 0;
+  --warningRed: 245, 5, 55;
+  --warningRedInactive: 128, 3, 30;
+
+  --boundingBoxGreen: 0, 255, 0, 0.3;
+  --boundingBoxGreenFull: 0, 255, 0, 1;
+  --bodyColorGrey: 40, 40, 40;
+
+  --tabbarBackground: 210, 230, 255;
+
+  /*---------------------- GUI AMBIENT LIGHT COLOURS -------------------*/
+  --SE_5006_00_neutral: var(--SE_5006_04_rot);
+  --SE_5006_01_neutral_background: 157, 171, 182;
+  --SE_5006_02_orange: 227, 150, 87;
+  --SE_5006_03_orange_background: 227, 150, 87;
+  --SE_5006_04_rot: 245, 5, 55;
+  --SE_5006_05_rot_background: 245, 5, 55;
+  --SE_5006_06_violett: 255, 0, 138;
+  --SE_5006_07_violett_background: 255, 0, 138;
+  --SE_5006_08_blau: 0, 186, 255;
+  --SE_5006_09_blau_background: 0, 186, 255;
+  --SE_5006_10_gruen: 0, 255, 90;
+  --SE_5006_11_gruen_background: 0, 219, 77;
+  --SE_5006_12_rs: 255, 0, 0;
+  --SE_5006_13_rs_background: 255, 0, 0;
+
+  /*---------------------- LED AMBIENT LIGHT COLOURS -------------------*/
+  --LED_neutral: 255, 255, 255; /* (30) */
+  --LED_neutral_background: 255, 255, 255; /* (27)*/
+  --LED_orange: 255, 184, 0; /* (22) */
+  --LED_orange_background: 255, 209, 0; /* (21) */
+  --LED_rot: 255, 5, 55; /* (27) */
+  --LED_rot_background: 255, 255, 255; /* (30) */
+  --LED_violett: 116, 32, 255; /* (2) */
+  --LED_violett_background: 116, 32, 255; /* (2) */
+  --LED_blau: 0, 0, 255; /* (3) */
+  --LED_blau_background: 0, 219, 255; /* (9) */
+  --LED_gruen: 0, 255, 0; /* (14) */
+  --LED_gruen_background: 170, 255, 0; /* (16) */
+  --LED_rs: 255, 0, 0; /* (26) */
+  --LED_rs_background: 255, 0, 0; /* (26) */
+
+  /*---------------------- CALENDAR WEEK -------------------*/
+  --calendarWeek_blue: 52, 116, 182;
+  --calendarWeek_yellow: 220, 198, 13;
+
+  /*---------------------- SCROLLBAR TRACK -------------------*/
+  --scrollbarTrackColor: 23, 28, 32;
+
+  --listSeparatorLineColor: rgba(var(--audiWhite), 0.1);
+
+  /*---------------------- AIR QUALITY (these color values are not relevant, only dumy colors) -------------------*/
+  --airQualityColor1: 45, 217, 33;
+  --airQualityColor2: 226, 230, 25;
+  --airQualityColor3: 240, 140, 0;
+  --airQualityColor4: 217, 0, 22;
+  --airQualityColor5: 143, 63, 151;
+  --airQualityColor6: 153, 18, 48;
+
+  /* ------------------- hyperlink -----------------------------*/
+  --hyperlinkColor: 62, 133, 247;
+
+  /*---------------------- TABBAR SEPARATOR -------------------*/
+  --tabbarSeparatorColor: rgba(var(--interactionBackground), 0.4);
+}

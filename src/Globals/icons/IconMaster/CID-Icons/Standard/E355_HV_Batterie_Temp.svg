@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E194_car_battery_low" data-name="E194 car battery low">
+    <polyline class="cls-3" points="34.4 14.022 34.4 30.543 6.008 30.543"/>
+    <polyline class="cls-3" points="38.391 17.903 38.391 34.424 9.999 34.424"/>
+    <polyline class="cls-3" points="22.061 10.524 30.748 10.524 30.748 26.473 2.275 26.473 2.275 10.524 11.975 10.524"/>
+    <rect class="cls-1" x="6.176" y="8.076" width="3.803" height="2.243"/>
+    <rect class="cls-1" x="22.992" y="8.076" width="3.935" height="2.243"/>
+    <polygon class="cls-1" points="27.285 15.948 25.104 15.948 25.104 13.766 24.01 13.766 24.01 15.948 21.829 15.948 21.829 17.041 24.01 17.041 24.01 19.222 25.104 19.222 25.104 17.041 27.285 17.041 27.285 15.948"/>
+    <rect class="cls-1" x="5.528" y="15.948" width="5.456" height="1.093"/>
+  </g>
+  <path class="cls-2" d="m16.773,21.17v-4.083h4.112v-1.169h-4.112c0,.006,0-3.787,0-3.787h4.112s.002-1.257,0-1.268h-4.112v-3.807h4.112v-1.179h-4.112v-1.385c.065-.739-.481-1.392-1.22-1.457-.053-.005-.107-.006-.16-.005-.726.023-1.296.631-1.273,1.357.001.035.004.07.008.105v16.677h2.646Z"/>
+  <circle class="cls-1" cx="15.47" cy="21.49" r="2.205"/>
+</svg>

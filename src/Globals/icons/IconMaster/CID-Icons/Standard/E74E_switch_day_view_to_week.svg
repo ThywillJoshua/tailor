@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Hilfe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-5 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="M22.04906,3.53816s2.3269,.0011,4.77329,0c4.217-.00189,7.69309,2.67667,7.69309,6.12622v3.97135"/>
+  <path class="cls-4" d="M17.92575,37.29573s-2.04689-.0011-4.49328,0c-4.217,.00189-7.99232-2.91526-7.99232-6.36481v-3.49052"/>
+  <polygon class="cls-1" points="1.129 29.1214 5.442 23.9794 9.802 29.1214 1.129 29.1214"/>
+  <polygon class="cls-1" points="38.871 10.7504 34.558 15.8934 30.198 10.7504 38.871 10.7504"/>
+  <line class="cls-3" x1="23.13118" y1="28.01" x2="36.95864" y2="28.01"/>
+  <line class="cls-5" x1="7" y1="3.52452" x2="13" y2="3.52452"/>
+  <polyline class="cls-5" points="18 3.52452 19.42906 3.52452 19.42906 18.47362 .67627 18.47362 .67627 3.52452 2 3.52452"/>
+  <polyline class="cls-5" points="37.88409 22.54877 39.31316 22.54877 39.31316 37.49787 20.56036 37.49787 20.56036 22.54877 21.88409 22.54877"/>
+  <rect class="cls-1" x="4" y="8" width="3" height="2"/>
+  <line class="cls-2" x1="4.5" y1="1" x2="4.5" y2="6"/>
+  <line class="cls-2" x1="15.5" y1="1" x2="15.5" y2="6"/>
+  <line class="cls-2" x1="24.5" y1="20" x2="24.5" y2="25"/>
+  <line class="cls-2" x1="35.5" y1="20" x2="35.5" y2="25"/>
+  <line class="cls-5" x1="26.88469" y1="22.54903" x2="32.88469" y2="22.54903"/>
+</svg>

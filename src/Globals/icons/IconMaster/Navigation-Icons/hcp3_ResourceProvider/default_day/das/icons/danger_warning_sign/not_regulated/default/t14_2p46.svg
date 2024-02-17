@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Rahmen_rot);
+      }
+
+      .cls-2 {
+        fill: url(#Beschriftung_schwarz);
+      }
+
+      .cls-3 {
+        fill: url(#Hintergrund_weiss);
+      }
+    </style>
+    <linearGradient id="Hintergrund_weiss" x1="2" y1="22" x2="42" y2="22" gradientTransform="translate(0 44) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Rahmen_rot" x1="3.1" y1="22.01" x2="40.9" y2="22.01" gradientTransform="translate(0 44) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#e52421"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Beschriftung_schwarz" x1="9.8215" y1="566.75" x2="33.8785" y2="566.75" gradientTransform="translate(0 -544)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#000"/>
+      <stop offset="1" stop-color="#010101"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-3" cx="22" cy="22" r="20"/>
+  <path class="cls-1" d="m22,3.09C11.56182,3.09,3.1,11.55182,3.1,21.99s8.46182,18.9,18.9,18.9,18.9-8.46182,18.9-18.9S32.43818,3.09,22,3.09Zm0,32.9c-7.73199,0-14-6.26801-14-14s6.26801-14,14-14,14,6.26801,14,14-6.26801,14-14,14Z"/>
+  <path class="cls-2" d="m27.7225,16.4725l-17.901,3.969,9.153,5.994,10.449-4.779-1.701-5.184Zm4.698,6.237l-3.726,2.997-1.053-2.187-2.268,1.134,2.997,4.374,5.508-5.022-1.458-1.296Z"/>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DIRECTION_ARROW" data-name="DIRECTION ARROW" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#OFA_gradient_arrow);
+      }
+    </style>
+    <linearGradient id="OFA_gradient_arrow">
+      <stop offset="0" stop-color="#14b9cd"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m58.5857,33.37922l7.05005-7.0498h-24v24l7.05005-7.05029,27.25903,27.25c1.31323,1.3125,2.05103,3.09375,2.05103,4.95068v94.51953h14v-95.7627c0-4.7749-1.89722-9.354-5.27393-12.72998l-28.13623-28.12744Z"/>
+</svg>

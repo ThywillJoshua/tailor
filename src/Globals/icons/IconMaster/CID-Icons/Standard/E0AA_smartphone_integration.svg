@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="E0AA_smartphone_integration" data-name="E0AA smartphone integration">
+    <g id="V2-55">
+      <polygon class="cls-1" points="14 22.999 4 18.5 14 14 14 22.999"/>
+      <path class="cls-3" d="M8.5,5v-1.5h30V22.5H21"/>
+      <polygon class="cls-1" points="25 19 35 14.5 25 10 25 19"/>
+      <line class="cls-5" x1="26" y1="14.5" x2="16" y2="14.5"/>
+      <line class="cls-5" x1="23" y1="18.5" x2="13" y2="18.5"/>
+    </g>
+  </g>
+  <line class="cls-6" x1="6" y1="35.5" x2="15" y2="35.5"/>
+  <line class="cls-4" x1="8.3" y1="10.5" x2="12.7" y2="10.5"/>
+  <path class="cls-2" d="M18.50053,21v16.31875c0,.5879-.50328,1.18025-1.09118,1.18025H3.59118c-.5879,0-1.09118-.59235-1.09118-1.18025V8.68025c0-.5879,.50328-1.18025,1.09118-1.18025h13.81818c.5879,0,1.09118,.59235,1.09118,1.18025v3.31975"/>
+</svg>

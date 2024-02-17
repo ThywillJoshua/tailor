@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="E2FF-002_reku_stufe1-2" data-name="E2FF-002 reku stufe1-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M54,5v15c0,1.65685-1.34315,3-3,3H3.99988c-1.65682-.00003-2.99991-1.34318-2.99988-3V4.99988c.00003-1.65682,1.34318-2.99991,3-2.99988H51c1.65685,0,3,1.34315,3,3Z"/>
+  <path class="cls-1" d="M6,6H26v13H6c-.55228,0-1-.44772-1-1V7c0-.55228,.44772-1,1-1Z"/>
+</svg>

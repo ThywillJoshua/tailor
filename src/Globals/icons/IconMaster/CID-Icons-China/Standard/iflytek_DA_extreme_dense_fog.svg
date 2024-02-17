@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>iflytek_DA_extreme_dense_fog</title>
+    <desc>Created with Sketch.</desc>
+    <g id="iflytek_DA_extreme_dense_fog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="形状" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.2">
+            <line x1="0" y1="26" x2="40" y2="26" id="路径"></line>
+            <path d="M32.6,20 L7.85,20 C4.61360966,19.9820981 1.99945148,17.3534399 1.99945148,14.117 C1.99945148,10.8805601 4.61360966,8.25190191 7.85,8.234 C8.032,8.234 8.211,8.245 8.389,8.261 C8.86575168,5.32289625 11.3984818,3.16123267 14.375,3.152 C15.0461442,3.15325493 15.7123462,3.26682361 16.346,3.488 C19.0833316,0.387520188 23.4079671,-0.778081825 27.3326608,0.526808545 C31.2573544,1.83169892 34.0231044,5.35472718 34.359,9.477 C36.8537589,10.3402742 38.3612317,12.8779928 37.9259912,15.481765 C37.4907508,18.0855373 35.2398938,19.9950223 32.6,20 L32.6,20 Z" id="路径"></path>
+            <line x1="0" y1="32" x2="40" y2="32" id="路径"></line>
+            <line x1="0" y1="38" x2="40" y2="38" id="路径备份"></line>
+        </g>
+    </g>
+</svg>

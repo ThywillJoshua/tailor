@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Pictogram-12);
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: url(#Pictogram-2);
+      }
+
+      .cls-4 {
+        stroke: url(#Pictogram-6);
+      }
+
+      .cls-11 {
+        fill: url(#Background);
+      }
+
+      .cls-12 {
+        fill: url(#Pictogram-9);
+      }
+
+      .cls-5 {
+        stroke: url(#Pictogram-10);
+      }
+
+      .cls-6 {
+        stroke: url(#Pictogram-4);
+      }
+
+      .cls-7 {
+        stroke: url(#Frame);
+      }
+
+      .cls-8 {
+        stroke: url(#Pictogram-11);
+      }
+
+      .cls-13 {
+        fill: url(#Pictogram-3);
+      }
+
+      .cls-14 {
+        fill: url(#Pictogram-8);
+      }
+
+      .cls-9 {
+        stroke: url(#Pictogram-5);
+      }
+
+      .cls-15 {
+        fill: url(#Pictogram-13);
+      }
+
+      .cls-10 {
+        stroke: url(#Pictogram);
+      }
+
+      .cls-16 {
+        fill: url(#Pictogram-7);
+      }
+    </style>
+    <linearGradient id="Background" x1="2.75" y1="25" x2="47.25" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Frame" x1="2" y1="25" x2="48" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Pictogram" x1="27.95" y1="35.5" x2="35.05" y2="35.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".00503" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Pictogram-2" data-name="Pictogram" x1="25.25" x2="37.75" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-3" data-name="Pictogram" x1="21" y1="31" x2="24" y2="31" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-4" data-name="Pictogram" x1="36.7" y1="33.5" x2="43.5" y2="33.5" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-5" data-name="Pictogram" x1="18.75" y1="35" x2="44.25" y2="35" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-6" data-name="Pictogram" x1="21.68706" y1="15.99781" x2="30.31294" y2="15.99781" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-7" data-name="Pictogram" x1="21.75" y1="10.675" x2="25.25" y2="10.675" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-8" data-name="Pictogram" x1="26.75" y1="10.675" x2="30.25" y2="10.675" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-9" data-name="Pictogram" x1="18.75" y1="14.00012" x2="33.25001" y2="14.00012" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-10" data-name="Pictogram" x1="8.68706" y1="22.00219" x2="17.31294" y2="22.00219" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-11" data-name="Pictogram" x1="5.75" y1="20" x2="20.25" y2="20" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-12" data-name="Pictogram" x1="8.75" y1="16.675" x2="12.25" y2="16.675" xlink:href="#Pictogram"/>
+    <linearGradient id="Pictogram-13" data-name="Pictogram" x1="13.75" y1="16.675" x2="17.25" y2="16.675" xlink:href="#Pictogram"/>
+  </defs>
+  <g id="Icon">
+    <g id="Rahmen_-_Susibasis" data-name="Rahmen - Susibasis">
+      <rect class="cls-11" x="2.75" y="2.75" width="44.5" height="44.5" rx="3" ry="3"/>
+      <rect class="cls-7" x="2.75" y="2.75" width="44.5" height="44.5" rx="3" ry="3"/>
+    </g>
+    <circle class="cls-10" cx="31.5" cy="35.5" r="2.8"/>
+    <circle class="cls-3" cx="31.5" cy="35.5" r="5.5"/>
+    <rect class="cls-13" x="21" y="30" width="3" height="2"/>
+    <line class="cls-2" x1="26.25" y1="33.5" x2="19.5" y2="33.5"/>
+    <line class="cls-6" x1="43.5" y1="33.5" x2="36.7" y2="33.5"/>
+    <polygon class="cls-9" points="19.5 28.5 19.5 43.5 43.5 43.5 43.5 28.5 37 28.5 34.5 26.5 28.5 26.5 26 28.5 19.5 28.5"/>
+    <path class="cls-4" d="M29.5,17.5c-.14449-1.791-1.70819-3.12913-3.5-2.99513-1.79181-.134-3.35551,1.20413-3.5,2.99513h7Z"/>
+    <path class="cls-16" d="M25.25,11.55c0-.9665-.7835-1.75-1.75-1.75s-1.75,.7835-1.75,1.75h3.5Z"/>
+    <path class="cls-14" d="M30.25,11.55c0-.9665-.7835-1.75-1.75-1.75s-1.75,.7835-1.75,1.75h3.5Z"/>
+    <path class="cls-12" d="M18.75,5.75v4.75h1.5v-3.25h11.5v7.75c.00313,3.1725-2.56615,5.74687-5.73866,5.75-1.75835,.00174-3.42065-.80195-4.51134-2.18115v2.105c3.12818,2.49071,7.68319,1.97394,10.17389-1.15424,1.02257-1.28428,1.57832-2.87795,1.57611-4.51961V5.75h-14.5Z"/>
+    <path class="cls-5" d="M9.5,20.5c.14449,1.791,1.70819,3.12913,3.5,2.99513,1.79181,.134,3.35551-1.20413,3.5-2.99513h-7Z"/>
+    <path class="cls-8" d="M19.5,21c0,3.58985-2.91015,6.5-6.5,6.5s-6.5-2.91015-6.5-6.5V12.5h13v8.5Z"/>
+    <path class="cls-1" d="M12.25,17.55c0-.9665-.7835-1.75-1.75-1.75s-1.75,.7835-1.75,1.75h3.5Z"/>
+    <path class="cls-15" d="M17.25,17.55c0-.9665-.7835-1.75-1.75-1.75s-1.75,.7835-1.75,1.75h3.5Z"/>
+  </g>
+</svg>

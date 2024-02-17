@@ -1,0 +1,32 @@
+{
+  "type": "copying",
+  "id": "default_day.das.copying.speedlimit.chn.duplicate_base_signs",
+  "dependencies": [
+    "default_day.das",
+    "default_day.das.merging.speedlimit.default.basic.no_units",
+    "default_day.das.merging.speedlimit.default.basic.units",
+    "default_day.das.coloring.speedlimit.default.regulated.without_sign"
+  ],
+  "workingSets": [
+    {
+      "inputPath": "speed_limit/not_regulated/default",
+      "outputPath": "speed_limit/not_regulated/chn"
+    },
+    {
+      "inputPath": "speed_limit/not_regulated/chn",
+      "outputPath": "speed_limit/not_regulated/chn"
+    }
+  ],
+  "filter": {
+    "comment": "A file is used as input if it passes all listed filter parts individually",
+    "acceptWith": {
+      "param3": {
+        "comment": "Only no unit and km/h",
+        "elementOf": [0, 1]
+      }
+    }
+  },
+  "outputNaming": {
+    "subMarket": "chn"
+  }
+}

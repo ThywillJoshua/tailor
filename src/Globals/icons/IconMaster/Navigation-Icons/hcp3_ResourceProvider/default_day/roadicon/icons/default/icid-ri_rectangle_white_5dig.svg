@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 35">
+<g id="ri_rectangle_white_5dig">
+<g id="Schild">
+<path d="M0,3.6408A3.64054,3.64054,0,0,1,3.6426,0h88.754A3.60162,3.60162,0,0,1,96,3.60159V31.40772A3.59308,3.59308,0,0,1,92.406,35H3.6162A3.6163,3.6163,0,0,1,0,31.385Z" data-name="Schild" fill="#fff" fill-rule="evenodd" id="Schild-2" />
+</g>
+<text font-family="AudiTypeDisplayHigh-Normal, Audi Type Display High" font-size="22" id="Text" text-anchor="middle" transform="translate(48 25.22952)">{value}</text>
+</g>
+</svg>

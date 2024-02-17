@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jdo_cn_media_children_teenager_mode_tab_culture</title>
+    <defs>
+        <filter x="-27.7%" y="-33.5%" width="155.4%" height="167.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="jdo_cn_media_children_teenager_mode_tab_culture" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="古建筑1.1备份" filter="url(#filter-1)" transform="translate(1.010714, 4.000000)" fill="#33E0B4" fill-rule="nonzero">
+                <path d="M30.8223362,12.1739131 C32.1991478,14.6086957 35.2969739,15.4782609 37.8784956,14.0869565 C38.2226985,16.6956522 36.8458869,19.1304348 34.4364666,20.3478261 L34.4364666,31.3043478 L24.1103797,31.3043478 L24.1103797,27.826087 C24.1103797,24.8695652 21.8730608,22.6086957 18.9473362,22.6086957 C16.193713,22.6086957 13.9563942,24.6956522 13.7842927,27.4782609 L13.7842927,31.3043478 L3.45820575,31.3043478 L3.45820575,20.3478261 C1.04878547,19.3043478 -0.155924685,16.6956522 0.0161767782,14.0869565 C2.42559705,15.4782609 5.6955246,14.6086957 7.07233619,12.1739131 L30.8223362,12.1739131 Z M27.5524086,0 C28.068713,3.30434784 31.1665391,5.56521738 34.4364666,5.2173913 C34.7806695,5.2173913 34.952771,5.04347825 35.2969739,5.04347825 C34.952771,8 32.5433507,10.2608696 29.617626,10.4347826 L8.62124923,10.4347826 C5.52342314,10.4347826 2.9419014,8 2.59769852,5.04347825 C5.86762607,5.91304345 9.13755358,4.17391304 9.99806081,0.869565204 C10.1701623,0.52173913 10.1701623,0.347826073 10.3422637,0 L27.5524086,0 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_in_weiss_und_grau" data-name="Icons in weiss und grau" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        fill: #969696;
+      }
+
+      .cls-3 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="58.061" y1="54.484" x2="62.822" y2="54.484"/>
+  <path class="cls-4" d="m50.48,53.564v4.919h-4.919v-4.919h4.919m1.5-1.5h-7.919v7.919h7.919v-7.919h0Z"/>
+  <path class="cls-4" d="m50.471,64.543v4.919h-4.919v-4.919h4.919m1.5-1.5h-7.919v7.919h7.919v-7.919h0Z"/>
+  <path class="cls-4" d="m61.382,64.543v4.842h-4.842v-4.842h4.842m1.5-1.5h-7.842v7.842h7.842v-7.842h0Z"/>
+  <path class="cls-4" d="m64.5,50.5v8.001h-8.001v-8.001h8.001m1.5-1.5h-11v11h11v-11h0Z"/>
+  <path class="cls-1" d="m64.5,50.5v8.001h-8.001v-8.001h8.001m1.5-1.5h-11v11h11v-11h0Z"/>
+  <line class="cls-3" x1="60.48" y1="52.064" x2="60.48" y2="56.825"/>
+  <path class="cls-2" d="m66.024,43.017h7.098s4.471,33.954,4.471,33.954H31.404s4.471-33.954,4.471-33.954h7.078m6.099,0h10.933"/>
+  <path class="cls-2" d="m46.046,44v-7.253c0-3.3,2.769-6,6.069-6h4.838c3.3,0,6,2.7,6,6v7.253"/>
+</svg>
