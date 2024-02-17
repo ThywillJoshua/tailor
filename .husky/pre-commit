@@ -15,17 +15,17 @@ branchName=$(git branch | grep '*' | sed 's/* //')
 
 if [ $branchName == 'master' ]
 then
-  echo "🚫 Commit directly to master branch is not allowed!"
+  echo "🚩 Commit directly to master branch is not allowed!"
   echo "$separator" && exit 1
 fi
 
 if [ $branchName == 'development' ]
 then
-  echo "🚫 Cannot push to remote develop branch, please create your own branch and use PR." 
+  echo "🚩 Cannot push to remote develop branch, please create your own branch and use PR." 
   echo "$separator" && exit 1
 fi
 
-echo "✅ Finish checking branch name."
+echo "💚 Finish checking branch name."
 echo "$separator"
 
 exit 0
