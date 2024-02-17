@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deployS3": "aws s3 rm s3://tailor-frontend-bucket/ --recursive && aws s3 sync ./storybook-static s3://tailor-frontend-bucket/",
+    "deployS3": "aws s3 rm s3://tailor-frontend-bucket/ --recursive --exclude 'ahcp3-cargraphics/*' && aws s3 sync ./storybook-static s3://tailor-frontend-bucket/ --exclude 'ahcp3-cargraphics/*'",
     "prepare": "husky"
   },
   "dependencies": {
