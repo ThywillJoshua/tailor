@@ -1,28 +1,31 @@
 #!/bin/bash
 # Prevents force-pushing to master
 
-echo "===\n>> Pre-push Hook: Checking branch name..."
+echo "                                    "
+echo "🏁 Pre-push Hook: Checking branch name..."
+echo "------------------------------------"
 
 
-INPUT=`history | grep "git push" | tail -n 1`
-BRANCH=`git rev-parse --abbrev-ref HEAD`
-PROTECTED_BRANCHES="^(master|development)"
+COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1)
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
-
-if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]
-then
-  echo "\n🚫 Cannot push to remote $BRANCH branch, please create your own branch and use PR." && exit 1
+if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
+  echo "🚫 Cannot push to remote master branch, create your own branch and use PR." 
+  echo "------------------------------------" 
+  echo "                                    " && exit 1
 fi
 
-
-if [[ "$INPUT" != *"$BRANCH"* ]]
-then
-  echo "\n🚫 You must use (git push origin $BRANCH) \n" && exit 1
+if [[ "$BRANCH" == 'development' || "$COMMAND" == *"development"* ]]; then
+  echo "🚫 Cannot push to remote development branch, create your own branch and use PR." 
+  echo "------------------------------------" 
+  echo "                                    " && exit 1
 fi
 
-echo ">> Finish checking branch name \n==="
+echo "✅ Finished checking branch name."
+echo "                                    "
+echo "************************************"
 
-#!/bin/bash
+
 exec < /dev/tty
 echo "                                    "
 res=""
