@@ -21,7 +21,8 @@ fi
 
 if [ $branchName == 'development' ]
 then
-  echo "🚩 Cannot push to remote develop branch, please create your own branch and use PR." 
+  echo "$lineLine"
+  echo "🚩 Commit directly to development branch is not allowed!" 
   echo "$separator" && exit 1
 fi
 

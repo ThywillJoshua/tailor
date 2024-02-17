@@ -10,13 +10,13 @@ separator="$spaceGap\n$sparkLine\n$spaceGap"
 
 echo "$separator" 
 echo "🏁 Pre-push Hook: Checking branch name..."
-echo "$lineLine"
 
 
 COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1 || grep "git push" ~/.history | tail -n 1)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 git fetch
+echo "$lineLine"
 HEADHASH=$(git rev-parse HEAD)
 
 if [ -z "$(git ls-remote --heads origin ${BRANCH} 2>/dev/null)" ]; then
