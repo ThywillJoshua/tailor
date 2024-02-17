@@ -1,6 +1,8 @@
 #!/bin/bash
 # Protect master and development from accidental commits.
 
+
+echo "************************************"
 echo "                                    "
 echo "🏁 Pre-commit Hook: Checking branch name..."
 echo "------------------------------------"
@@ -22,5 +24,7 @@ then
 fi
 
 echo "✅ Finish checking branch name."
+echo "                                    "
+echo "************************************"
 
 exit 0

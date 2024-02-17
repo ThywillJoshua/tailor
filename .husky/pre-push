@@ -73,8 +73,12 @@ if [[ "$res" == "y" ]]; then
     git add .
     git commit --amend --no-edit  --no-verify
     echo "✅ Finish build check!"
+    echo "                                    "
+    echo "************************************"
 else
     echo "✅ Finish build check!"
+    echo "                                    "
+    echo "************************************" 
 fi
 
 # Continue with other pre-commit tasks or commands
