@@ -7,10 +7,11 @@ line2="************************************\n"
 line3="                                    "
 
 separator="$line1$line2$line3"
+divider="------------------------------------"
 
 echo "$separator" 
 echo "🏁 Pre-push Hook: Checking branch name..."
-echo "------------------------------------"
+echo "$divider"
 
 
 COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1 || grep "git push" ~/.history | tail -n 1)
@@ -35,10 +36,10 @@ res=""
 response1=""
 while [[ ! "$response1" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook? (y/n): " response1
-    echo "------------------------------------"
+    echo "$divider"
     if [[ ! "$response1" =~ ^[yn]$ ]]; then
         echo "🚫 Please enter 'y' or 'n'."
-        echo "------------------------------------"
+        echo "$divider"
     fi
 done
 
@@ -47,17 +48,17 @@ if [ "$response1" == "y" ]; then
     res="y"
 else
     echo "🤌 Skipped build-storybook."
-    echo "------------------------------------"
+    echo "$divider"
 fi
 
 echo "$separator"
 response2=""
 while [[ ! "$response2" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook HUD? (y/n): " response2
-    echo "------------------------------------"
+    echo "$divider"
     if [[ ! "$response2" =~ ^[yn]$ ]]; then
         echo "🚫 Please enter 'y' or 'n'."
-        echo "------------------------------------"
+        echo "$divider"
     fi
 done
 
@@ -66,7 +67,7 @@ if [ "$response2" == "y" ]; then
     res="y"
 else
     echo "🤌 Skipped build-storybook-hud."
-    echo "------------------------------------"
+    echo "$divider"
 fi
 
 if [[ "$res" == "y" ]]; then
