@@ -4,7 +4,7 @@
 echo "===\n>> Pre-push Hook: Checking branch name..."
 
 BRANCH=`git rev-parse --abbrev-ref HEAD`
-PROTECTED_BRANCHES="^(master|development)$"
+PROTECTED_BRANCHES="^(master|development)"
 
 if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]
 then
@@ -13,10 +13,62 @@ fi
 
 # if [[ $1 != *"$BRANCH"* ]]
 # then
-#   echo $BRANCH
 #   echo "\n🚫 You must use (git push origin $BRANCH) \n" && exit 1
 # fi
 
 echo ">> Finish checking branch name \n==="
+
+#!/bin/bash
+exec < /dev/tty
+echo "                                    "
+res=""
+response1=""
+while [[ ! "$response1" =~ ^[yn]$ ]]; do
+    read -p "🤨 Build Storybook? (y/n): " response1
+    echo "------------------------------------"
+    if [[ ! "$response1" =~ ^[yn]$ ]]; then
+        echo "🚫 Please enter 'y' or 'n'."
+        echo "------------------------------------"
+    fi
+done
+
+if [ "$response1" == "y" ]; then
+    npm run build-storybook || git reset --hard HEAD
+    res="y"
+else
+    echo "🤌 Skipped build-storybook."
+    echo "------------------------------------"
+fi
+
+echo "                                    "
+echo "************************************"
+echo "                                    "
+response2=""
+while [[ ! "$response2" =~ ^[yn]$ ]]; do
+    read -p "🤨 Build Storybook HUD? (y/n): " response2
+    echo "------------------------------------"
+    if [[ ! "$response2" =~ ^[yn]$ ]]; then
+        echo "🚫 Please enter 'y' or 'n'."
+        echo "------------------------------------"
+    fi
+done
+
+if [ "$response2" == "y" ]; then
+    npm run build-storybook-hud || git reset --hard HEAD
+    res="y"
+else
+    echo "🤌 Skipped build-storybook-hud."
+    echo "------------------------------------"
+fi
+
+if [[ "$res" == "y" ]]; then
+    git add .
+    git commit --amend --no-edit  --no-verify
+    echo "✅ Finish build check!"
+else
+    echo "✅ Finish build check!"
+fi
+
+# Continue with other pre-commit tasks or commands
 
 exit 0
