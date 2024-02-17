@@ -26,16 +26,16 @@ else
 fi
 
 if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
-  echo "🚫 Cannot push to remote master branch, create your own branch and use PR." 
+  echo "🚩 Cannot push to remote master branch, create your own branch and use PR." 
   echo "$separator" && exit 1
 fi
 
 if [[ "$BRANCH" == 'development' || "$COMMAND" == *"development"* ]]; then
-  echo "🚫 Cannot push to remote development branch, create your own branch and use PR." 
+  echo "🚩 Cannot push to remote development branch, create your own branch and use PR." 
   echo "$separator" && exit 1
 fi
 
-echo "✅ Finished checking branch name."
+echo "💚 Finished checking branch name."
 echo "$separator"
 
 
@@ -46,7 +46,7 @@ while [[ ! "$response1" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook? (y/n): " response1
     echo "$lineLine"
     if [[ ! "$response1" =~ ^[yn]$ ]]; then
-        echo "🚫 Please enter 'y' or 'n'."
+        echo "🤌 Please enter 'y' or 'n'."
         echo "$lineLine"
     fi
 done
@@ -55,7 +55,7 @@ if [ "$response1" == "y" ]; then
     npm run build-storybook || git reset --hard HEAD
     res="y"
 else
-    echo "🤌 Skipped build-storybook."
+    echo "⏩ Skipped build-storybook."
     echo "$lineLine"
 fi
 
@@ -65,7 +65,7 @@ while [[ ! "$response2" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook HUD? (y/n): " response2
     echo "$lineLine"
     if [[ ! "$response2" =~ ^[yn]$ ]]; then
-        echo "🚫 Please enter 'y' or 'n'."
+        echo "🤌 Please enter 'y' or 'n'."
         echo "$lineLine"
     fi
 done
@@ -74,7 +74,7 @@ if [ "$response2" == "y" ]; then
     npm run build-storybook-hud || git reset --hard HEAD
     res="y"
 else
-    echo "🤌 Skipped build-storybook-hud."
+    echo "⏩ Skipped build-storybook-hud."
     echo "$lineLine"
 fi
 
@@ -88,10 +88,10 @@ if [[ "$res" == "y" ]]; then
         git commit --amend --no-edit  --no-verify
     fi 
     echo "$lineLine"
-    echo "✅ Finish build check!"
+    echo "💚 Finished build check!"
     echo "$separator" 
 else
-    echo "✅ Finish build check!"
+    echo "💚 Finished build check!"
     echo "$separator" 
 fi
 

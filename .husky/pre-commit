@@ -25,7 +25,7 @@ then
   echo "$separator" && exit 1
 fi
 
-echo "💚 Finish checking branch name."
+echo "💚 Finished checking branch name."
 echo "$separator"
 
 exit 0
