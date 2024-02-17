@@ -46,7 +46,7 @@ while [[ ! "$response1" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook? (y/n): " response1
     echo "$lineLine"
     if [[ ! "$response1" =~ ^[yn]$ ]]; then
-        echo "🤌 Please enter 'y' or 'n'."
+        echo "🤌  Please enter 'y' or 'n'."
         echo "$lineLine"
     fi
 done
@@ -65,7 +65,7 @@ while [[ ! "$response2" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook HUD? (y/n): " response2
     echo "$lineLine"
     if [[ ! "$response2" =~ ^[yn]$ ]]; then
-        echo "🤌 Please enter 'y' or 'n'."
+        echo "🤌  Please enter 'y' or 'n'."
         echo "$lineLine"
     fi
 done
