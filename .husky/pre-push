@@ -19,8 +19,7 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git fetch
 HEADHASH=$(git rev-parse HEAD)
 
-if [ -z "$(git rev-parse --abbrev-ref origin/${BRANCH} 2>/dev/null)" ]; then
-#   echo "Branch '$BRANCH' does not have an upstream branch. Skipping."
+if [ -z "$(git ls-remote --heads origin ${BRANCH} 2>/dev/null)" ]; then
     echo "$spaceGap"
 else
   UPSTREAMHASH=$(git rev-parse origin/${BRANCH})
@@ -95,7 +94,5 @@ else
     echo "✅ Finish build check!"
     echo "$separator" 
 fi
-
-# Continue with other pre-commit tasks or commands
 
 exit 0
