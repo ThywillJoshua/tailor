@@ -3,18 +3,22 @@
 
 echo "===\n>> Pre-push Hook: Checking branch name..."
 
+
+INPUT=`history | grep "git push" | tail -n 1`
 BRANCH=`git rev-parse --abbrev-ref HEAD`
 PROTECTED_BRANCHES="^(master|development)"
+
 
 if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]
 then
   echo "\n🚫 Cannot push to remote $BRANCH branch, please create your own branch and use PR." && exit 1
 fi
 
-# if [[ $1 != *"$BRANCH"* ]]
-# then
-#   echo "\n🚫 You must use (git push origin $BRANCH) \n" && exit 1
-# fi
+
+if [[ "$INPUT" != *"$BRANCH"* ]]
+then
+  echo "\n🚫 You must use (git push origin $BRANCH) \n" && exit 1
+fi
 
 echo ">> Finish checking branch name \n==="
 
