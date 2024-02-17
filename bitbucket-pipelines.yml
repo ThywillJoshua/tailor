@@ -1,0 +1,15 @@
+image: node:16
+
+pipelines:
+  -default:
+    -step:
+      name: Build Storybook & Storybook Static
+      caches: -node
+      script:
+        - npm install -g bun
+        - bun i
+        - bun build-storybook
+        - bun build-storybook-hud
+        - git add ./storybook-*static
+        - git commit -m "Pipeline:: Build Storybook & Storybook Static"
+        - git push origin feat/development-pipeline #update this to desired branch
