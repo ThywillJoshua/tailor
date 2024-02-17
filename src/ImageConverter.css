@@ -1,0 +1,44 @@
+.image-converter-container {
+  display: grid;
+  width: 100vw;
+  place-items: center;
+}
+
+.input {
+  display: none;
+}
+
+.dropTarget {
+  position: relative;
+  border: 3px dashed silver;
+  flex-basis: auto;
+  flex-grow: 20;
+  height: 200px;
+  width: 60vw;
+}
+.dropTarget::before {
+  content: "Drop files here";
+  color: silver;
+  font-size: 5vh;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+.previews {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 50px;
+}
+
+.previews img {
+  width: 500px;
+}

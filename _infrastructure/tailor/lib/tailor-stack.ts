@@ -20,8 +20,9 @@ export class TailorStack extends cdk.Stack {
       },
 
       publicReadAccess: true,
-      websiteIndexDocument: "ahcp3-design/index.html",
-      websiteErrorDocument: "ahcp3-design/index.html",
+
+      websiteIndexDocument: "index.html",
+      websiteErrorDocument: "index.html",
     });
 
     bucket.addToResourcePolicy(
