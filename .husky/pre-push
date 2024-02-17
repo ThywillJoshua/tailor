@@ -1,12 +1,13 @@
 #!/bin/bash
 # Prevents force-pushing to master
+# Prompts to build before push
 
 echo "                                    "
 echo "🏁 Pre-push Hook: Checking branch name..."
 echo "------------------------------------"
 
 
-COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1)
+COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1 || grep "git push" ~/.history | tail -n 1)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
