@@ -81,8 +81,7 @@ fi
 if [[ "$res" == "y" ]]; then
     if [ "$HEADHASH" == "$UPSTREAMHASH" ]
     then
-        git add ./storybook-static
-        git add ./storybook-HUD-static
+        git add ./storybook-*static
         git commit -m "Build Storybook Static"
     else
         git add .
