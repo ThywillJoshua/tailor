@@ -2,7 +2,13 @@
 # Prevents force-pushing to master
 # Prompts to build before push
 
-echo "                                    "
+line1="                                    \n"
+line2="************************************\n"
+line3="                                    "
+
+separator="$line1$line2$line3"
+
+echo "$separator" 
 echo "🏁 Pre-push Hook: Checking branch name..."
 echo "------------------------------------"
 
@@ -12,23 +18,19 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
   echo "🚫 Cannot push to remote master branch, create your own branch and use PR." 
-  echo "------------------------------------" 
-  echo "                                    " && exit 1
+  echo "$separator" && exit 1
 fi
 
 if [[ "$BRANCH" == 'development' || "$COMMAND" == *"development"* ]]; then
   echo "🚫 Cannot push to remote development branch, create your own branch and use PR." 
-  echo "------------------------------------" 
-  echo "                                    " && exit 1
+  echo "$separator" && exit 1
 fi
 
 echo "✅ Finished checking branch name."
-echo "                                    "
-echo "************************************"
+echo "$separator"
 
 
 exec < /dev/tty
-echo "                                    "
 res=""
 response1=""
 while [[ ! "$response1" =~ ^[yn]$ ]]; do
@@ -48,9 +50,7 @@ else
     echo "------------------------------------"
 fi
 
-echo "                                    "
-echo "************************************"
-echo "                                    "
+echo "$separator"
 response2=""
 while [[ ! "$response2" =~ ^[yn]$ ]]; do
     read -p "🤨 Build Storybook HUD? (y/n): " response2
@@ -73,12 +73,10 @@ if [[ "$res" == "y" ]]; then
     git add .
     git commit --amend --no-edit  --no-verify
     echo "✅ Finish build check!"
-    echo "                                    "
-    echo "************************************"
+    echo "$separator" 
 else
     echo "✅ Finish build check!"
-    echo "                                    "
-    echo "************************************" 
+    echo "$separator" 
 fi
 
 # Continue with other pre-commit tasks or commands
