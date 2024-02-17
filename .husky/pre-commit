@@ -1,8 +1,8 @@
 #!/bin/bash
 # Protect master and development from accidental commits.
 
-line1="                                    "
-line2="************************************"
+line1="                                    \n"
+line2="************************************\n"
 line3="                                    "
 
 separator="$line1$line2$line3"
