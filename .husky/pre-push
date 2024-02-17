@@ -16,8 +16,15 @@ echo "$lineLine"
 COMMAND=$(grep "git push" ~/.zsh_history | tail -n 1 || grep "git push" ~/.bash_history | tail -n 1 || grep "git push" ~/.history | tail -n 1)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
+git fetch
 HEADHASH=$(git rev-parse HEAD)
-UPSTREAMHASH=$(git rev-parse $BRANCH@{upstream})
+
+if [ -z "$(git rev-parse --abbrev-ref ${BRANCH}@{upstream} 2>/dev/null)" ]; then
+  echo "Branch '$BRANCH' does not have an upstream branch. Skipping."
+else
+  UPSTREAMHASH=$(git rev-parse ${BRANCH}@{upstream})
+  echo "UPSTREAMHASH: $UPSTREAMHASH"
+fi
 
 if [[ "$BRANCH" == 'master' || "$COMMAND" == *"master"* ]]; then
   echo "🚫 Cannot push to remote master branch, create your own branch and use PR." 
@@ -73,7 +80,6 @@ else
 fi
 
 if [[ "$res" == "y" ]]; then
-    git fetch
     if [ "$HEADHASH" == "$UPSTREAMHASH" ]
     then
         git add .
