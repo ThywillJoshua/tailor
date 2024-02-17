@@ -1,14 +1,8 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-// import {BucketDeployment, Source} from "@aws-cdk/aws-s3-deployment";
-// import * as path from "path";
-
-// new BucketDeployment(this, 'BucketDeployment', {
-//   destinationBucket: bucket,
-//   sources: [Source.asset(path.resolve(__dirname, './dist'))]
-// })
 
 const stackName = "Tailor-Frontend";
+const permittedIps = ["151.38.190.137"];
 
 export class TailorStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
@@ -22,6 +16,14 @@ export class TailorStack extends cdk.Stack {
       // autoDeleteObjects: true,
       // versioned: true,
       // accessControl: cdk.aws_s3.BucketAccessControl.PRIVATE,
+      blockPublicAccess: {
+        blockPublicAcls: false,
+        blockPublicPolicy: false,
+        ignorePublicAcls: false,
+        restrictPublicBuckets: false,
+      },
+
+      publicReadAccess: true,
       websiteIndexDocument: "index.html",
       websiteErrorDocument: "index.html",
     });
@@ -36,14 +38,14 @@ export class TailorStack extends cdk.Stack {
         conditions: {
           Bool: { "aws:SecureTransport": "false" },
           NotIpAddress: {
-            "aws:SourceIp": ["151.38.190.137"],
+            "aws:SourceIp": [...permittedIps],
           },
         },
       })
     );
 
-    new cdk.CfnOutput(this, "Frontend_Bucket_Name", {
-      value: bucket.bucketName,
+    new cdk.CfnOutput(this, "Frontend_Bucket_ARN", {
+      value: bucket.bucketArn,
     });
     new cdk.CfnOutput(this, "Frontend_Domain_Name", {
       value: bucket.bucketDomainName,
