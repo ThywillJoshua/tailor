@@ -38,7 +38,7 @@ export class TailorStack extends cdk.Stack {
             "aws:SourceIp": [...permittedIps],
           },
         },
-      })
+      }),
     );
 
     new cdk.CfnOutput(this, "Frontend_Bucket_ARN", {
