@@ -1,10 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import "./ImageConverter.css";
 
-interface ImageConverterProps {}
-
-const ImageConverter: React.FC<ImageConverterProps> = () => {
-  const [imagePreviews] = useState<JSX.Element[]>([]);
+const ImageConverter = () => {
   const fileSelectorRef = useRef<HTMLInputElement>(null);
 
   const addImageBox = (container: HTMLElement) => {
@@ -39,11 +36,16 @@ const ImageConverter: React.FC<ImageConverterProps> = () => {
 
           canvas.width = rawImage.width;
           canvas.height = rawImage.height;
+
           ctx?.drawImage(rawImage, 0, 0);
 
-          canvas.toBlob((blob) => {
-            resolve(URL.createObjectURL(blob as Blob));
-          }, "image/webp");
+          canvas.toBlob(
+            (blob) => {
+              resolve(URL.createObjectURL(blob as Blob));
+            },
+            "image/webp",
+            1.0 // 1.0 indicates lossless compression
+          );
         });
       };
 
@@ -144,9 +146,21 @@ const ImageConverter: React.FC<ImageConverterProps> = () => {
         onDrop={drop}
       ></div>
 
-      <div id="previews" className="previews">
-        {imagePreviews}
-      </div>
+      <button
+        className="btn"
+        onClick={() => {
+          const previewsElement = document.querySelector(".previews");
+
+          // Remove all children of the element
+          while (previewsElement?.firstChild) {
+            previewsElement?.removeChild(previewsElement.firstChild);
+          }
+        }}
+      >
+        Reset
+      </button>
+
+      <div id="previews" className="previews"></div>
     </div>
   );
 };

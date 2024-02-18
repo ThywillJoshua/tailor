@@ -38,14 +38,14 @@ export class TailorStack extends cdk.Stack {
             "aws:SourceIp": [...permittedIps],
           },
         },
-      }),
+      })
     );
 
     new cdk.CfnOutput(this, "Frontend_Bucket_ARN", {
       value: bucket.bucketArn,
     });
-    new cdk.CfnOutput(this, "Frontend_Domain_Name", {
-      value: bucket.bucketDomainName,
+    new cdk.CfnOutput(this, "Frontend_Web_URL", {
+      value: bucket.bucketWebsiteUrl,
     });
   }
 }

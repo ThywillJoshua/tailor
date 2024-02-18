@@ -32,11 +32,17 @@
   user-select: none;
 }
 
+.btn {
+  outline: none;
+}
+
 .previews {
   display: flex;
   width: 100%;
   overflow: scroll;
   margin-top: 50px;
+  min-height: 350px;
+  background-color: #ffffff;
 }
 
 .previews img {
