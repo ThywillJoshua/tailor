@@ -87,7 +87,6 @@ const ImageConverter = () => {
         .then(injectIntoDOM)
         .catch((error) => {
           console.error("Error processing file:", error);
-          // You can handle errors here, such as displaying an error message.
         });
     });
 
